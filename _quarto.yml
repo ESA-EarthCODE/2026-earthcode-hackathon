@@ -42,5 +42,5 @@ format:
     theme: [yeti, theme.scss]
     css: styles.css
     grid:
-      body-width: 1200px
+      body-width: 1000px
     toc: false

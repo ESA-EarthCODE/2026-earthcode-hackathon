@@ -48,6 +48,17 @@ for participants to learn new things, build community and gain hands-on
 experience with collaboration and team science. During EarthCODE Hackathon 2026,
 we will have a combination of science lectures and coding tutorials and group
 projects (pitched by participants).
+
+### Participants
+
+We welcome applications from:
+
+- Earth system scientists working with EO data who want to create, reuse, or
+  publish data collections.
+- Members of ESA Science Clusters, particularly addressing: Ocean, Carbon and
+  Polar science communities.
+- Developers from the open source community interested in supporting EarthCODE
+  functionalities and tools.
 :::
 
 ## Schedule {style="margin-top: 3rem;"}
