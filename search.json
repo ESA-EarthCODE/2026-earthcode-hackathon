@@ -1,15 +1,15 @@
 [
   {
-    "objectID": "what-to-expect.html",
-    "href": "what-to-expect.html",
-    "title": "What to Expect",
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
     "section": "",
     "text": "Content coming soon."
   },
   {
-    "objectID": "registration.html",
-    "href": "registration.html",
-    "title": "Registration",
+    "objectID": "what-to-expect.html",
+    "href": "what-to-expect.html",
+    "title": "What to Expect",
     "section": "",
     "text": "Content coming soon."
   },
@@ -21,9 +21,23 @@
     "text": "Content coming soon."
   },
   {
+    "objectID": "registration.html",
+    "href": "registration.html",
+    "title": "Registration",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
     "objectID": "logistics.html",
     "href": "logistics.html",
     "title": "Logistics",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "supplementary-materials.html",
+    "href": "supplementary-materials.html",
+    "title": "Supplementary Materials",
     "section": "",
     "text": "Content coming soon."
   },
@@ -54,19 +68,5 @@
     "title": "EarthCODE Hackathon 2026",
     "section": "Partners",
     "text": "Partners"
-  },
-  {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "Content coming soon."
-  },
-  {
-    "objectID": "supplementary-materials.html",
-    "href": "supplementary-materials.html",
-    "title": "Supplementary Materials",
-    "section": "",
-    "text": "Content coming soon."
   }
 ]
