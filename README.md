@@ -22,10 +22,7 @@ Requires [Quarto](https://quarto.org/docs/get-started/) (1.2+).
 
 ### Project structure
 
-- `index.qmd` — homepage (intro, schedule, partners).
-- `registration.qmd`, `logistics.qmd`, `what-to-expect.qmd`, `checklist.qmd`,
-  `lectures.qmd`, `supplementary-materials.qmd` — supporting pages linked from
-  the navbar in `_quarto.yml`.
+- `.qmd` files — Quarto source files, rendered to HTML.
 - `data/schedule.yml` — schedule content, rendered by the `schedule` shortcode
   (see below).
 - `_extensions/ateucher/schedule/` — Quarto extension providing the
@@ -60,9 +57,9 @@ days:
 Notes:
 
 - `type` controls the row's color coding (see `.sched-<type>` rules in
-  `_extensions/ateucher/schedule/schedule.css`, with colors sourced from
-  `theme.scss`). Currently used values: `keynote`, `tutorial`, `work`,
-  `break`. Omit `type` for a plain, uncolored session row.
+  `_extensions/ateucher/schedule/schedule.css`). Currently used values:
+  `keynote`, `tutorial`, `work`, `break`. Omit `type` for a plain, uncolored
+  session row.
 - `leads` is optional; leave it as `[]` if there's no specific lead, or a
   session doesn't need one (e.g. breaks).
 - `description` is optional; use `""` if there isn't one.
