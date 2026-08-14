@@ -59,6 +59,13 @@ We welcome applications from:
   Polar science communities.
 - Developers from the open source community interested in supporting EarthCODE
   functionalities and tools.
+
+*We especially want to hear from early career researchers, PhD students, and
+post-docs!*
+
+See the [registration page](registration.qmd) for more information on how to
+apply. We are able to provide some needs-based travel support for participants
+who require it.
 :::
 
 ## Schedule {style="margin-top: 3rem;"}
