@@ -1,0 +1,9 @@
+.quarto/
+_site/
+*.knit.md
+*.utf8.md
+
+/.quarto/
+**/*.quarto_ipynb
+
+/.luarc.json

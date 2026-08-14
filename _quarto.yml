@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "EarthCODE Hackathon 2026"
+  page-navigation: true
+  site-url: https://esa-earthcode.github.io/2026-earthcode-hackathon
+  repo-url: https://github.com/esa-earthcode/2026-earthcode-hackathon
+  repo-actions: [edit, source, issue]
+  navbar:
+    logo: img/esa-logo-light.svg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: registration.qmd
+        text: Registration
+      - href: logistics.qmd
+        text: Logistics
+      - text: Preparation
+        menu:
+          - href: what-to-expect.qmd
+            text: What to expect
+          - href: checklist.qmd
+            text: Checklist
+      - text: Presentations
+        menu:
+          - href: lectures.qmd
+            text: Lectures
+          - href: supplementary-materials.qmd
+            text: Supplementary Materials
+      - text: Tutorials
+        menu:
+          - href: https://esa-earthcode.github.io/polar_hackathon/
+            text: Polar Hackathon
+          - href: "#"
+            text: Ocean Hackathon
+          - href: "#"
+            text: Carbon Hackathon
+
+format:
+  html:
+    theme: [yeti, theme.scss]
+    css: styles.css
+    grid:
+      body-width: 1200px
+    toc: false

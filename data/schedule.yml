@@ -1,0 +1,130 @@
+# Schedule data for the interactive tabset on schedule.qmd.
+# Edit this file only -- schedule.qmd renders it automatically.
+timezone: "UTC+1 (Central European Time)"
+days:
+  - title: "Day 1"
+    date: "Monday"
+    sessions:
+      - time: "9:00 - 13:00"
+        title: "Arrival & Check-in"
+        leads: []
+        description: "Arrive, check in, and settle in ahead of the afternoon kickoff."
+      - time: "13:00 - 13:30"
+        title: "Welcome & Introductions"
+        leads: []
+        description: "Kickoff, logistics, and introductions."
+      - time: "13:30 - 14:30"
+        title: "EarthCODE Platform Overview"
+        type: "keynote"
+        leads: []
+        description: "Tour of the EarthCODE platform and available datasets."
+      - time: "14:30 - 15:00"
+        title: "BREAK"
+        type: "break"
+        leads: []
+        description: ""
+      - time: "15:00 - 17:00"
+        title: "Team Formation & Project Work"
+        type: "work"
+        leads: []
+        description: "Teams form and begin work on their projects."
+  - title: "Day 2"
+    date: "Tuesday"
+    sessions:
+      - time: "9:00 - 10:00"
+        title: "Data Access Tutorial"
+        type: "tutorial"
+        leads: []
+        description: "Hands-on walkthrough of cloud-optimized data access."
+      - time: "10:00 - 10:30"
+        title: "BREAK"
+        type: "break"
+        leads: []
+        description: ""
+      - time: "10:30 - 12:00"
+        title: "Tutorial: TBD (GitHub?)"
+        type: "tutorial"
+        leads: []
+        description: "Placeholder for a hands-on tutorial session."
+      - time: "12:00 - 13:00"
+        title: "LUNCH"
+        type: "break"
+        leads: []
+        description: ""
+      - time: "13:00 - 17:00"
+        title: "Open Project Work"
+        type: "work"
+        leads: []
+        description: ""
+  - title: "Day 3"
+    date: "Wednesday"
+    sessions:
+      - time: "9:00 - 10:00"
+        title: "Tutorial: TBD"
+        type: "tutorial"
+        leads: []
+        description: "Placeholder for a hands-on tutorial session."
+      - time: "10:00 - 10:30"
+        title: "BREAK"
+        type: "break"
+        leads: []
+        description: ""
+      - time: "10:30 - 12:00"
+        title: "Open Project Work"
+        type: "work"
+        leads: []
+        description: ""
+      - time: "12:00 - 13:00"
+        title: "LUNCH"
+        type: "break"
+        leads: []
+        description: ""
+      - time: "13:00 - 17:00"
+        title: "Open Project Work"
+        type: "work"
+        leads: []
+        description: ""
+  - title: "Day 4"
+    date: "Thursday"
+    sessions:
+      - time: "9:00 - 10:00"
+        title: "Tutorial: TBD"
+        type: "tutorial"
+        leads: []
+        description: "Placeholder for a hands-on tutorial session."
+      - time: "10:00 - 10:30"
+        title: "BREAK"
+        type: "break"
+        leads: []
+        description: ""
+      - time: "10:30 - 12:00"
+        title: "Open Project Work"
+        type: "work"
+        leads: []
+        description: ""
+      - time: "12:00 - 13:00"
+        title: "LUNCH"
+        type: "break"
+        leads: []
+        description: ""
+      - time: "13:00 - 17:00"
+        title: "Open Project Work"
+        type: "work"
+        leads: []
+        description: ""
+  - title: "Day 5"
+    date: "Friday"
+    sessions:
+      - time: "9:00 - 10:30"
+        title: "Open Project Work"
+        type: "work"
+        leads: []
+        description: "Final preparations before demos."
+      - time: "10:30 - 11:30"
+        title: "Project Demos"
+        leads: []
+        description: "Each team presents their project."
+      - time: "11:30 - 13:00"
+        title: "Wrap-up & Closing"
+        leads: []
+        description: ""

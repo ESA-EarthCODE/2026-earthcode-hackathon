@@ -1,0 +1,71 @@
+---
+title: "EarthCODE Hackathon 2026"
+css: index.css
+---
+
+::: {.narrow-content}
+::::: {.time-place}
+### {{< fa calendar >}} November 30 - December 4, 2026
+
+### [{{< fa map-location-dot >}} ESA ESRIN, Frascati, Italy](https://maps.app.goo.gl/xeswK9Lsa1eW8bjM6) {.link-no-decorate target="_blank"}
+:::::
+
+## About
+
+The *EarthCODE Hackathon* aims to demonstrate how the
+[EarthCODE](https://earthcode.esa.int/) project can support the publication of
+data coming from different scientific communities to achieve their data needs.
+The main objective is to build thematic analysis-ready *"data collections"* for
+each Science Cluster
+([Polar](https://eo4society.esa.int/communities/scientists/esa-polar-science-cluster/),
+[Ocean](https://eo4society.esa.int/communities/scientists/esa-ocean-science-cluster/),
+and
+[Carbon](https://eo4society.esa.int/communities/scientists/esa-carbon-science-cluster/)),
+demonstrating their value in addressing emerging scientific questions. These
+collections will integrate a wide range of geophysical variables from different
+scientific project outputs and will be delivered in cloud‑optimised formats in
+the ESA [Open Science Catalogue](https://opensciencedata.esa.int/). The
+intention is to ensure that the scientific community can easily access and use
+these data collections to develop new applications, fill existing knowledge
+gaps, and explore new research opportunities.
+
+The event will not only highlight the creation of high‑impact data collections
+that can be published on EarthCODE and **openly accessed** by anyone but also
+will **improve visibility and promote wider uptake of these data sets** across
+the scientific community.
+
+The goals of the hackathon are to:
+
+1) **REUSE:** Work with existing EarthCODE thematic data collections and
+   services to address scientific questions defined by participating teams.
+2) **PUBLISH:** Create new data collections in the [Open Science
+   Catalogue](https://opensciencedata.esa.int/) or bring additional data to
+   existing collections by using EarthCODE libraries and tools.
+3) **LEARN** and implement [FAIR
+   principles](https://www.go-fair.org/fair-principles/) for Open Science.
+4) **BUILD COMMUNITY:** Build a community around the EarthCODE project and
+   datasets in the Open Science Catalogue, fostering collaboration and promoting
+   knowledge exchange and the development of new ideas.
+5) **CONTRIBUTE:** Propose improvements or extensions to existing EarthCODE
+   tools.
+
+Hackathons are participant-driven events that strive to create welcoming spaces
+for participants to learn new things, build community and gain hands-on
+experience with collaboration and team science. During EarthCODE Hackathon 2026,
+we will have a combination of science lectures and coding tutorials and group
+projects (pitched by participants).
+:::
+
+## Schedule {style="margin-top: 3rem;"}
+
+{{< schedule file="data/schedule.yml" >}}
+
+## Partners {#partners}
+
+::: {.partners-grid}
+[![](img/esa-logo.svg){fig-alt="European Space Agency logo"}](https://www.esa.int/){target="_blank"}
+
+[![](img/openscapes-logo.png){fig-alt="Openscapes logo"}](https://openscapes.org/){target="_blank"}
+
+[![](img/lampata-logo.png){fig-alt="Lampata logo"}](https://lampata.co.uk/){target="_blank"}
+:::
