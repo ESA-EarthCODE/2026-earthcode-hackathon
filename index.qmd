@@ -1,6 +1,6 @@
 ---
 title: "EarthCODE Hackathon 2026"
-css: index.css
+css: styles/index.css
 ---
 
 ::: {.narrow-content}
