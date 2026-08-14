@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "what-to-expect.html",
+    "href": "what-to-expect.html",
+    "title": "What to Expect",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "checklist.html",
+    "href": "checklist.html",
+    "title": "Checklist",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "registration.html",
+    "href": "registration.html",
+    "title": "Registration",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "logistics.html",
+    "href": "logistics.html",
+    "title": "Logistics",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "supplementary-materials.html",
+    "href": "supplementary-materials.html",
+    "title": "Supplementary Materials",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EarthCODE Hackathon 2026",
+    "section": "",
+    "text": "The EarthCODE Hackathon will take place from 30 November – 4 December 2026 at ESA ESRIN, in Frascati, Italy. The event will provide an opportunity to bring the communities who are using EarthCODE tools and services as close as possible to the people who are building them.\nThe EarthCODE Hackathon will bring together Ocean, Carbon, and Polar scientists, experts in FAIR data and workflow engineering and open source developers to focus on the creation and enhancement of thematic, analysis ready data collections, built from scientific project outputs. These collections will integrate multiple geophysical variables, delivered in cloud optimised, interoperable formats, and made openly accessible through the EarthCODE Open Science Catalogue.\nThe goals of the hackathon are to:\n\nDemonstrate how EarthCODE services support the publication and reuse of scientific data from ESA Science Clusters\nBuild and showcase thematic analysis ready data collections for different scientific domains\nEnable Science Cluster teams to create and manage their own data collections using EarthCODE tools and libraries\nPromote open access and visibility of high impact scientific datasets via dashboards and interactive viewers\nFoster collaboration between scientists and the open source developer community\nContribute to the evolution of EarthCODE services and tools\n\nHackathons are participant-driven events that strive to create welcoming spaces for participants to learn new things, build community and gain hands-on experience with collaboration and team science. During EarthCODE Hackathon 2026, we will have a combination of science lectures and coding tutorials and group projects (pitched by participants).\n\n\nWe welcome applications from:\n\nEarth system scientists working with EO data who want to create, reuse, or publish data collections.\nMembers of ESA Science Clusters, particularly addressing: Ocean, Carbon and Polar science communities.\nDevelopers from the open source community interested in supporting EarthCODE functionalities and tools.\n\nWe especially want to hear from early career researchers, PhD students, and post-docs!\nSee the registration page for more information on how to apply. We are able to provide some needs-based travel support for participants who require it."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "EarthCODE Hackathon 2026",
+    "section": "",
+    "text": "The EarthCODE Hackathon will take place from 30 November – 4 December 2026 at ESA ESRIN, in Frascati, Italy. The event will provide an opportunity to bring the communities who are using EarthCODE tools and services as close as possible to the people who are building them.\nThe EarthCODE Hackathon will bring together Ocean, Carbon, and Polar scientists, experts in FAIR data and workflow engineering and open source developers to focus on the creation and enhancement of thematic, analysis ready data collections, built from scientific project outputs. These collections will integrate multiple geophysical variables, delivered in cloud optimised, interoperable formats, and made openly accessible through the EarthCODE Open Science Catalogue.\nThe goals of the hackathon are to:\n\nDemonstrate how EarthCODE services support the publication and reuse of scientific data from ESA Science Clusters\nBuild and showcase thematic analysis ready data collections for different scientific domains\nEnable Science Cluster teams to create and manage their own data collections using EarthCODE tools and libraries\nPromote open access and visibility of high impact scientific datasets via dashboards and interactive viewers\nFoster collaboration between scientists and the open source developer community\nContribute to the evolution of EarthCODE services and tools\n\nHackathons are participant-driven events that strive to create welcoming spaces for participants to learn new things, build community and gain hands-on experience with collaboration and team science. During EarthCODE Hackathon 2026, we will have a combination of science lectures and coding tutorials and group projects (pitched by participants).\n\n\nWe welcome applications from:\n\nEarth system scientists working with EO data who want to create, reuse, or publish data collections.\nMembers of ESA Science Clusters, particularly addressing: Ocean, Carbon and Polar science communities.\nDevelopers from the open source community interested in supporting EarthCODE functionalities and tools.\n\nWe especially want to hear from early career researchers, PhD students, and post-docs!\nSee the registration page for more information on how to apply. We are able to provide some needs-based travel support for participants who require it."
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "EarthCODE Hackathon 2026",
+    "section": "Schedule",
+    "text": "Schedule\nAll times listed below are UTC+1 (Central European Time).\n\nDay 1 (Monday)Day 2 (Tuesday)Day 3 (Wednesday)Day 4 (Thursday)Day 5 (Friday)\n\n\n\nTimeSessionLeads\n\n\n9:00 - 13:00Arrival & Check-inArrive, check in, and settle in ahead of the afternoon kickoff.—\n\n\n13:00 - 13:30Welcome & IntroductionsKickoff, logistics, and introductions.—\n\n\n13:30 - 14:30EarthCODE Platform OverviewTour of the EarthCODE platform and available datasets.—\n\n\n14:30 - 15:00BREAK—\n\n\n15:00 - 17:00Team Formation & Project WorkTeams form and begin work on their projects.—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 10:00Data Access TutorialHands-on walkthrough of cloud-optimized data access.—\n\n\n10:00 - 10:30BREAK—\n\n\n10:30 - 12:00Tutorial: TBD (GitHub?)Placeholder for a hands-on tutorial session.—\n\n\n12:00 - 13:00LUNCH—\n\n\n13:00 - 17:00Open Project Work—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 10:00Tutorial: TBDPlaceholder for a hands-on tutorial session.—\n\n\n10:00 - 10:30BREAK—\n\n\n10:30 - 12:00Open Project Work—\n\n\n12:00 - 13:00LUNCH—\n\n\n13:00 - 17:00Open Project Work—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 10:00Tutorial: TBDPlaceholder for a hands-on tutorial session.—\n\n\n10:00 - 10:30BREAK—\n\n\n10:30 - 12:00Open Project Work—\n\n\n12:00 - 13:00LUNCH—\n\n\n13:00 - 17:00Open Project Work—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 10:30Open Project WorkFinal preparations before demos.—\n\n\n10:30 - 11:30Project DemosEach team presents their project.—\n\n\n11:30 - 13:00Wrap-up & Closing—"
+  },
+  {
+    "objectID": "index.html#partners",
+    "href": "index.html#partners",
+    "title": "EarthCODE Hackathon 2026",
+    "section": "Partners",
+    "text": "Partners"
+  }
+]
