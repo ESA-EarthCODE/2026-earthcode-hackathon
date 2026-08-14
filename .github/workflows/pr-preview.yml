@@ -1,0 +1,31 @@
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+name: PR Preview
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        if: github.event.action != 'closed'
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        if: github.event.action != 'closed' # not needed if the preview is just going to be removed
+        run: quarto render
+
+      - name: Deploy or remove PR preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./_site
+          wait-for-pages-deployment: true
