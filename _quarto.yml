@@ -42,8 +42,8 @@ website:
 
 format:
   html:
-    theme: [yeti, theme.scss]
-    css: styles.css
+    theme: [yeti, styles/theme.scss]
+    css: styles/styles.css
     grid:
       body-width: 1000px
     toc: false

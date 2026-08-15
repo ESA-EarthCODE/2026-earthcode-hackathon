@@ -13,11 +13,11 @@
 }
 
 .schedule-table > tbody > tr.sched-tutorial > td {
-  background-color: color-mix(in srgb, #5bc0de 18%, white);
+  background-color: color-mix(in srgb, #5bc0de 15%, white);
   border-left: 3px solid #5bc0de;
 }
 
-.schedule-table > tbody > tr.sched-keynote > td {
+.schedule-table > tbody > tr.sched-lecture > td {
   background-color: color-mix(in srgb, #008cba 15%, white);
   border-left: 3px solid #008cba;
 }

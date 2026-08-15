@@ -4,9 +4,22 @@ Source for the [EarthCODE Hackathon 2026](https://esa-earthcode.github.io/) webs
 — a [Quarto](https://quarto.org/) website with the event's schedule, logistics,
 and supporting pages.
 
+## Project structure
+
+- `.qmd` files — Quarto source files, rendered to HTML.
+- `data/schedule.yml` — schedule content, rendered by the `schedule` shortcode
+  (see below).
+- `_extensions/ateucher/schedule/` — Quarto extension providing the
+  `{{< schedule >}}` shortcode and its styling (`schedule.css`). 
+  Added by `quarto add extension ateucher/schedule`.
+- `styles/styles.css` — site-wide CSS tweaks.
+- `styles/index.css` — CSS applied only to the homepage
+- `styles/theme.scss` — Sass theme customization.
+- `img/` — logos and other images.
+
 ## Development
 
-Requires [Quarto](https://quarto.org/docs/get-started/) (1.2+).
+Requires [Quarto](https://quarto.org/docs/get-started/).
 
 - Preview locally with live reload:
 
@@ -20,19 +33,16 @@ Requires [Quarto](https://quarto.org/docs/get-started/) (1.2+).
   quarto render
   ```
 
-### Project structure
+The contents of `_site/` are not committed (they are git-ignored) - the site is
+automatically rendered and deployed to GitHub Pages via GitHub Actions.
 
-- `.qmd` files — Quarto source files, rendered to HTML.
-- `data/schedule.yml` — schedule content, rendered by the `schedule` shortcode
-  (see below).
-- `_extensions/ateucher/schedule/` — Quarto extension providing the
-  `{{< schedule >}}` shortcode and its styling (`schedule.css`).
-- `styles.css` — site-wide CSS tweaks.
-- `index.css` — CSS applied only to the homepage
-- `theme.scss` — Sass theme customization.
-- `img/` — logos and other images.
+### Contributing
 
-## Editing the schedule
+Please submit a pull request with your changes. When a pull request is created/
+updated, a Deploy Preview will be automatically generated and a link will be 
+provided in a comment in the PR.
+
+### Editing the schedule
 
 All schedule content lives in `data/schedule.yml` — don't edit HTML/Lua to
 change schedule content, just this file. The `{{< schedule file="data/schedule.yml" >}}`

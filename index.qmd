@@ -1,6 +1,6 @@
 ---
 title: "EarthCODE Hackathon 2026"
-css: index.css
+css: styles/index.css
 ---
 
 ::: {.narrow-content}
@@ -53,17 +53,30 @@ projects (pitched by participants).
 
 We welcome applications from:
 
-- Earth system scientists working with EO data who want to create, reuse, or
-  publish data collections.
+- Earth system scientists working with Earth Observation (EO) data who want to
+  create, reuse, or publish data collections.
 - Members of ESA Science Clusters, particularly addressing: Ocean, Carbon and
   Polar science communities.
 - Developers from the open source community interested in supporting EarthCODE
-  functionalities and tools.
+  functionality and tools.
+
+*We especially want to hear from early career researchers, PhD students, and
+post-docs!*
+
+See the [registration page](registration.qmd) for more information on how to
+apply. We are able to provide some needs-based travel support for participants
+who require it.
 :::
 
 ## Schedule {style="margin-top: 3rem;"}
 
 {{< schedule file="data/schedule.yml" >}}
+
+## Code of Conduct
+
+The 2026 EarthCODE Hackathon is a safe learning space and all participants are
+required to abide by our [Code of
+Conduct](https://openscapes.org/code-of-conduct).
 
 ## Partners {#partners}
 
