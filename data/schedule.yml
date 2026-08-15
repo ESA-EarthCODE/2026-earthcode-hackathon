@@ -70,8 +70,8 @@ days:
         leads: []
         description: ""
       - time: "10:30 - 12:00"
-        title: "Open Project Work"
-        type: "work"
+        title: "Tutorial or Science Talk: TBD"
+        type: "lecture"
         leads: []
         description: ""
       - time: "12:00 - 13:00"
