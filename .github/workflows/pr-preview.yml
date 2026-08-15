@@ -4,7 +4,11 @@ on:
 
 name: PR Preview
 
-concurrency: preview-${{ github.ref }}
+# Shared with publish.yml so this never pushes to gh-pages at the same
+# time as a production publish (see comment there). This does mean
+# multiple PR previews deploy one at a time rather than in parallel,
+# but none of them get cancelled -- they just queue.
+concurrency: gh-pages-deploy
 
 jobs:
   deploy-preview:
@@ -28,4 +32,9 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./_site
-          wait-for-pages-deployment: true
+          # Only wait for the Pages deployment when actually deploying a
+          # preview (so the sticky comment's link is live when posted).
+          # Skip it on removal: nobody needs that link, and waiting here
+          # is what turned a merely-superseded/racing build into a failed
+          # job when a PR was closed by a merge.
+          wait-for-pages-deployment: ${{ github.event.action != 'closed' }}

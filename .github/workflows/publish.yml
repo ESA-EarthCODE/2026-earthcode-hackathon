@@ -5,6 +5,12 @@ on:
 
 name: Quarto Publish
 
+# Shared with pr-preview.yml so a production publish and a PR preview
+# deploy/remove never push to gh-pages at the same time -- concurrent
+# pushes there can cause GitHub Pages to cancel/error one of the builds
+# (seen when merging a PR triggers both workflows simultaneously).
+concurrency: gh-pages-deploy
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
