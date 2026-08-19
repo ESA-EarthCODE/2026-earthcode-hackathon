@@ -10,6 +10,9 @@ css: styles/index.css
 ### [{{< fa map-location-dot >}} ESA ESRIN, Frascati, Italy](https://maps.app.goo.gl/xeswK9Lsa1eW8bjM6) {.link-no-decorate target="_blank"}
 :::::
 
+**NOTE: We are developing the shape and schedule of the hackathon in the open,
+and this website will be updated as we go. Please check back for updates!**
+
 ## About
 
 The *EarthCODE Hackathon* will take place from 30 November -- 4 December 2026 at
