@@ -69,7 +69,7 @@ apply. We are able to provide some needs-based travel support for participants
 who require it.
 :::
 
-## Schedule {style="margin-top: 3rem;"}
+## Schedule (DRAFT) {style="margin-top: 3rem;"}
 
 {{< schedule file="data/schedule.yml" >}}
 
