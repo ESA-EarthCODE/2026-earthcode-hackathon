@@ -60,8 +60,6 @@ We welcome applications from:
   create, reuse, or publish data collections.
 - Members of ESA Science Clusters, particularly addressing: Ocean, Carbon and
   Polar science communities.
-- Developers from the open source community interested in supporting EarthCODE
-  functionality and tools.
 
 *We especially want to hear from early career researchers, PhD students, and
 post-docs!*
