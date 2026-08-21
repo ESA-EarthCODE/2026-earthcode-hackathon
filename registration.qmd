@@ -11,6 +11,16 @@ ESRIN, Frascati, Italy. The event will provide an opportunity to bring the
 communities who are using EarthCODE tools and services as close as possible to
 the people who are building them.
 
+We welcome applications from:
+
+- **Earth system scientists** working with Earth Observation (EO) data who want
+  to create, reuse, or publish data collections.
+- **Members of ESA Science Clusters**, particularly addressing: Ocean, Carbon
+  and Polar science communities.
+
+*We especially want to hear from early career researchers, PhD students, and
+post-docs!*
+
 To best benefit from the event, we recommend some familiarity or experience
 with:
 
@@ -23,8 +33,9 @@ with:
 - Familiarity with Git and GitHub would be beneficial, but not required. We will
   provide a short tutorial on Git and GitHub during the hackathon.
 
-No cloud computing experience is required, but we encourage both beginner and
-more experienced participants with cloud computing to apply.
+Please note that if there are more applicants than we have space, priority will
+be given to people who work with the ESA Polar Cluster, Ocean Cluster, Carbon
+Cluster, ScienceHub, Phi Lab, and people who work with ESA data.
 
 ### Application Form
 
