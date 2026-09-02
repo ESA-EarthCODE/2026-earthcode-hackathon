@@ -3,21 +3,22 @@ title: "EarthCODE Hackathon 2026"
 css: styles/index.css
 ---
 
-::: {.narrow-content}
-::::: {.time-place}
+::: {.time-place}
 ### {{< fa calendar >}} November 30 - December 4, 2026
 
 ### [{{< fa map-location-dot >}} ESA ESRIN, Frascati, Italy](https://maps.app.goo.gl/xeswK9Lsa1eW8bjM6) {.link-no-decorate target="_blank"}
-:::::
+:::
 
-**We are developing the shape and schedule of the hackathon in the open,
-and this website will be updated as we go.
-Please check back for updates!**
+![](img/home-header.png)
 
 ## About
 
-The *EarthCODE Hackathon* will take place from 30 November -- 4 December 2026 at
-ESA ESRIN, in Frascati, Italy.
+*We are developing the shape and schedule of the hackathon in the open,
+and this website will be updated as we go.
+Please check back for updates!*
+
+The **EarthCODE Hackathon** will take place from 30 November -- 4 December 2026 at
+[ESA ESRIN](https://www.esa.int/About_Us/ESRIN), in Frascati, Italy.
 The event will provide an opportunity to bring
 the communities who are using [EarthCODE](https://earthcode.esa.int/) tools and
 services as close as possible to the people who are building them.
@@ -27,22 +28,16 @@ The EarthCODE Hackathon will bring together
 [Carbon](https://eo4society.esa.int/communities/scientists/esa-carbon-science-cluster/),
 and
 [Polar](https://eo4society.esa.int/communities/scientists/esa-polar-science-cluster/)
-scientists, experts in FAIR data and workflow engineering and open source
-developers to focus on the creation and enhancement of thematic, analysis ready
-data collections, built from scientific project outputs.
-These collections will
-integrate multiple geophysical variables, delivered in cloud optimised,
-interoperable formats, and made openly accessible through the EarthCODE Open
-Science Catalogue.
+scientists, experts in [FAIR](https://www.go-fair.org/fair-principles/) data and reproducible workflows and open source
+developers to focus on the creation and enhancement of analysis ready
+data collections.
 
 The goals of the hackathon are to:
 
 - Demonstrate how EarthCODE services support the publication and reuse of
   scientific data from ESA Science Clusters
-- Build and showcase thematic analysis ready data collections for different
-  scientific domains
-- Enable Science Cluster teams to create and manage their own data collections
-  using EarthCODE tools and libraries
+- Enable learning and knowledge transfer of modern data science tools and workflows for
+  Earth system scientists.
 - Promote open access and visibility of high impact scientific datasets via
   dashboards and interactive viewers
 - Foster collaboration between scientists and the open source developer
@@ -53,10 +48,10 @@ Hackathons are participant-driven events that strive to create welcoming spaces
 for participants to learn new things, build community and gain hands-on
 experience with collaboration and team science.
 During EarthCODE Hackathon 2026,
-we will have a combination of science lectures and coding tutorials and group
-projects (pitched by participants).
+we will have a combination of science lectures, coding tutorials, and group
+projects (pitched and chosen by participants).
 
-### Participants
+### Registration
 
 We welcome applications from:
 
@@ -72,18 +67,8 @@ See the [registration page](registration.qmd) for more information on how to
 apply.
 We are able to provide some needs-based travel support for participants
 who require it.
-:::
 
-## Schedule (DRAFT) {style="margin-top: 3rem;"}
-
-{{< schedule file="data/schedule.yml" >}}
-
-## Code of Conduct
-
-The 2026 EarthCODE Hackathon is a safe learning space and all participants are
-required to abide by our [Code of Conduct](https://openscapes.org/code-of-conduct).
-
-## Partners {#partners}
+## Partners
 
 ::: {.partners-grid}
 [![](img/esa-logo.svg){fig-alt="European Space Agency logo"}](https://www.esa.int/){target="_blank"}
@@ -94,3 +79,8 @@ required to abide by our [Code of Conduct](https://openscapes.org/code-of-conduc
 
 [![](img/Logo_Telespazio_HD_colore_sfondotrasparente_eng.png){fig-alt="Telespazio logo"}](https://www.telespazio.com/){target="_blank"}
 :::
+
+## Code of Conduct
+
+The 2026 EarthCODE Hackathon is a safe learning space and all participants are
+required to abide by our [Code of Conduct](https://openscapes.org/code-of-conduct).
