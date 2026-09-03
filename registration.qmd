@@ -2,7 +2,8 @@
 title: "Registration"
 ---
 
-Registration for the EarthCODE Hackathon 2026 will open in September 2026.
+Registration for the EarthCODE Hackathon 2026 will **open in September 2026**.
+[Register here](#)
 
 ### Information for applicants
 
@@ -41,7 +42,7 @@ Please note that if there are more applicants than we have space, priority will
 be given to people who work with the ESA Polar Cluster, Ocean Cluster, Carbon
 Cluster, ScienceHub, Phi Lab, and people who work with ESA data.
 
-### Application Form
+### Application
 
 In the application form, we encourage you to think about and provide a science
 use case that you would like to prototype or work on.
@@ -57,10 +58,13 @@ Applications will close on **October 16, 2026**.
 Accepted applicants will be notified no later than **October 23, 2026**.
 We expect to accommodate approximately 40-60 participants.
 
-The following questions will be asked in the application form.
-We provide them here
+We have provided the registration questions below
 so that you can think about your answers before you start the application process.
 
+::: {.callout-tip collapse="true"}
+## Registration Questions
+
+::::: callout
 #### Contact Details
 
 - \* First Name
@@ -69,9 +73,9 @@ so that you can think about your answers before you start the application proces
 - \* Email Address
 - \* Nationality
 - Preferred Pronouns (optional)
+:::::
 
---------------------------------------------------------------------------------
-
+::::: callout
 #### Motivation, Interest, & Collaboration
 
 We would like to bring together a diverse group of participants with a wide range of research interests and experience levels.
@@ -162,9 +166,9 @@ Please briefly describe.
 ##### What is your GitHub username, if you have one?
 
 \[textbox\]
+:::::
 
---------------------------------------------------------------------------------
-
+::::: callout
 #### Logistics
 
 ##### Availability
@@ -173,6 +177,8 @@ Please confirm you are available to participate in person at ESA-ESRIN GMT for t
 (It is ok if you need to miss one or two sessions; we record so folks can review).
 
 - [ ] I confirm
+
+--------------------------------------------------------------------------------
 
 ##### Travel Reimbursement
 
@@ -205,8 +211,10 @@ Please tell us about any accessibility needs you have
 Please let us know about any allergies and/or dietary restrictions you have
 
 \[textbox\]
+:::::
 
---------------------------------------------------------------------------------
+::::: callout
+#### Consent
 
 ##### Code of Conduct
 
@@ -217,7 +225,7 @@ Please confirm you agree to abide by its terms:
 
 --------------------------------------------------------------------------------
 
-#### Data Processing Consent
+##### Data Processing Consent
 
 Please read the following carefully to understand how the ESA Conference Bureau treats personal data received within the scope of your registration.
 Click **here** to view the Privacy Notice and Consent Form.
@@ -227,15 +235,13 @@ By submitting your personal data, you agree to have your personal data collected
 
 For those cases where your consent was not already obtained by ESA (including by other modalities) and is required under the ESA Framework on Personal Data Protection, you agree with the collection and further processing of your personal data.
 
-##### Data Processing Consent
-
 - [ ] I give consent
 
 You will be able to withdraw your consent depending on the modality used to collect your personal data, in particular by sending an email to ESA DPO at: [DPO@ESA.int](mailto:DPO@ESA.int), or the Event Organisers on [events.organisation@esa.int](mailto:events.organisation@esa.int).
 
 --------------------------------------------------------------------------------
 
-#### Photo and Filming Consent
+##### Photo and Filming Consent
 
 ESA will be taking photos and videos during the **EarthCODE Hackathon**.
 
@@ -248,12 +254,18 @@ Please click **here** to view the full Photo and Filming Data Consent for the **
 
 --------------------------------------------------------------------------------
 
-#### I agree to be contacted for future events organised by the ESA Conference Bureau
+##### I agree to be contacted for future events organised by the ESA Conference Bureau
 
 - [ ] I agree to be contacted for future events organised by the ESA Conference Bureau
+:::::
 
+::::: callout
 #### Anything else?
 
 A space for any other questions or information you want to share.
 
 \[textbox\]
+:::::
+:::
+
+**[Register here](#)**
