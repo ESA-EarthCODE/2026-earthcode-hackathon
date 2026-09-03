@@ -10,6 +10,11 @@ The hackathon will be held at [ESA ESRIN](https://www.esa.int/About_Us/ESRIN) in
 Power supply and WiFi access will be available at the venue.
 If you have non-European power plugs, please bring an appropriate adapter.
 
+### Compute
+
+Please bring your own laptop to work on at the hackathon.
+You will have access to the [EarthCODE compute platform](https://earthcode.esa.int/ecosystem#accessible-computation-esa-and-partner-cloud-computing-platforms), which is a cloud-based environment for running Jupyter notebooks and other tools.
+
 ## Accommodation
 
 We recommend staying in the town of Frascati.
@@ -18,11 +23,13 @@ We will update this page with a list of recommended hotels.
 ## Transportation
 
 Travel to and from Frascati is the responsibility of the participants.
+The closest international airport is Rome Fiumicino (FCO), which is approximately 50km from Frascati.
+See [Getting to ESRIN](https://www.esa.int/About_Us/Getting_to_ESRIN) for more information on how to get to Frascati from Rome.
 Some travel support is available, and will be provided on a case-by-case basis.
 See the [registration](registration.qmd) page for more information.
 
 The ESRIN facility is located approximately 2.5km outside Frascati.
-There will be a courtesy bus to transport participants from Frascati to ESRIN in the morning and back to Frascati in the afternoon each day of the hackathon.
+There will be a courtesy bus to take participants from Frascati to ESRIN in the morning and back to Frascati in the afternoon each day of the hackathon.
 
 ## Food
 
