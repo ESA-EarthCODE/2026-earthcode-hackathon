@@ -7,7 +7,8 @@ Registration for the EarthCODE Hackathon 2026 will open in September 2026.
 ### Information for applicants
 
 The EarthCODE Hackathon will be held from November 30 to December 4, 2026 at ESA
-ESRIN, Frascati, Italy. The event will provide an opportunity to bring the
+ESRIN, Frascati, Italy.
+The event will provide an opportunity to bring the
 communities who are using EarthCODE tools and services as close as possible to
 the people who are building them.
 
@@ -26,11 +27,14 @@ with:
 
 - Earth Observation (EO) data (especially from Polar, Carbon, and Ocean
   Clusters, including interdisciplinary applications)
-- Programming skills using Python. We plan to accept participants with broad
-  skill levels and backgrounds in programming. However, to best benefit from and
+- Programming skills using Python.
+  We plan to accept participants with broad
+  skill levels and backgrounds in programming.
+  However, to best benefit from and
   contribute to the program, some experience with Python, R, or a similar
   programming language is recommended.
-- Familiarity with Git and GitHub would be beneficial, but not required. We will
+- Familiarity with Git and GitHub would be beneficial, but not required.
+  We will
   provide a short tutorial on Git and GitHub during the hackathon.
 
 Please note that if there are more applicants than we have space, priority will
@@ -40,7 +44,8 @@ Cluster, ScienceHub, Phi Lab, and people who work with ESA data.
 ### Application Form
 
 In the application form, we encourage you to think about and provide a science
-use case that you would like to prototype or work on. At the beginning of the
+use case that you would like to prototype or work on.
+At the beginning of the
 hackathon, participants will be able to pitch their use case to support the
 formation of projects, and participants will form teams based on shared
 interests.
@@ -48,6 +53,207 @@ interests.
 We are able to provide some needs-based travel support for participants who
 require it.
 
-The following questions will be asked in the application form:
+Applications will close on **October 16, 2026**.
+Accepted applicants will be notified no later than **October 23, 2026**.
+We expect to accommodate approximately 40-60 participants.
 
-TBD...
+The following questions will be asked in the application form.
+We provide them here
+so that you can think about your answers before you start the application process.
+
+#### Contact Details
+
+- \* First Name
+- \* Last Name
+- \* Organization
+- \* Email Address
+- \* Nationality
+- Preferred Pronouns (optional)
+
+--------------------------------------------------------------------------------
+
+#### Motivation, Interest, & Collaboration
+
+We would like to bring together a diverse group of participants with a wide range of research interests and experience levels.
+Please tell us a little about yourself and why you are interested in participating in EarthCODE Hackathon 2026\.
+
+##### ESA Science Cluster
+
+Are you part of the Polar, Ocean, or Carbon science cluster?
+If so, please indicate which one (optional).
+
+- [ ] Ocean
+- [ ] Polar
+- [ ] Carbon
+
+--------------------------------------------------------------------------------
+
+##### Research Group
+
+Please name your research group, university and/or lab
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+##### Industry/Position
+
+What is your current position?
+
+- [ ] Undergraduate student
+- [ ] Graduate student
+- [ ] Postdoc
+- [ ] Faculty
+- [ ] Academic or non-profit research staff
+- [ ] Industry
+- [ ] Government
+- [ ] Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+--------------------------------------------------------------------------------
+
+##### Research Interests
+
+Please briefly describe your research and/or data interests and how participation in the EarthCODE Hackathon would impact your work.
+How would this Hackathon connect with your work?
+Do you have any ideas for what you would like to work on?
+(250 word limit)
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+##### Why would you like to attend the EarthCODE Hackathon?
+
+Please tell us why you want to participate in this program, including how participation would contribute to your long term goals.
+(250 word limit)
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+##### Collaboration and teamwork experience
+
+Please tell us about your experience in collaborating with others and working in a team setting, including any hackathons or other open science events.
+For example, EarthCODE, ESA, Openscapes Champions, Pangeo, useR, university meetups, other groups.
+(100 word limit)
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+##### Programming Languages
+
+Please tell us what programming languages you have experience with, and a little about your programming experience.
+The Hackathon will involve tutorials and projects in Python, and R support during project time.
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+##### Git and GitHub
+
+Do you have experience with Git and/or GitHub?
+Please briefly describe.
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+##### What is your GitHub username, if you have one?
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+#### Logistics
+
+##### Availability
+
+Please confirm you are available to participate in person at ESA-ESRIN GMT for the full week of the Hackathon.
+(It is ok if you need to miss one or two sessions; we record so folks can review).
+
+- [ ] I confirm
+
+##### Travel Reimbursement
+
+Travel reimbursement is available for eligible participants and is intended to support Early Career Researchers.
+
+Please indicate whether you would like to request reimbursement.
+Eligible participants will receive a confirmation email with all the necessary details and instructions for the reimbursement process.
+
+**Do you require travel support?**
+
+- [ ] Yes
+- [ ] No
+
+Please state your reason for requesting financial support and your departure location.
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+##### Accessibility
+
+Please tell us about any accessibility needs you have
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+##### Dietary restrictions
+
+Please let us know about any allergies and/or dietary restrictions you have
+
+\[textbox\]
+
+--------------------------------------------------------------------------------
+
+##### Code of Conduct
+
+This event will be governed by the Openscapes' Code of Conduct ([https://openscapes.org/code-of-conduct](https://openscapes.org/code-of-conduct)) to ensure an enjoyable and productive time for everyone.
+Please confirm you agree to abide by its terms:
+
+- [ ] \* I agree (required)
+
+--------------------------------------------------------------------------------
+
+#### Data Processing Consent
+
+Please read the following carefully to understand how the ESA Conference Bureau treats personal data received within the scope of your registration.
+Click **here** to view the Privacy Notice and Consent Form.
+The ESA Conference Bureau is committed to protecting and respecting your privacy while all the while carrying out its obligations arising from the organisation of this meeting.
+
+By submitting your personal data, you agree to have your personal data collected and further processed as described for the purposes detailed below, allowing the ESA Conference Bureau and organisations associated with this meeting to contact you as required for the organisation and administration of the **EarthCODE Hackathon**.
+
+For those cases where your consent was not already obtained by ESA (including by other modalities) and is required under the ESA Framework on Personal Data Protection, you agree with the collection and further processing of your personal data.
+
+##### Data Processing Consent
+
+- [ ] I give consent
+
+You will be able to withdraw your consent depending on the modality used to collect your personal data, in particular by sending an email to ESA DPO at: [DPO@ESA.int](mailto:DPO@ESA.int), or the Event Organisers on [events.organisation@esa.int](mailto:events.organisation@esa.int).
+
+--------------------------------------------------------------------------------
+
+#### Photo and Filming Consent
+
+ESA will be taking photos and videos during the **EarthCODE Hackathon**.
+
+Please click **here** to view the full Photo and Filming Data Consent for the **EarthCODE Hackathon**.
+
+**Do you give your consent?**
+
+- [ ] Yes
+- [ ] No
+
+--------------------------------------------------------------------------------
+
+#### I agree to be contacted for future events organised by the ESA Conference Bureau
+
+- [ ] I agree to be contacted for future events organised by the ESA Conference Bureau
+
+#### Anything else?
+
+A space for any other questions or information you want to share.
+
+\[textbox\]
