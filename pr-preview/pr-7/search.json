@@ -1,15 +1,8 @@
 [
   {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "Content coming soon."
-  },
-  {
-    "objectID": "what-to-expect.html",
-    "href": "what-to-expect.html",
-    "title": "What to Expect",
+    "objectID": "logistics.html",
+    "href": "logistics.html",
+    "title": "Logistics",
     "section": "",
     "text": "Content coming soon."
   },
@@ -21,27 +14,6 @@
     "text": "Content coming soon."
   },
   {
-    "objectID": "checklist.html",
-    "href": "checklist.html",
-    "title": "Checklist",
-    "section": "",
-    "text": "Content coming soon."
-  },
-  {
-    "objectID": "registration.html",
-    "href": "registration.html",
-    "title": "Registration",
-    "section": "",
-    "text": "Registration for the EarthCODE Hackathon 2026 will open in September 2026.\n\nInformation for applicants\nThe EarthCODE Hackathon will be held from November 30 to December 4, 2026 at ESA ESRIN, Frascati, Italy. The event will provide an opportunity to bring the communities who are using EarthCODE tools and services as close as possible to the people who are building them.\nWe welcome applications from:\n\nEarth system scientists working with Earth Observation (EO) data who want to create, reuse, or publish data collections.\nMembers of ESA Science Clusters, particularly addressing: Ocean, Carbon and Polar science communities.\n\nWe especially want to hear from early career researchers, PhD students, and post-docs!\nTo best benefit from the event, we recommend some familiarity or experience with:\n\nEarth Observation (EO) data (especially from Polar, Carbon, and Ocean Clusters, including interdisciplinary applications)\nProgramming skills using Python. We plan to accept participants with broad skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, some experience with Python, R, or a similar programming language is recommended.\nFamiliarity with Git and GitHub would be beneficial, but not required. We will provide a short tutorial on Git and GitHub during the hackathon.\n\nPlease note that if there are more applicants than we have space, priority will be given to people who work with the ESA Polar Cluster, Ocean Cluster, Carbon Cluster, ScienceHub, Phi Lab, and people who work with ESA data.\n\n\nApplication Form\nIn the application form, we encourage you to think about and provide a science use case that you would like to prototype or work on. At the beginning of the hackathon, participants will be able to pitch their use case to support the formation of projects, and participants will form teams based on shared interests.\nWe are able to provide some needs-based travel support for participants who require it.\nThe following questions will be asked in the application form:\nTBD…"
-  },
-  {
-    "objectID": "logistics.html",
-    "href": "logistics.html",
-    "title": "Logistics",
-    "section": "",
-    "text": "Content coming soon."
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule (DRAFT)",
@@ -49,11 +21,11 @@
     "text": "The schedule will be updated as we finalize the hackathon program. Please check back for updates!\nAll times listed below are UTC+1 (Central European Time).\n\nDay 1 (Monday)Day 2 (Tuesday)Day 3 (Wednesday)Day 4 (Thursday)Day 5 (Friday)\n\n\n\nTimeSessionLeads\n\n\n9:00 - 13:00Arrival & Check-inArrive, check in, and settle in ahead of the afternoon kickoff.—\n\n\n13:00 - 13:30Welcome & IntroductionsKickoff, logistics, and introductions.—\n\n\n13:30 - 14:30EarthCODE Platform OverviewTour of the EarthCODE platform and available datasets.—\n\n\n14:30 - 15:00BREAK—\n\n\n15:00 - 17:00Team Formation & Project WorkTeams form and begin work on their projects.—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 10:00Data Access TutorialHands-on walkthrough of cloud-optimized data access.—\n\n\n10:00 - 10:30BREAK—\n\n\n10:30 - 12:00Tutorial: TBD (GitHub?)Placeholder for a hands-on tutorial session.—\n\n\n12:00 - 13:00LUNCH—\n\n\n13:00 - 17:00Open Project Work—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 10:00Tutorial: TBDPlaceholder for a hands-on tutorial session.—\n\n\n10:00 - 10:30BREAK—\n\n\n10:30 - 12:00Tutorial or Science Talk: TBD—\n\n\n12:00 - 13:00LUNCH—\n\n\n13:00 - 17:00Open Project Work—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 10:00Tutorial: TBDPlaceholder for a hands-on tutorial session.—\n\n\n10:00 - 10:30BREAK—\n\n\n10:30 - 12:00Open Project Work—\n\n\n12:00 - 13:00LUNCH—\n\n\n13:00 - 17:00Open Project Work—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 10:30Open Project WorkFinal preparations before demos.—\n\n\n10:30 - 11:30Project DemosEach team presents their project.—\n\n\n11:30 - 13:00Wrap-up & Closing—"
   },
   {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "MIT License",
+    "objectID": "checklist.html",
+    "href": "checklist.html",
+    "title": "Checklist",
     "section": "",
-    "text": "MIT License\nCopyright (c) 2026 Openscapes\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "Content coming soon."
   },
   {
     "objectID": "index.html#about",
@@ -75,5 +47,33 @@
     "title": "EarthCODE Hackathon 2026",
     "section": "Code of Conduct",
     "text": "Code of Conduct\nThe 2026 EarthCODE Hackathon is a safe learning space and all participants are required to abide by our Code of Conduct."
+  },
+  {
+    "objectID": "registration.html",
+    "href": "registration.html",
+    "title": "Registration",
+    "section": "",
+    "text": "Registration for the EarthCODE Hackathon 2026 will open in September 2026.\n\nInformation for applicants\nThe EarthCODE Hackathon will be held from November 30 to December 4, 2026 at ESA ESRIN, Frascati, Italy. The event will provide an opportunity to bring the communities who are using EarthCODE tools and services as close as possible to the people who are building them.\nWe welcome applications from:\n\nEarth system scientists working with Earth Observation (EO) data who want to create, reuse, or publish data collections.\nMembers of ESA Science Clusters, particularly addressing: Ocean, Carbon and Polar science communities.\n\nWe especially want to hear from early career researchers, PhD students, and post-docs!\nTo best benefit from the event, we recommend some familiarity or experience with:\n\nEarth Observation (EO) data (especially from Polar, Carbon, and Ocean Clusters, including interdisciplinary applications)\nProgramming skills using Python. We plan to accept participants with broad skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, some experience with Python, R, or a similar programming language is recommended.\nFamiliarity with Git and GitHub would be beneficial, but not required. We will provide a short tutorial on Git and GitHub during the hackathon.\n\nPlease note that if there are more applicants than we have space, priority will be given to people who work with the ESA Polar Cluster, Ocean Cluster, Carbon Cluster, ScienceHub, Phi Lab, and people who work with ESA data.\n\n\nApplication Form\nIn the application form, we encourage you to think about and provide a science use case that you would like to prototype or work on. At the beginning of the hackathon, participants will be able to pitch their use case to support the formation of projects, and participants will form teams based on shared interests.\nWe are able to provide some needs-based travel support for participants who require it.\nThe following questions will be asked in the application form:\nTBD…"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "what-to-expect.html",
+    "href": "what-to-expect.html",
+    "title": "What to Expect",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "MIT License",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2026 Openscapes\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   }
 ]
