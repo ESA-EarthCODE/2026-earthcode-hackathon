@@ -16,6 +16,17 @@ h2, h3, h4, h5, h6 {
   border-right: 0.05rem solid white;
 }
 
+/* Narrow horizontal strip: crops the image to a wide, short band
+   instead of squeezing it. Adjust object-position to change which
+   part of the photo shows through (e.g. "center 40%" for higher). */
+.banner-strip {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 22vw, 300px);
+  object-fit: cover;
+  object-position: center center;
+}
+
 .link-no-decorate a {
   color: inherit;
   font-weight: inherit;
