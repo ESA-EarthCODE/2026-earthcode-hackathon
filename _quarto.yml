@@ -34,7 +34,7 @@ website:
         menu:
           - href: https://esa-earthcode.github.io/polar_hackathon/
             text: Polar Hackathon
-          - href: "#"
+          - href: https://esa-earthcode.github.io/ocean_hackathon/
             text: Ocean Hackathon
           - href: "#"
             text: Carbon Hackathon
