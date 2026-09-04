@@ -198,19 +198,34 @@ Please state your reason for requesting financial support and your departure loc
 
 --------------------------------------------------------------------------------
 
-##### Accessibility
+## Courtesy Bus
 
-Please tell us about any accessibility needs you have
+ESRIN is located outside of Frascati.
+Most people will be staying in a hotel in Frascati, and walking to ESRIN is not possible.
+A courtesy bus service will be organised in the morning and afternoon to transport participants from Frascati to ESRIN.
 
-\[textbox\]
+Confirmation of the service and the detailed schedule will be provided closer to the event date.
+
+Please confirm whether you would like to use the bus service:
+
+- [ ] Yes
+- [ ] No
 
 --------------------------------------------------------------------------------
 
-##### Dietary restrictions
+## Polo Shirts
 
-Please let us know about any allergies and/or dietary restrictions you have
+Each participant in the **EarthCODE Hackathon** will be given a polo shirt at the event.
+Please select your preferred size below.
 
-\[textbox\]
+Refer to the sizing guide: \[link to size guide\]
+
+- [ ] S
+- [ ] M
+- [ ] L
+- [ ] XL
+- [ ] XXL
+- [ ] XXXL
 :::::
 
 ::::: callout
