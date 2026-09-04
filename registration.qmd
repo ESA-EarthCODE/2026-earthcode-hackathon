@@ -198,7 +198,7 @@ Please state your reason for requesting financial support and your departure loc
 
 --------------------------------------------------------------------------------
 
-## Courtesy Bus
+##### Courtesy Bus
 
 ESRIN is located outside of Frascati.
 Most people will be staying in a hotel in Frascati, and walking to ESRIN is not possible.
@@ -213,7 +213,7 @@ Please confirm whether you would like to use the bus service:
 
 --------------------------------------------------------------------------------
 
-## Polo Shirts
+##### Polo Shirts
 
 Each participant in the **EarthCODE Hackathon** will be given a polo shirt at the event.
 Please select your preferred size below.
