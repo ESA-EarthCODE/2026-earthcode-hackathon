@@ -16,15 +16,14 @@ website:
       - href: index.qmd
         text: Home
       - href: registration.qmd
-        text: Registration
       - href: logistics.qmd
-        text: Logistics
-      - text: Preparation
-        menu:
-          - href: what-to-expect.qmd
-            text: What to expect
-          - href: checklist.qmd
-            text: Checklist
+      - href: schedule.qmd
+      # - text: Preparation
+      #   menu:
+      #     - href: what-to-expect.qmd
+      #       text: What to expect
+      #     - href: checklist.qmd
+      #       text: Checklist
       - text: Presentations
         menu:
           - href: lectures.qmd
@@ -35,7 +34,7 @@ website:
         menu:
           - href: https://esa-earthcode.github.io/polar_hackathon/
             text: Polar Hackathon
-          - href: "#"
+          - href: https://esa-earthcode.github.io/ocean_hackathon/
             text: Ocean Hackathon
           - href: "#"
             text: Carbon Hackathon

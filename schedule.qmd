@@ -1,0 +1,8 @@
+---
+title: "Schedule (DRAFT)"
+---
+
+The schedule will be updated as we finalize the hackathon program.
+Please check back for updates!
+
+{{< schedule file="data/schedule.yml" >}}
