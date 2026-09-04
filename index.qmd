@@ -52,13 +52,16 @@ we will have a combination of science lectures, coding tutorials, and group
 projects (pitched and chosen by participants).
 
 ### Registration
+
 See the [registration page](registration.qmd) for more information on how to
-apply. We are able to provide some needs-based travel support.
+apply.
+We are able to provide some needs-based travel support.
 We welcome applications from:
 
-- Earth system scientists working with Earth Observation (EO) data who want to
+- **Members of ESA Science Clusters**, particularly addressing: Ocean, Carbon and
+  Polar science communities.
+- **Earth system scientists** working with Earth Observation (EO) data who want to
   create, reuse, or publish data collections.
-- Members of ESA Science Clusters, particularly addressing: Ocean, Carbon and
   Polar science communities.
 
 *We especially invite early career researchers, PhD students, and

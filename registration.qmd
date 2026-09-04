@@ -15,10 +15,10 @@ the people who are building them.
 
 We welcome applications from:
 
-- **Earth system scientists** working with Earth Observation (EO) data who want
-  to create, reuse, or publish data collections.
 - **Members of ESA Science Clusters**, particularly addressing: Ocean, Carbon
   and Polar science communities.
+- **Earth system scientists** working with Earth Observation (EO) data who want
+  to create, reuse, or publish data collections.
 
 *We especially invite early career researchers, PhD students, and
 post-docs!*
