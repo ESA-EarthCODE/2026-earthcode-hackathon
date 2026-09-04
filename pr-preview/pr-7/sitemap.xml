@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/lectures.html</loc>
-    <lastmod>2026-09-03T20:33:12.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/what-to-expect.html</loc>
-    <lastmod>2026-09-03T20:33:12.600Z</lastmod>
+    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/logistics.html</loc>
+    <lastmod>2026-09-04T17:20:52.821Z</lastmod>
   </url>
   <url>
     <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/supplementary-materials.html</loc>
-    <lastmod>2026-09-03T20:33:12.600Z</lastmod>
-  </url>
-  <url>
-    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/checklist.html</loc>
-    <lastmod>2026-09-03T20:33:12.591Z</lastmod>
-  </url>
-  <url>
-    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/registration.html</loc>
-    <lastmod>2026-09-03T20:33:12.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/logistics.html</loc>
-    <lastmod>2026-09-03T20:33:12.599Z</lastmod>
+    <lastmod>2026-09-04T17:20:52.822Z</lastmod>
   </url>
   <url>
     <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/schedule.html</loc>
-    <lastmod>2026-09-03T20:33:12.599Z</lastmod>
+    <lastmod>2026-09-04T17:20:52.821Z</lastmod>
   </url>
   <url>
-    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/LICENSE.html</loc>
-    <lastmod>2026-09-03T20:33:12.583Z</lastmod>
+    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/checklist.html</loc>
+    <lastmod>2026-09-04T17:20:52.813Z</lastmod>
   </url>
   <url>
     <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/index.html</loc>
-    <lastmod>2026-09-03T20:33:12.599Z</lastmod>
+    <lastmod>2026-09-04T17:20:52.821Z</lastmod>
+  </url>
+  <url>
+    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/registration.html</loc>
+    <lastmod>2026-09-04T17:20:52.821Z</lastmod>
+  </url>
+  <url>
+    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/lectures.html</loc>
+    <lastmod>2026-09-04T17:20:52.821Z</lastmod>
+  </url>
+  <url>
+    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/what-to-expect.html</loc>
+    <lastmod>2026-09-04T17:20:52.822Z</lastmod>
+  </url>
+  <url>
+    <loc>https://esa-earthcode.github.io/2026-earthcode-hackathon/LICENSE.html</loc>
+    <lastmod>2026-09-04T17:20:52.808Z</lastmod>
   </url>
 </urlset>
