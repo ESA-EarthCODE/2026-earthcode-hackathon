@@ -3,7 +3,7 @@ title: "Registration"
 ---
 
 Registration for the EarthCODE Hackathon 2026 will **open in September 2026**.
-[Register here](https://nikal.eventsair.com/earthcode-hackathon/registration-portal/).
+[Register here](https://nikal.eventsair.com/earthcode-hackathon/registration-portal/)!
 
 ### Information for applicants
 
@@ -195,7 +195,7 @@ Please confirm whether you would like to use the bus service:
 
 ##### Polo Shirts
 
-Each participant in the **EarthCODE Hackathon** will be given a polo shirt at the event.
+Each participant in the **EarthCODE Hackathon** will be given a shirt at the event.
 Please select your preferred size below.
 
 Refer to the sizing guide: \[link to size guide\]
@@ -263,4 +263,4 @@ A space for any other questions or information you want to share.
 :::::
 :::
 
-**[Register here](https://nikal.eventsair.com/earthcode-hackathon/registration-portal/)**
+**[Register here](https://nikal.eventsair.com/earthcode-hackathon/registration-portal/)!**
