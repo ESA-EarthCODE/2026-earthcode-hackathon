@@ -28,6 +28,9 @@ To best benefit from the event, we recommend some familiarity or experience with
 
 Please note that if there are more applicants than we have space, priority will be given to people who work with the ESA Polar Cluster, Ocean Cluster, Carbon Cluster, ScienceHub, Phi Lab, and people who work with ESA data.
 
+Questions?
+[Send us an email](mailto:events@openscapes.org).
+
 ### Application
 
 In the application form, we encourage you to think about and provide a science use case that you would like to prototype or work on.
