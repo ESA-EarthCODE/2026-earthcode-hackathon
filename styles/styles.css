@@ -12,6 +12,12 @@ h3 {
   font-weight: 500;
 }
 
+/* FAQ questions are full sentences, which read poorly when centered
+   above left-aligned answers. */
+.faq h3, .faq h4 {
+  text-align: left;
+}
+
 .time-place {
   margin-bottom: 1.5rem;
 }
