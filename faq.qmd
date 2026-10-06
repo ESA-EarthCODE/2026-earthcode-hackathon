@@ -1,0 +1,57 @@
+---
+title: "Frequently Asked Questions"
+---
+
+::: {.faq}
+
+### Applying
+
+#### What background or skills do I need?
+
+We plan to accept participants with broad skill levels and backgrounds. Some experience with Python, R, or a similar programming language is recommended, as is some familiarity with Earth Observation data. Familiarity with Git and GitHub is beneficial but not required, since we will provide a short tutorial during the hackathon.
+
+#### Do I need to come with a project or team?
+
+No, however we encourage you to think of a science use case you would like to work on,  and you will have an opportunity to pitch it at the start of the hackathon. Participants then form teams based on shared interests and goals. ESA Cluster leads will also have suggestions for potential projects.
+
+#### Can I join the hackathon remotely?
+
+The hackathon is an in-person-only event at ESA ESRIN in Frascati, Italy, and applicants are asked to confirm that they can attend in person for the full week.
+
+#### Are applicants affiliated with institutions outside ESA Member States eligible to participate in the hackathon?
+
+Applicants from institutions outside [ESA Member States](https://www.esa.int/About_Us/Corporate_news/Member_States_Cooperating_States) are eligible to participate. If we reach capacity, priority will be given to people participating in relevant projects as part of the [ESA Science Clusters](https://earthcode.esa.int/community/scientists/science-clusters) or the [Earth System Science Initiative](https://eo4society.esa.int/communities/scientists/ec-esa-joint-initiative-on-earth-system-science/).
+
+#### When will I find out if I have been selected?
+
+Applications close on October 30, 2026, and accepted applicants will be notified no later than November 4, 2026.
+
+### Cost and travel support
+
+#### Is there a cost to attend, and are meals included?
+
+There is no fee for the hackathon itself. Participants are responsible for their own travel and accommodation, with some travel support available. Lunch and morning and afternoon snacks and coffee are provided each day, along with an Icebreaker event on the evening of the first day. Breakfast and dinner are not provided. See the [logistics page](logistics.qmd) for details.
+
+#### How does financial assistance work? If travel support is available, what does it typically cover?
+
+We are able to offer needs-based travel support to a number of participants up to a maximum amount that will be reimbursed after the event - this is designed to cover typical travel and accommodation expenses for people traveling within Europe. Please describe your needs in the registration form when applying. Selected participants will be informed before they are required to confirm attendance.
+
+#### Is the needs-based travel support available to all participants, or is it restricted to applicants from Member States?
+
+Funding for travel support is only eligible for applicants from [ESA Member States](https://www.esa.int/About_Us/Corporate_news/Member_States_Cooperating_States).
+
+### Preparing to attend
+
+#### Does on-site access to ESRIN require any additional administrative steps?
+
+Yes, access to the ESRIN site is subject to security verifications. More information on what this looks like will be shared with selected participants.
+
+#### Do I need to bring my own laptop?
+
+Yes, please bring your own laptop. You will have access to the [EarthCODE compute platform](https://earthcode.esa.int/ecosystem#accessible-computation-esa-and-partner-cloud-computing-platforms), a cloud-based environment for running Jupyter notebooks and other tools. See the [logistics page](logistics.qmd) for details.
+
+#### Do you have accommodation recommendations?
+
+Yes, please see the [logistics page](logistics.qmd) for recommendations.
+
+:::
