@@ -20,7 +20,7 @@ The hackathon is an in-person-only event at ESA ESRIN in Frascati, Italy, and ap
 
 #### Are applicants affiliated with institutions outside ESA Member States eligible to participate in the hackathon?
 
-Applicants from institutions outside ESA Member States are eligible to participate. If we reach capacity, priority will be given to people participating in relevant projects as part of the [ESA Science Clusters](https://earthcode.esa.int/community/scientists/science-clusters) or the [Earth System Science Initiative](https://eo4society.esa.int/communities/scientists/ec-esa-joint-initiative-on-earth-system-science/).
+Applicants from institutions outside [ESA Member States](https://www.esa.int/About_Us/Corporate_news/Member_States_Cooperating_States) are eligible to participate. If we reach capacity, priority will be given to people participating in relevant projects as part of the [ESA Science Clusters](https://earthcode.esa.int/community/scientists/science-clusters) or the [Earth System Science Initiative](https://eo4society.esa.int/communities/scientists/ec-esa-joint-initiative-on-earth-system-science/).
 
 #### When will I find out if I have been selected?
 
@@ -38,7 +38,7 @@ We are able to offer needs-based travel support to a number of participants up t
 
 #### Is the needs-based travel support available to all participants, or is it restricted to applicants from Member States?
 
-Funding for travel support is only eligible for applicants from ESA Member States.
+Funding for travel support is only eligible for applicants from [ESA Member States](https://www.esa.int/About_Us/Corporate_news/Member_States_Cooperating_States).
 
 ### Preparing to attend
 
