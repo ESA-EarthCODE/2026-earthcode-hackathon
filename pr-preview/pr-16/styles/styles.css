@@ -1,0 +1,64 @@
+/* Project-wide style tweaks. */
+
+/* h1 is excluded here since it's only ever the document title, whose
+   styling is controlled per-page (e.g. index.css for the homepage title). */
+h2, h3, h4, h5, h6 {
+  text-align: center;
+  border-bottom: none;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.faq h4 {
+  text-align: left;
+}
+
+.time-place {
+  margin-bottom: 1.5rem;
+}
+
+.navbar-logo {
+  border-right: 0.05rem solid white;
+}
+
+/* Adjust object-position to change which part of the photo shows through. */
+.banner-strip {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 22vw, 300px);
+  object-fit: cover;
+  object-position: center center;
+}
+
+.link-no-decorate a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.partners-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  /* padding: 1rem 0 2rem; */
+}
+
+.partners-grid img {
+  width: auto;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+/* Scale each logo to roughly equal visual area so none dominates */
+.partners-grid p:nth-child(1) img { height: 60px; }  /* 380x137   */
+.partners-grid p:nth-child(2) img { height: 108px; } /* 1076x1256 */
+.partners-grid p:nth-child(3) img { height: 54px; }  /* 1225x363  */
+.partners-grid p:nth-child(4) img { height: 41px; }  /* 1920x327  */
+
+.partners-grid img:hover {
+  opacity: 0.7;
+}

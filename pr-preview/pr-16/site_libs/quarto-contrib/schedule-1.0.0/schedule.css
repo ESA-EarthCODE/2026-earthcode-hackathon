@@ -1,0 +1,70 @@
+.schedule-table > tbody > tr > td:first-child {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Per-session-type color coding. Row type comes from `type:` in the
+   schedule YAML file. Set the background and border colours for each type
+   here, and add more if necessary. The legend uses the same colours.
+*/
+.sched-break {
+  --sched-bg: #e9ecef;
+  --sched-border: transparent;
+}
+
+.sched-discussion {
+  --sched-bg: color-mix(in srgb, #fff2cc, white);
+  --sched-border: #f4c476;
+}
+
+.sched-lecture {
+  --sched-bg: color-mix(in srgb, #008cba 15%, white);
+  --sched-border: #008cba;
+}
+
+.sched-work {
+  --sched-bg: color-mix(in srgb, #43ac6a 15%, white);
+  --sched-border: #43ac6a;
+}
+
+.sched-tutorial {
+  --sched-bg: color-mix(in srgb, #f4c476 40%, white);
+  --sched-border: #e99002;
+}
+
+.schedule-table > tbody > tr[class*="sched-"] > td {
+  background-color: var(--sched-bg);
+  border-left: 3px solid var(--sched-border);
+}
+
+.schedule-table > tbody > tr.sched-break > td {
+  font-style: italic;
+}
+
+.schedule-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.schedule-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.schedule-legend-swatch {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 2px;
+  background-color: var(--sched-bg);
+  border: 1px solid var(--sched-border);
+  border-left-width: 3px;
+}
+
+.sched-break .schedule-legend-swatch {
+  border-color: #adb5bd;
+}
