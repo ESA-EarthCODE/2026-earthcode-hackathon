@@ -1,0 +1,16 @@
+---
+title: "Organizing Team"
+---
+
+::: {style="font-size: 1.2rem; line-height: 2.2;"}
+**Anca Anghelea** (ESA): Program officer\
+**Ewelina Dobrowolska** (ESA): Program officer support, Cluster organizer\
+**Geraint Cooksley** (Telespazio): Project manager\
+**Amanda Hall** (Telespazio): Communications\
+**Dean Summers** (Lampata): Lead developer and teacher\
+**Krasen Samardzhiev** (Lampata): Lead developer and teacher\
+**Francesca Romana Cupellini** (ESA Conference Bureau): Lead logistics coordinator\
+**Julie Lowndes** (Openscapes): Lead liaison, co-lead designer\
+**Andy Teucher** (Openscapes): Lead designer\
+**Stefanie Butland** (Openscapes): Supporting designer
+:::

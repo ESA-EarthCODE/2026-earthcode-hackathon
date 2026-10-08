@@ -29,6 +29,12 @@ website:
       #       text: What to expect
       #     - href: checklist.qmd
       #       text: Checklist
+      - text: About
+        menu:
+          - href: team.qmd
+            text: Team
+          - href: roles.qmd
+            text: Hackathon Roles
       - text: Presentations
         menu:
           - href: lectures.qmd
