@@ -105,6 +105,34 @@ local function day_table(day)
   return pandoc.Blocks({ pandoc.RawBlock("html", table.concat(rows, "\n")) })
 end
 
+-- Builds a legend from the session types used in the file, in order of first
+-- appearance. Sessions without a `type` are left out. Colors come from
+-- the `.sched-<type>` rules in schedule.css.
+local function legend(days)
+  local seen, items = {}, {}
+  for _, day in ipairs(days) do
+    for _, session in ipairs(day.sessions) do
+      local stype = session_type(session)
+      if stype ~= "session" and not seen[stype] then
+        seen[stype] = true
+        local label = stype:sub(1, 1):upper() .. stype:sub(2)
+        table.insert(items, string.format(
+          '<span class="schedule-legend-item sched-%s">'
+            .. '<span class="schedule-legend-swatch"></span>%s</span>',
+          stype, label
+        ))
+      end
+    end
+  end
+  if #items == 0 then
+    return pandoc.Null()
+  end
+  return pandoc.RawBlock(
+    "html",
+    '<div class="schedule-legend">' .. table.concat(items) .. "</div>"
+  )
+end
+
 local function schedule_shortcode(args, kwargs)
   local path = kwargs["file"]
   if not path and args[1] then
@@ -143,7 +171,7 @@ local function schedule_shortcode(args, kwargs)
     pandoc.Str("."),
   })
 
-  return { intro, tabset }
+  return { intro, tabset, legend(meta.days) }
 end
 
 return {

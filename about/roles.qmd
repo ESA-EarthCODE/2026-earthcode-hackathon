@@ -1,0 +1,130 @@
+---
+title: "Hackathon Roles"
+---
+
+There are many roles required to envision, organize, and execute a successful hackathon. The roles described here are lightly modified from those outlined in the [eScience Hackweek Guide](https://guidebook.hackweek.io/intro.html). Some roles, such as Community Lead, Technical Leads, and Tutorial Leads are heavily involved in the planning stages, and are fulfilled by multiple people on the [organizing team](team.qmd). Other roles are established and become very hands-on during the ESA EarthCODE Hackathon itself.
+
+## Community Lead (ESA \+ Openscapes)
+
+The Community Lead guides the activities of community members engaged in hackathon organization and execution.
+
+### Goals
+
+- Matching the technical and scientific needs of the community to the design of this hackathon.
+- Ensuring everyone involved is sufficiently resourced to carry out the work.
+- Strategizing on how best to implement practices of open-source science within this community.
+- Building supportive partnerships and communities of practice before, during, and after the hackathon.
+
+### Specific Activities
+
+- Work with the community to define the overarching goals of the hackathon.
+- Build a diverse, inclusive, and equitable hackathon organizing team; recruit broadly for organizers and participants.
+- Help organize and attend event planning meetings.
+- Review tutorial content, evaluating meeting hackathon goals, learning objectives, and community relevance.
+- Attend the hackathon and be available to assist with project and tutorial work.
+- Facilitate and/or lead longer-term community efforts to build on collaborations fostered around the hackathon.
+
+---
+
+## Technical Lead (Lampata \+ Openscapes)
+
+The Technical Lead is experienced with the computational platforms that support collaboration and learning during the hackathon.
+
+### Goals
+
+- Empowering hackathon organizers to follow best practices in creating open source learning materials.
+- Ensuring shared hackathon tools are accessible to everyone.
+- Guiding workflow development to be reproducible and deployable on multiple infrastructures.
+
+### Specific Activities
+
+- Set up a shared computational environment.
+- Deploy the hackathon website.
+- Teach hackathon organizers how to use GitHub and the shared computational environment for planning and design of the hackathon.
+- Assist tutorial leads in uploading their notebooks and sample datasets.
+- Help participants gain access to shared resources.
+- Archive hackathon outcomes.
+- Provide consultation on computational needs that evolve after the hackathon.
+
+---
+
+## Tutorial Leads
+
+Tutorial Leads use their knowledge of data science tools and methods to create online learning materials and teach tutorials during the hackathon. See the [Instructor Guide](instructor-guide.qmd) for guidance.
+
+### Goals
+
+- Fostering the learning and development of community members on topics of interest at the hackathon.
+- Supporting the design of a shared open source curriculum.
+
+### Specific Activities
+
+- Define learning outcomes that are tailored to community needs.
+- Build new skills in data science pedagogy.
+- Offer feedback to peers on tutorial design.
+- Create interactive tutorials in Jupyter Notebooks.
+- Use GitHub to share tutorial content in an open source environment.
+- Teach or assist with teaching tutorials during the hackathon.
+
+---
+
+## Project Consultant (Cluster Leads / Representatives)
+
+The Project Consultant has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. 
+See the [Project Guide](projects-overview.qmd) for more information on projects, and the [Mentor Guide](mentor-guide.qmd) for guidance on [mentoring teams](#mentor--helper), as project consultants will also play this role.
+
+### Goals
+
+- Communicating the purpose and approach of small group collaborations.
+- Shaping community ideas into well-defined and realistic project designs.
+- Creating a welcoming space for participants to engage in project ideation and completion.
+
+### Specific Activities
+
+- Present session to participants about the goals and scope of hackathon projects.
+- Suggest project ideas.
+- Encourage participants to pitch project ideas before the hackathon.
+- Assemble and make sense of project ideas.
+- Guide the formation of project teams on the first day of the hackathon.
+- Facilitate small group collaborations during the hackathon.
+- Assist teams in setting goals and sharing results.
+- Provide guidance to teams who wish to remain connected after the hackathon.
+
+---
+
+## Project Leads
+
+Project Leads have an interest in guiding small teams in their progress toward hackathon project goals. Usually the project lead is the person who pitches a project idea.
+
+### Goals
+
+- Supporting all team members in getting something valuable out of their time during hackathon project work.
+- Fostering collaboration within a small team.
+- Laying the foundation for long-term project development after the hackathon is complete.
+
+### Specific Activities
+
+- Pitch an idea for a project.
+- Gather a team and help each person get clear on their individual goals during the project work.
+- Facilitate relationship-building and development of collaborative structures among the team.
+- Help everyone design project work that is within the scope of this hackathon.
+- Lead daily standup team check-ins.
+
+---
+
+## Mentor / Helper
+
+Mentors and Helpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. They can include ESA staff, community members and hackathon participants. See the [Mentor Guide](mentor-guide.qmd) for more guidance.
+
+### Goals
+
+- Helping hackathon participants move past stuck points and complete learning objectives.
+- Including all participants in the learning process.
+- Empowering learners to connect with external educational resources.
+
+### Specific Activities
+
+- Answer questions from participants during the teaching of tutorials.
+- Help participants access resources needed to address specific problems.
+- Participate in project teams and assist with technical questions.
+- Offer feedback to tutorial developers based on participant experiences with the materials.
