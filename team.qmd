@@ -2,6 +2,8 @@
 title: "Organizing Team"
 ---
 
+Our organizing team is made up of people from ESA, Openscapes, Lampata, and Telespazio, we all share in the various [roles](roles.qmd) it takes to organize a successful hackathon. We are committed to making this hackathon a welcoming and inclusive event for all participants, and we are excited to work with you to make this hackathon a success!
+
 ::: {style="font-size: 1.2rem; line-height: 2.2;"}
 **Anca Anghelea** (ESA): Program officer\
 **Ewelina Dobrowolska** (ESA): Program officer support, Cluster organizer\
@@ -11,6 +13,6 @@ title: "Organizing Team"
 **Krasen Samardzhiev** (Lampata): Lead developer and teacher\
 **Julie Lowndes** (Openscapes): Lead liaison, co-lead designer\
 **Andy Teucher** (Openscapes): Lead designer\
-**Stefanie Butland** (Openscapes): Supporting designer
+**Stefanie Butland** (Openscapes): Supporting designer\
 **Francesca Romana Cupellini** (ESA Conference Bureau): Lead logistics coordinator\
 :::
