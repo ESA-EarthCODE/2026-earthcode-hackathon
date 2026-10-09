@@ -25,21 +25,29 @@ website:
         text: FAQ
       # - text: Preparation
       #   menu:
-      #     - href: what-to-expect.qmd
+      #     - href: preparation/what-to-expect.qmd
       #       text: What to expect
-      #     - href: checklist.qmd
+      #     - href: preparation/checklist.qmd
       #       text: Checklist
       - text: About
         menu:
-          - href: team.qmd
+          - href: about/team.qmd
             text: Team
-          - href: roles.qmd
+          - href: about/roles.qmd
             text: Hackathon Roles
+      - text: Guides
+        menu:
+          - href: guides/mentor-guide.qmd
+            text: Project Mentor Guide
+          - href: guides/instructor-guide.qmd
+            text: Tutorial Instructor Guide
+          - href: guides/helper-guide.qmd
+            text: Helper Guide
       - text: Presentations
         menu:
-          - href: lectures.qmd
+          - href: presentations/lectures.qmd
             text: Lectures
-          - href: supplementary-materials.qmd
+          - href: presentations/supplementary-materials.qmd
             text: Supplementary Materials
       - text: Tutorials
         menu:
