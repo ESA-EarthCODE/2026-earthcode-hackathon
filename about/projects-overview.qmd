@@ -1,0 +1,50 @@
+---
+title: Projects Overview
+---
+
+Collaborative projects are a key component of the ESA EarthCODE Hackathon, in which you get to interact with others closely and apply new skills to make something exciting happen: it can be creating tools to streamline access to a particular data source, creating and visualizing new, integrated datasets, testing existing models with new data sources, or anything else you may want to do at the intersection of earth and data science.
+
+## Tips for getting started
+
+* Potentially choose something that you've been interested in but haven't had the time or skills to do before, or something you can continue to work on post Hackathon.
+* Hacking is a community activity! It's okay to choose projects that you can't accomplish alone as other people will be there to help you, both at the Hackathon and outside of it!
+* Help your group members: you might be the person they need to solve their problem, and vice versa.
+* When discussing, pitch your explanation to the least experienced people in the group, and you'll end up better understanding what you're trying to do, or need to revise your idea.
+* You can mix programming languages as needed in order to get started, but do check in with your project mentors and group members to make sure your efforts are straightforward to be absorbed into the project.
+
+## What is a Hack?
+
+A "hack" is a small project that aims to solve a specific problem using computational tools.
+
+Examples of hacks include:
+
+* Creation of new datasets from existing data sources
+* Build a working demo of a new or modified algorithm
+* Outline of a larger project, with some key features scoped
+* Visualization of an old dataset in a new manner
+* Modify an algorithm and apply it to a new dataset
+* Combine two pre-existing pieces of code to perform some new function
+* Create a tool to apply to work with existing code, datasets
+* Transform code from one language to another to use with other tools
+* Update old code to run faster, on new machines, and/or more efficiently
+* Extend an existing project with an additional feature
+
+## Why hack at the ESA EarthCODE Hackathon?
+
+Increasingly, research and software development are conducted by groups of people with diverse skills and backgrounds. We believe this collaborative work leads to more innovative solutions to complex problems. At the ESA EarthCODE Hackathon, our goal is to explore with you some of the skills needed to navigate technical and social challenges of working in these kinds of collaborative settings. We believe the best way to do so is to provide opportunities for you to gain hands-on experience in working together with others on a well-defined problem related to earth sciences.
+
+## How will the projects be conducted?
+
+* On day 1 we will facilitate the sharing of ideas and begin formation of people into small teams (2-5 people)
+* Once formed, each team will narrow in on a set of tasks and create and present a one-slide "Project Pitch". Teams will then be able to refine their project ideas based on feedback from the other teams and mentors.
+* Teams will work together on their projects for the remainder of the Hackathon, with mentors available to provide guidance and support.
+* In the afternoon of day 4, each team will present their work to the other teams and mentors. Presentations will be informal and will focus on what was accomplished, what was learned, and what the next steps are for the project.
+* The morning of day 5 will have time for teams to meet and decide on post-hackathon plans and give "pop-up" presentations if they want.
+
+<!--
+## What can I do to prepare in advance?
+
+* If you have a project idea already brewing, we encourage you to share that with the team on the #project channel on Slack. We can add additional channels as the project ideas develop.
+* Feel free to explore various projects and initiate conversations. The goal is to gather as much information as you can to inform your decision about which team to join when we meet in person.
+* Contact an organizer if you would like assistance in assessing whether a project is well-scoped, or if you need help with a particular dataset. 
+-->

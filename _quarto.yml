@@ -35,14 +35,16 @@ website:
             text: Team
           - href: about/roles.qmd
             text: Hackathon Roles
-      - text: Guides
-        menu:
-          - href: guides/mentor-guide.qmd
+          - href: about/projects-overview.qmd
+            text: Projects Overview
+          - text: "---"
+          - text: Guides
+          - href: about/mentor-guide.qmd
             text: Project Mentor Guide
-          - href: guides/instructor-guide.qmd
+          - href: about/instructor-guide.qmd
             text: Tutorial Instructor Guide
-          - href: guides/helper-guide.qmd
-            text: Helper Guide
+          - href: about/tutorial-helper-guide.qmd
+            text: Tutorial Helper Guide
       - text: Presentations
         menu:
           - href: presentations/lectures.qmd

@@ -50,7 +50,7 @@ The Technical Lead is experienced with the computational platforms that support 
 
 ## Tutorial Leads
 
-Tutorial Leads use their knowledge of data science tools and methods to create online learning materials and teach tutorials during the hackathon.
+Tutorial Leads use their knowledge of data science tools and methods to create online learning materials and teach tutorials during the hackathon. See the [Instructor Guide](instructor-guide.qmd) for guidance.
 
 ### Goals
 
@@ -70,7 +70,8 @@ Tutorial Leads use their knowledge of data science tools and methods to create o
 
 ## Project Consultant (Cluster Leads / Representatives)
 
-The Project Consultant has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives.
+The Project Consultant has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. 
+See the [Project Guide](projects-overview.qmd) for more information on projects, and the [Mentor Guide](mentor-guide.qmd) for guidance on [mentoring teams](#mentor--helper), as project consultants will also play this role.
 
 ### Goals
 
@@ -111,9 +112,9 @@ Project Leads have an interest in guiding small teams in their progress toward h
 
 ---
 
-## Technical Helper
+## Mentor / Helper
 
-Technical Helpers have knowledge of data or domain science tools and methods that they wish to share with their peers. Helpers can include ESA staff, community members and hackathon participants.
+Mentors and Helpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. They can include ESA staff, community members and hackathon participants. See the [Mentor Guide](mentor-guide.qmd) for more guidance.
 
 ### Goals
 
