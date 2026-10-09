@@ -9,8 +9,8 @@ title: "Organizing Team"
 **Amanda Hall** (Telespazio): Communications\
 **Dean Summers** (Lampata): Lead developer and teacher\
 **Krasen Samardzhiev** (Lampata): Lead developer and teacher\
-**Francesca Romana Cupellini** (ESA Conference Bureau): Lead logistics coordinator\
 **Julie Lowndes** (Openscapes): Lead liaison, co-lead designer\
 **Andy Teucher** (Openscapes): Lead designer\
 **Stefanie Butland** (Openscapes): Supporting designer
+**Francesca Romana Cupellini** (ESA Conference Bureau): Lead logistics coordinator\
 :::
