@@ -43,8 +43,8 @@ website:
             text: Project Mentor Guide
           - href: about/instructor-guide.qmd
             text: Tutorial Instructor Guide
-          - href: about/tutorial-helper-guide.qmd
-            text: Tutorial Helper Guide
+          - href: about/facilitator-guide.qmd
+            text: Facilitator Guide
       - text: Presentations
         menu:
           - href: presentations/lectures.qmd
