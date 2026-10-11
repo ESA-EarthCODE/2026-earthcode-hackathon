@@ -4,6 +4,8 @@ title: Projects Overview
 
 Collaborative projects are a key component of the ESA EarthCODE Hackathon, in which you get to interact with others closely and apply new skills to make something exciting happen: it can be creating tools to streamline access to a particular data source, creating and visualizing new, integrated datasets, testing existing models with new data sources, or anything else you may want to do at the intersection of earth and data science.
 
+We will discuss, develop and pitch projects to work on during the Hackathon.
+
 ## Tips for getting started
 
 * Potentially choose something that you've been interested in but haven't had the time or skills to do before, or something you can continue to work on post Hackathon.
@@ -12,11 +14,11 @@ Collaborative projects are a key component of the ESA EarthCODE Hackathon, in wh
 * When discussing, pitch your explanation to the least experienced people in the group, and you'll end up better understanding what you're trying to do, or need to revise your idea.
 * You can mix programming languages as needed in order to get started, but do check in with your project mentors and group members to make sure your efforts are straightforward to be absorbed into the project.
 
-## What is a Hack?
+## What is a good-sized project for the Hackathon?
 
-A "hack" is a small project that aims to solve a specific problem using computational tools.
+A good-sized project is small and aims to solve a specific problem using computational tools.
 
-Examples of hacks include:
+Examples include:
 
 * Creation of new datasets from existing data sources
 * Build a working demo of a new or modified algorithm
@@ -29,7 +31,7 @@ Examples of hacks include:
 * Update old code to run faster, on new machines, and/or more efficiently
 * Extend an existing project with an additional feature
 
-## Why hack at the ESA EarthCODE Hackathon?
+## Why have projects at the ESA EarthCODE Hackathon?
 
 Increasingly, research and software development are conducted by groups of people with diverse skills and backgrounds. We believe this collaborative work leads to more innovative solutions to complex problems. At the ESA EarthCODE Hackathon, our goal is to explore with you some of the skills needed to navigate technical and social challenges of working in these kinds of collaborative settings. We believe the best way to do so is to provide opportunities for you to gain hands-on experience in working together with others on a well-defined problem related to earth sciences.
 

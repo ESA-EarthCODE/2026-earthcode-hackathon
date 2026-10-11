@@ -2,6 +2,8 @@
 title: "Project Mentor Guide"
 ---
 
+This guide is adapted from [SOURCE]. 
+
 - A project mentor can also propose a project idea and lead it. But the priority should be on enabling leadership and collaborative work by participants themselves. The project mentor shouldn't be the center of attention.
 - Monitor participation by *everyone*, to mitigate situations where extroverts dominate discussions or introverts don't feel comfortable to participate. Suggest ways to rebalance participation so that everyone feels they have something to contribute.
 - Provide scientific advisory support. Serve as a resource. Ideally the project will be in your broader scientific domains, but it's not really necessary.
