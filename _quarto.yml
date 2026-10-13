@@ -66,4 +66,4 @@ format:
     css: styles/styles.css
     grid:
       body-width: 1000px
-    toc: false
+    toc: true
