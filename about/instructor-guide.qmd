@@ -2,7 +2,7 @@
 title: "Tutorial Instructor Guide"
 ---
 
-This guide is adapted from [SOURCE]. As tutorial instructors, we will shape tutorials with the following in mind. 
+This guide is adapted from [Ocean Hackweek](https://oceanhackweek.org/resources/organizing/instructor-guide.html). As tutorial instructors, we will shape tutorials with the following in mind. 
 
 ## Target Audience
 
