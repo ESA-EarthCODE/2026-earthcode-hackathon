@@ -43,6 +43,24 @@ Increasingly, research and software development are conducted by groups of peopl
 * In the afternoon of day 4, each team will present their work to the other teams and mentors. Presentations will be informal and will focus on what was accomplished, what was learned, and what the next steps are for the project.
 * The morning of day 5 will have time for teams to meet and decide on post-hackathon plans and give "pop-up" presentations if they want.
 
+## Project Team Members
+
+Each member of a team will contribute to contribute the success of the project and hackathon experience for everyone.
+
+### Goals
+
+- Supporting all team members in getting something valuable out of their time during hackathon project work.
+- Fostering collaboration within a small team.
+
+### Specific Activities
+
+- Pitch an idea for a project.
+- Gather/join a team and help each person get clear on their individual goals during the project work.
+- Facilitate relationship-building and development of collaborative structures among the team.
+- Co-design project work that is within the scope of this hackathon.
+
+---
+
 <!--
 ## What can I do to prepare in advance?
 
