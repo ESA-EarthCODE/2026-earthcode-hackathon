@@ -87,23 +87,22 @@ See the [Project Guide](projects-overview.qmd) for more information on projects,
 
 ---
 
-## Project Mentor
+## Project Team Members
 
-This role will emerge as projects are designed: it is usually the project lead is the person who pitches a project idea.
+These will be hackathon participants who are part of a project team. 
+Each member of a team will contribute to contribute the success of the project and hackathon experience for everyone.
 
 ### Goals
 
 - Supporting all team members in getting something valuable out of their time during hackathon project work.
 - Fostering collaboration within a small team.
-- Laying the foundation for long-term project development after the hackathon is complete.
 
 ### Specific Activities
 
 - Pitch an idea for a project.
-- Gather a team and help each person get clear on their individual goals during the project work.
+- Gather/join a team and help each person get clear on their individual goals during the project work.
 - Facilitate relationship-building and development of collaborative structures among the team.
-- Help everyone design project work that is within the scope of this hackathon.
-- Lead daily standup team check-ins.
+- Co-design project work that is within the scope of this hackathon.
 
 ---
 
@@ -123,3 +122,4 @@ Helpers have knowledge of data or domain science tools and methods that they wis
 - Help participants access resources needed to address specific problems.
 - Participate in project teams and assist with technical questions.
 - Offer feedback to tutorial developers based on participant experiences with the materials.
+- Lead daily standup team check-ins.
