@@ -51,6 +51,7 @@ Each member of a team will contribute to contribute the success of the project a
 
 - Supporting all team members in getting something valuable out of their time during hackathon project work.
 - Fostering collaboration within a small team.
+- Contributing your ideas and expertise, in whatever form that is.
 
 ### Specific Activities
 
@@ -58,8 +59,6 @@ Each member of a team will contribute to contribute the success of the project a
 - Gather/join a team and help each person get clear on their individual goals during the project work.
 - Facilitate relationship-building and development of collaborative structures among the team.
 - Co-design project work that is within the scope of this hackathon.
-
----
 
 <!--
 ## What can I do to prepare in advance?
