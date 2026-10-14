@@ -35,10 +35,10 @@ website:
             text: Team
           - href: about/roles.qmd
             text: Hackathon Roles
-          - href: about/projects-overview.qmd
-            text: Projects Overview
           - text: "---"
           - text: Guides
+          - href: about/projects-overview.qmd
+            text: Projects Overview
           - href: about/mentor-guide.qmd
             text: Project Mentor Guide
           - href: about/instructor-guide.qmd
