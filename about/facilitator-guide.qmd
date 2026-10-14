@@ -1,0 +1,21 @@
+---
+title: "Facilitator Guide"
+---
+
+The facilitator role oversees the "run of show" throughout the whole Hackathon, making sure that we: 
+
+- are welcoming and inclusive
+- have technology when and where we need it
+- keep on time
+- follow Code of Conduct
+
+Additionally, this role acts as tutorial moderators.
+
+## Tutorial moderators
+ 
+- Ask tutorial presenter ahead of time if:
+   - they would like to answer questions throughout the tutorial, or hold questions until the end
+- Introduce the tutorial and tutorial presenter
+- Ask questions (if requested by the presenter) that have the most `+1` reactions
+- Keep track of time and end session on time
+
