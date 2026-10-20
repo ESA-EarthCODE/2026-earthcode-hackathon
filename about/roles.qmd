@@ -10,8 +10,8 @@ The roles described here are lightly modified from those outlined in the [eScien
 
 ## Project Mentor 
 
-The Project Mentor has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. 
-See the [Project Guide](projects-overview.qmd) for more information on projects, and the [Helper Guide](helper-guide.qmd), as project mentors will also help teams with projects. This role will primarily be Cluster Leads as well as the organizing team.
+The Project Mentor has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. Domain expertise is key during project initiation, and Mentors will use their expertise to help guide teams to shape ideas into well-defined and realistic project designs.
+See the [Project Guide](projects-overview.qmd) for more information on projects, and the [Helper Guide](helper-guide.qmd), as project mentors will also help teams with projects throughout the hackathon.
 
 ### Goals
 
