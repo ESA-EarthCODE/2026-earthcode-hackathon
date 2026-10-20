@@ -39,8 +39,8 @@ website:
           - text: Guides
           - href: about/projects-overview.qmd
             text: Projects Overview
-          - href: about/mentor-guide.qmd
-            text: Project Mentor Guide
+          - href: about/helper-guide.qmd
+            text: Project Mentor and Helper Guide
           - href: about/instructor-guide.qmd
             text: Tutorial Instructor Guide
           - href: about/facilitator-guide.qmd
