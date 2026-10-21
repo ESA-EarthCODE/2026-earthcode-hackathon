@@ -1,0 +1,268 @@
+[
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "EarthCODE Hackathon 2026",
+    "section": "About",
+    "text": "About\nWe are developing the shape and schedule of the hackathon in the open, and this website will be updated as we go. Please check back for updates!\nThe EarthCODE Hackathon will take place from 30 November – 4 December 2026 at ESA ESRIN, in Frascati, Italy. The event will provide an opportunity to bring the communities who are using EarthCODE tools and services as close as possible to the people who are building them.\nThe EarthCODE Hackathon will bring together Ocean, Carbon, and Polar scientists, experts in FAIR data and reproducible workflows and open source developers to focus on the creation and enhancement of analysis ready data collections.\nThe goals of the hackathon are to:\n\nDemonstrate how EarthCODE services support the publication and reuse of scientific data from ESA Science Clusters\nEnable learning and knowledge transfer of modern data science tools and workflows for Earth system scientists.\nPromote open access and visibility of high impact scientific datasets via dashboards and interactive viewers\nFoster collaboration between scientists and the open source developer community\nContribute to the evolution of EarthCODE services and tools\n\nHackathons are participant-driven events that strive to create welcoming spaces for participants to learn new things, build community and gain hands-on experience with collaboration and team science. During EarthCODE Hackathon 2026, we will have a combination of science lectures, coding tutorials, and group projects (pitched and chosen by participants).\n\nRegistration\nSee the registration page for more information on how to apply. We are able to provide some needs-based travel support. We welcome applications from:\n\nMembers of ESA Science Clusters, particularly addressing: Ocean, Carbon and Polar science communities.\nEarth system scientists working with Earth Observation (EO) data who want to create, reuse, or publish data collections. Polar science communities.\n\nWe especially invite early career researchers, PhD students, and post-docs!\nQuestions? Send us an email."
+  },
+  {
+    "objectID": "index.html#partners",
+    "href": "index.html#partners",
+    "title": "EarthCODE Hackathon 2026",
+    "section": "Partners",
+    "text": "Partners"
+  },
+  {
+    "objectID": "index.html#code-of-conduct",
+    "href": "index.html#code-of-conduct",
+    "title": "EarthCODE Hackathon 2026",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nThe 2026 EarthCODE Hackathon is a safe learning space and all participants are required to abide by our Code of Conduct."
+  },
+  {
+    "objectID": "registration.html",
+    "href": "registration.html",
+    "title": "Registration",
+    "section": "",
+    "text": "Registration for the EarthCODE Hackathon 2026 is now open. Register here!\n\nInformation for applicants\nThe EarthCODE Hackathon will be held from November 30 to December 4, 2026 at ESA ESRIN, Frascati, Italy. The event will provide an opportunity to bring the communities who are using EarthCODE tools and services as close as possible to the people who are building them.\nWe welcome applications from:\n\nMembers of ESA Science Clusters, particularly addressing: Ocean, Carbon and Polar science communities.\nEarth system scientists working with Earth Observation (EO) data who want to create, reuse, or publish data collections.\n\nWe especially invite early career researchers, PhD students, and post-docs!\nTo best benefit from the event, we recommend some familiarity or experience with:\n\nEarth Observation (EO) data (especially from Polar, Carbon, and Ocean Clusters, including interdisciplinary applications)\nProgramming skills using Python. We plan to accept participants with broad skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, some experience with Python, R, or a similar programming language is recommended.\nFamiliarity with Git and GitHub would be beneficial, but not required. We will provide a short tutorial on Git and GitHub during the hackathon.\n\nPlease note that if there are more applicants than we have space, priority will be given to people who work with the ESA Polar Cluster, Ocean Cluster, Carbon Cluster, ScienceHub, Phi Lab, and people who work with ESA data.\nQuestions? Send us an email.\n\n\nApplication\nIn the application form, we encourage you to think about and provide a science use case that you would like to prototype or work on. At the beginning of the hackathon, participants will be able to pitch their use case to support the formation of projects, and participants will form teams based on shared interests.\nWe are able to provide some needs-based travel support for participants who require it.\nApplications will close on October 30, 2026, at 5pm Central European Time. Accepted applicants will be notified no later than November 4, 2026. We expect to accommodate approximately 40-60 participants.\nWe have provided the registration questions below so that you can think about your answers before you start the application process.\n\n\n\n\n\n\nTipRegistration Questions\n\n\n\n\n\n\n\n\n\n\n\nNoneContact Details\n\n\n\n\n* First Name\n* Last Name\n* Organization\n* Email Address\n* Nationality\nPreferred Pronouns (optional)\n\n\n\n\n\n\n\n\n\nNoneMotivation, Interest, & Collaboration\n\n\n\nWe would like to bring together a diverse group of participants with a wide range of research interests and experience levels. Please tell us a little about yourself and why you are interested in participating in EarthCODE Hackathon 2026.\n\nESA Science Cluster\nAre you part of the Polar, Ocean, or Carbon science cluster? If so, please indicate which one (optional).\n\nOcean\nPolar\nCarbon\n\n\n\n\nResearch Group\nPlease name your research group, university and/or lab\n[textbox]\n\n\n\nIndustry/Position\nWhat is your current position?\n\nUndergraduate student\nGraduate student\nPostdoc\nFaculty\nAcademic or non-profit research staff\nIndustry\nGovernment\nOther: _______________________________\n\n\n\n\nResearch Interests\nPlease briefly describe your research and/or data interests and how participation in the EarthCODE Hackathon would impact your work. How would this Hackathon connect with your work? Do you have any ideas for what you would like to work on? (250 word limit)\n[textbox]\n\n\n\nWhy would you like to attend the EarthCODE Hackathon?\nPlease tell us why you want to participate in this program, including how participation would contribute to your long term goals. (250 word limit)\n[textbox]\n\n\n\nCollaboration and teamwork experience\nPlease tell us about your experience in collaborating with others and working in a team setting, including any hackathons or other open science events. For example, EarthCODE, ESA, Openscapes Champions, Pangeo, useR, university meetups, other groups. (100 word limit)\n[textbox]\n\n\n\nProgramming Languages\nPlease tell us what programming languages you have experience with, and a little about your programming experience. The Hackathon will involve tutorials and projects in Python, and R support during project time.\n[textbox]\n\n\n\nGit and GitHub\nDo you have experience with Git and/or GitHub? Please briefly describe.\n[textbox]\n\n\n\nWhat is your GitHub username, if you have one?\n[textbox]\n\n\n\n\n\n\n\n\n\nNoneLogistics\n\n\n\n\nAvailability\nPlease confirm you are available to participate in person at ESA-ESRIN GMT for the full week of the Hackathon. (It is ok if you need to miss one or two sessions; we record so folks can review).\n\nI confirm\n\n\n\n\nTravel Reimbursement\nTravel reimbursement is available for eligible participants and is intended to support Early Career Researchers.\nPlease indicate whether you would like to request reimbursement. Eligible participants will receive a confirmation email with all the necessary details and instructions for the reimbursement process.\nDo you require travel support?\n\nYes\nNo\n\nPlease state your reason for requesting financial support and your departure location.\n[textbox]\n\n\n\nCourtesy Bus\nESRIN is located outside of Frascati. Most people will be staying in a hotel in Frascati, and walking to ESRIN is not possible. A courtesy bus service will be organised in the morning and afternoon to transport participants from Frascati to ESRIN.\nConfirmation of the service and the detailed schedule will be provided closer to the event date.\nPlease confirm whether you would like to use the bus service:\n\nYes\nNo\n\n\n\n\nPolo Shirts\nEach participant in the EarthCODE Hackathon will be given a shirt at the event. Please select your preferred size below.\nRefer to the sizing guide: [link to size guide]\n\nS\nM\nL\nXL\nXXL\nXXXL\n\n\n\n\n\n\n\n\n\n\nNoneConsent\n\n\n\n\nCode of Conduct\nThis event will be governed by the Openscapes’ Code of Conduct (https://openscapes.org/code-of-conduct) to ensure an enjoyable and productive time for everyone. Please confirm you agree to abide by its terms:\n\n* I agree (required)\n\n\n\n\nData Processing Consent\nPlease read the following carefully to understand how the ESA Conference Bureau treats personal data received within the scope of your registration. Click here to view the Privacy Notice and Consent Form. The ESA Conference Bureau is committed to protecting and respecting your privacy while all the while carrying out its obligations arising from the organisation of this meeting.\nBy submitting your personal data, you agree to have your personal data collected and further processed as described for the purposes detailed below, allowing the ESA Conference Bureau and organisations associated with this meeting to contact you as required for the organisation and administration of the EarthCODE Hackathon.\nFor those cases where your consent was not already obtained by ESA (including by other modalities) and is required under the ESA Framework on Personal Data Protection, you agree with the collection and further processing of your personal data.\n\nI give consent\n\nYou will be able to withdraw your consent depending on the modality used to collect your personal data, in particular by sending an email to ESA DPO at: DPO@ESA.int, or the Event Organisers on events.organisation@esa.int.\n\n\n\nPhoto and Filming Consent\nESA will be taking photos and videos during the EarthCODE Hackathon.\nPlease click here to view the full Photo and Filming Data Consent for the EarthCODE Hackathon.\nDo you give your consent?\n\nYes\nNo\n\n\n\n\nI agree to be contacted for future events organised by the ESA Conference Bureau\n\nI agree to be contacted for future events organised by the ESA Conference Bureau\n\n\n\n\n\n\n\n\n\n\nNoneAnything else?\n\n\n\nA space for any other questions or information you want to share.\n[textbox]\n\n\n\n\n\nRegister here!"
+  },
+  {
+    "objectID": "about/roles.html",
+    "href": "about/roles.html",
+    "title": "Hackathon Roles",
+    "section": "",
+    "text": "There are many roles required to envision, organize, and execute a successful hackathon. This page defines roles for the planning team and helpers. Every role is expected to actively participate to support project teams. You might embed in a team. More likely you will move between teams. Take 15 minutes to sit with the team and listen. Your first goal is to get a sense of how they are doing. Are they struggling? Ask a powerful question to help understand what they need. Support them with your expertise or bring it to another Helper or Mentor who might be able to help.\nThe roles described here are lightly modified from those outlined in the eScience Hackweek Guide."
+  },
+  {
+    "objectID": "about/roles.html#project-mentor",
+    "href": "about/roles.html#project-mentor",
+    "title": "Hackathon Roles",
+    "section": "Project Mentor",
+    "text": "Project Mentor\nThe Project Mentor has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. Domain expertise is key during project initiation, and Mentors will use their expertise to help guide teams to shape ideas into well-defined and realistic project designs. See the Project Guide for more information on projects, and the Helper Guide, as project mentors will also help teams with projects throughout the hackathon.\n\nGoals\n\nCommunicating the purpose and approach of small group collaborations.\nShaping community ideas into well-defined and realistic project designs.\nCreating a welcoming space for participants to engage in project ideation and completion.\n\n\n\nSpecific Activities\n\nSuggest project ideas.\nAssemble and make sense of project ideas.\nGuide the formation of project teams on the first day of the hackathon.\nAssist individuals and teams in preparing project pitches.\nFacilitate small group collaborations during the hackathon.\nAssist teams in setting goals and sharing results.\nProvide guidance to teams who wish to remain connected after the hackathon."
+  },
+  {
+    "objectID": "about/roles.html#project-helpers",
+    "href": "about/roles.html#project-helpers",
+    "title": "Hackathon Roles",
+    "section": "Project Helpers",
+    "text": "Project Helpers\nHelpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. See the Helper Guide for more details.\n\nGoals\n\nHelping hackathon participants move past stuck points and complete learning objectives.\nIncluding all participants in the learning process.\nEmpowering learners to connect with external educational resources.\n\n\n\nSpecific Activities\n\nAnswer questions from participants during tutorials and projects.\nHelp participants access resources needed to address specific problems.\nParticipate in project teams and assist with technical questions.\nOffer feedback to tutorial developers based on participant experiences with the materials.\nLead daily standup team check-ins."
+  },
+  {
+    "objectID": "about/roles.html#community-leads",
+    "href": "about/roles.html#community-leads",
+    "title": "Hackathon Roles",
+    "section": "Community Leads",
+    "text": "Community Leads\nThe Community Leads guide the activities of community members engaged in hackathon organization and execution. This role is shared by the organizing team, with Openscapes as primary lead.\n\nGoals\n\nDesigning this hackathon, and matching the technical and scientific needs of the community.\nEnsuring everyone involved is sufficiently resourced to carry out the work.\nStrategizing on how best to implement practices of open-source science within this community.\nBuilding supportive partnerships and communities of practice before, during, and after the hackathon.\n\n\n\nSpecific Activities\n\nWork with the community to define the overarching goals of the hackathon.\nBuild a diverse, inclusive, and equitable hackathon organizing team; recruit broadly for organizers and participants.\nReview tutorial content, evaluating meeting hackathon goals, learning objectives, and community relevance.\nAttend the hackathon and be available to assist with project and tutorial work."
+  },
+  {
+    "objectID": "about/roles.html#technical-lead",
+    "href": "about/roles.html#technical-lead",
+    "title": "Hackathon Roles",
+    "section": "Technical Lead",
+    "text": "Technical Lead\nThe Technical Lead is experienced with the computational platforms that support collaboration and learning during the hackathon. This role is led by Lampata and Openscapes.\n\nGoals\n\nEmpowering hackathon organizers to follow best practices in creating open source learning materials.\nEnsuring shared hackathon tools are accessible to everyone.\nGuiding workflow development to be reproducible and deployable on multiple infrastructures.\n\n\n\nSpecific Activities\n\nSet up a shared computational environment.\nDeploy the hackathon website, and archive hackathon outcomes.\nTeach hackathon organizers how to use GitHub and the shared computational environment for planning and design of the hackathon.\nAssist tutorial leads in uploading their notebooks and sample datasets.\nHelp participants gain access to shared resources."
+  },
+  {
+    "objectID": "about/roles.html#tutorial-leads",
+    "href": "about/roles.html#tutorial-leads",
+    "title": "Hackathon Roles",
+    "section": "Tutorial Leads",
+    "text": "Tutorial Leads\nTutorial Leads use their knowledge of data science tools and methods to create online learning materials and teach tutorials during the hackathon. See the Instructor Guide for guidance. This role is led by Lampata, assisted by Openscapes.\n\nGoals\n\nFostering the learning and development of community members on topics of interest at the hackathon.\nSupporting the design of a shared open source curriculum.\n\n\n\nSpecific Activities\n\nDefine learning outcomes that are tailored to community needs.\nBuild new skills in data science pedagogy.\nOffer feedback to peers on tutorial design.\nCreate interactive tutorials in Jupyter Notebooks.\nUse GitHub to share tutorial content in an open source environment.\nTeach or assist with teaching tutorials during the hackathon."
+  },
+  {
+    "objectID": "about/facilitator-guide.html",
+    "href": "about/facilitator-guide.html",
+    "title": "Facilitator Guide",
+    "section": "",
+    "text": "The facilitator role oversees the “run of show” throughout the whole Hackathon, making sure that we:\nAdditionally, this role acts as tutorial moderators."
+  },
+  {
+    "objectID": "about/facilitator-guide.html#tutorial-moderators",
+    "href": "about/facilitator-guide.html#tutorial-moderators",
+    "title": "Facilitator Guide",
+    "section": "Tutorial moderators",
+    "text": "Tutorial moderators\n\nAsk tutorial presenter ahead of time if:\n\nthey would like to answer questions throughout the tutorial, or hold questions until the end\n\nIntroduce the tutorial and tutorial presenter\nAsk questions (if requested by the presenter) that have the most +1 reactions\nKeep track of time and end session on time"
+  },
+  {
+    "objectID": "about/team.html",
+    "href": "about/team.html",
+    "title": "Organizing Team",
+    "section": "",
+    "text": "Our organizing team is made up of people from ESA, Openscapes, Lampata, and Telespazio, we all share in the various roles it takes to organize a successful hackathon. We are committed to making this hackathon a welcoming and inclusive event for all participants, and we are excited to work with you to make this hackathon a success!\n\nAnca Anghelea (ESA): Program officer\nEwelina Dobrowolska (ESA): Program officer support, Cluster organizer\nGeraint Cooksley (Telespazio): Project manager\nAmanda Hall (Telespazio): Lead communications\nDean Summers (Lampata): Lead developer and teacher\nKrasen Samardzhiev (Lampata): Lead developer and teacher\nJulie Lowndes (Openscapes): Co-lead designer and co-facilitator\nAndy Teucher (Openscapes): Lead designer and co-facilitator\nStefanie Butland (Openscapes): Supporting designer and co-facilitator\nFrancesca Romana Cupellini (ESA Conference Bureau): Lead logistics coordinator"
+  },
+  {
+    "objectID": "presentations/lectures.html",
+    "href": "presentations/lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule (DRAFT)",
+    "section": "",
+    "text": "The schedule will be updated as we finalize the hackathon program. Please check back for updates!\nAll times listed below are UTC+1 (Central European Time).\n\nDay 1 (Monday)Day 2 (Tuesday)Day 3 (Wednesday)Day 4 (Thursday)Day 5 (Friday)\n\n\n\nTimeSessionLeads\n\n\n8:45 - 12:15Arrival & Check-inArrive, check in, and settle in ahead of the afternoon kickoff.—\n\n\n12:15 - 13:00LUNCH—\n\n\n13:00 - 13:30Welcome, Logistics & IntroductionsAnca\n\n\n13:30 - 14:15Introduction, Code of Conduct & Ice BreakerJulie\n\n\n14:15 - 15:00Intro to Clusters: Motivation, Goals, Project IdeasCluster Leads\n\n\n15:00 - 15:30Full EarthCODE Picture: Reuse and PublishDean\n\n\n15:30 - 16:30Project IdeationBrainstorm solo (10 min), with neighbors (10 min), then stickies and flip charts.Eli\n\n\n16:30 - 17:00Hackathon Resources: Compute, DatasetsDean\n\n\n17:00 - 17:45Project OrganizingEli\n\n\n18:00 - 20:00Social: Icebreaker—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 9:30Getting Set Up on the EarthCODE Platform and Open Science CatalogueDean\n\n\n9:30 - 10:00Getting Set Up on Git and GitHub for Hackathon WorkAndy\n\n\n10:00 - 10:30Project Slides—\n\n\n10:30 - 10:45BREAK—\n\n\n10:45 - 11:45Project Pitches—\n\n\n11:45 - 12:15Intro to Data CubesKrasen\n\n\n12:15 - 13:00LUNCH—\n\n\n13:00 - 13:30Intro to XarrayEli\n\n\n13:30 - 14:00Cloud Native Data Formats with ESA DataKrasen\n\n\n14:00 - 14:15BREAK—\n\n\n14:15 - 14:45Science Talk—\n\n\n14:45 - 15:45Finish Project Organization and Make Project DecisionsCreate a Git repo for each project from the template.Andy\n\n\n15:45 - 17:00Project Work—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 9:30Announcements + Project Standup—\n\n\n9:30 - 10:00Science Talk—\n\n\n10:00 - 10:15BREAK—\n\n\n10:15 - 12:15Project Work—\n\n\n12:15 - 13:00LUNCH—\n\n\n13:00 - 14:00DataVis: Examples in Scientific Data VisualizationDean\n\n\n14:00 - 14:15BREAK—\n\n\n14:15 - 15:00Favorite Tech Tool—\n\n\n15:00 - 17:00Project Work—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 9:30Announcements + Project Standup—\n\n\n9:30 - 10:00Science Talk—\n\n\n10:00 - 10:30Open Science and Reproducible WorkflowsJulie\n\n\n10:30 - 10:45BREAK—\n\n\n10:45 - 12:15Project Work—\n\n\n12:15 - 13:00LUNCH—\n\n\n13:00 - 14:00Project Work—\n\n\n14:00 - 14:15BREAK—\n\n\n14:15 - 17:00Project Presentations—\n\n\n\n\n\nTimeSessionLeads\n\n\n9:00 - 9:30Announcements + Project Standup—\n\n\n9:30 - 10:30Project Followup Planning / Popup Talks—\n\n\n10:30 - 10:45BREAK—\n\n\n10:45 - 11:15Wrap-up / Feedback Survey—\n\n\n11:15 - 12:15Discussion: Earth Science Communities—\n\n\n12:15 - 13:00LUNCH—\n\n\n\n\n\nBreakDiscussionLectureTutorialWork"
+  },
+  {
+    "objectID": "preparation/what-to-expect.html",
+    "href": "preparation/what-to-expect.html",
+    "title": "What to Expect",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "logistics.html#event-facility",
+    "href": "logistics.html#event-facility",
+    "title": "Logistics",
+    "section": "Event Facility",
+    "text": "Event Facility\nThe hackathon will be held at ESA ESRIN in Frascati, a small town 20km south of Rome, Italy. Power supply and WiFi access will be available at the venue. If you have non-European power plugs, please bring an appropriate adapter.\n\nCompute\nPlease bring your own laptop to work on at the hackathon. You will have access to the EarthCODE compute platform, which is a cloud-based environment for running Jupyter notebooks and other tools."
+  },
+  {
+    "objectID": "logistics.html#transportation",
+    "href": "logistics.html#transportation",
+    "title": "Logistics",
+    "section": "Transportation",
+    "text": "Transportation\nTravel to and from Frascati is the responsibility of the participants. The closest international airport is Rome Fiumicino (FCO), which is approximately 50km from Frascati. See Getting to ESRIN for more information on how to get to Frascati from Rome. Some travel support is available, and will be provided on a case-by-case basis. See the registration page for more information.\n\nDaily Courtesy Transport\nThe ESRIN facility is located approximately 2.5km outside Frascati. There will be a courtesy bus to take participants from Frascati to ESRIN in the morning and back to Frascati in the afternoon each day of the hackathon. The pick-up and drop-off point will be at Piazza Guglielmo Marconi."
+  },
+  {
+    "objectID": "logistics.html#accommodation",
+    "href": "logistics.html#accommodation",
+    "title": "Logistics",
+    "section": "Accommodation",
+    "text": "Accommodation\nWe recommend staying in the town of Frascati. The following is a list of hotels people often stay at when attending events at ESA ESRIN. Please note that this is not an exhaustive list, and there are many other hotels in Frascati and the surrounding area.\n\n\n\nHotel Name\nContact email\nPhone number\nWalking distance from Frascati Piazza Marconi\n\n\n\n\nHotel Bellavista Frascati\ninfo@hbellavista.it\n+39 06 5416304\n2 minutes\n\n\nHotel Cacciani\nhotel@cacciani.it\n+39 06 942 03 78\n3 minutes\n\n\nHotel Flora\ninfo@hotel-flora.it\n+39 06 9416110\n4 minutes\n\n\nHotel Colonna\nhotelcolonna@hotelcolonna.it\n+39 06 9401 8088\n4 minutes\n\n\nHotel Villa Mercede\ninfo@villamercede.com\n+39 06 9929 1979\n15 minutes (we suggest to request the shuttle service at the Hotel Reception or to book a taxi)\n\n\nGrand Hotel Villa Tuscolana\ninfo@villatuscolana.com\n+39 06 942 900\n23 minutes (we suggest to book a taxi)\n\n\nPark Hotel Villa Grazioli\ninfo@villa-grazioli.it; congressi@villa-grazioli.it\n+39 06 945400\n26 minutes (we suggest to book a taxi)\n\n\nDomus Park Hotel\ninfo@domusparkhotel.it\n+39 06 200 0100\n29 minutes (we suggest to book a taxi)"
+  },
+  {
+    "objectID": "logistics.html#food",
+    "href": "logistics.html#food",
+    "title": "Logistics",
+    "section": "Food",
+    "text": "Food\nLunch and a morning and afternoon snack/coffee will be served each day at the ESRIN canteen. On the evening of the first day, we will have an Icebreaker event at the ESRIN canteen, with non-alcoholic drinks and snacks provided. Breakfast and dinner are not provided."
+  },
+  {
+    "objectID": "preparation/checklist.html",
+    "href": "preparation/checklist.html",
+    "title": "Checklist",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "MIT License",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2026 Openscapes\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "presentations/supplementary-materials.html",
+    "href": "presentations/supplementary-materials.html",
+    "title": "Supplementary Materials",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "about/helper-guide.html",
+    "href": "about/helper-guide.html",
+    "title": "Project Mentor and Helper Guide",
+    "section": "",
+    "text": "Everyone is expected to actively participate during the hackathon to support project teams. We assign Mentor and Helper roles for project ideation & work time so that everyone – planning team and participants – know what to expect and who to ask when help is needed.\nThe Roles page has an overview of the Mentor and Helper roles, and this guide is to give you more ideas to help you effectively support teams in their projects.\nThis guide is adapted from Ocean Hackweek."
+  },
+  {
+    "objectID": "about/helper-guide.html#powerful-questions",
+    "href": "about/helper-guide.html#powerful-questions",
+    "title": "Project Mentor and Helper Guide",
+    "section": "Powerful Questions",
+    "text": "Powerful Questions\nPowerful questions are a coaching technique to help people think through what they need. They are short, open ended. Here are some that could be helpful during the hackathon:\n\nWhere do you feel like you’re stuck?\nWhat has been successful?\nWhat is unclear or fuzzy?\nWhat is your next step?\nWhat’s one thing you can let go?\nWhat do you need?\nWhat options do you have?"
+  },
+  {
+    "objectID": "about/projects-overview.html",
+    "href": "about/projects-overview.html",
+    "title": "Projects Overview",
+    "section": "",
+    "text": "This guide is adapted from Ocean Hackweek.\nCollaborative projects are a key component of the ESA EarthCODE Hackathon, in which you get to interact with others closely and apply new skills to make something exciting happen: it can be creating tools to streamline access to a particular data source, creating and visualizing new, integrated datasets, testing existing models with new data sources, or anything else you may want to do at the intersection of earth and data science.\nWe will discuss, develop and pitch projects to work on during the Hackathon."
+  },
+  {
+    "objectID": "about/projects-overview.html#tips-for-getting-started",
+    "href": "about/projects-overview.html#tips-for-getting-started",
+    "title": "Projects Overview",
+    "section": "Tips for getting started",
+    "text": "Tips for getting started\n\nPotentially choose something that you’ve been interested in but haven’t had the time or skills to do before, or something you can continue to work on post Hackathon.\nHacking is a community activity! It’s okay to choose projects that you can’t accomplish alone as other people will be there to help you, both at the Hackathon and outside of it!\nHelp your group members: you might be the person they need to solve their problem, and vice versa.\nWhen discussing, pitch your explanation to the least experienced people in the group, and you’ll end up better understanding what you’re trying to do, or need to revise your idea.\nYou can mix programming languages as needed in order to get started, but do check in with your project mentors and group members to make sure your efforts are straightforward to be absorbed into the project."
+  },
+  {
+    "objectID": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
+    "href": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
+    "title": "Projects Overview",
+    "section": "What is a good-sized project for the Hackathon?",
+    "text": "What is a good-sized project for the Hackathon?\nA good-sized project is small and aims to solve a specific problem using computational tools.\nExamples include:\n\nCreation of new datasets from existing data sources\nBuild a working demo of a new or modified algorithm\nOutline of a larger project, with some key features scoped\nVisualization of an old dataset in a new manner\nModify an algorithm and apply it to a new dataset\nCombine two pre-existing pieces of code to perform some new function\nCreate a tool to apply to work with existing code, datasets\nTransform code from one language to another to use with other tools\nUpdate old code to run faster, on new machines, and/or more efficiently\nExtend an existing project with an additional feature"
+  },
+  {
+    "objectID": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
+    "href": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
+    "title": "Projects Overview",
+    "section": "Why have projects at the ESA EarthCODE Hackathon?",
+    "text": "Why have projects at the ESA EarthCODE Hackathon?\nIncreasingly, research and software development are conducted by groups of people with diverse skills and backgrounds. We believe this collaborative work leads to more innovative solutions to complex problems. At the ESA EarthCODE Hackathon, our goal is to explore with you some of the skills needed to navigate technical and social challenges of working in these kinds of collaborative settings. We believe the best way to do so is to provide opportunities for you to gain hands-on experience in working together with others on a well-defined problem related to earth sciences."
+  },
+  {
+    "objectID": "about/projects-overview.html#how-will-the-projects-be-conducted",
+    "href": "about/projects-overview.html#how-will-the-projects-be-conducted",
+    "title": "Projects Overview",
+    "section": "How will the projects be conducted?",
+    "text": "How will the projects be conducted?\n\nOn day 1 we will facilitate the sharing of ideas and begin formation of people into small teams (2-5 people)\nOnce formed, each team will narrow in on a set of tasks and create and present a one-slide “Project Pitch”. Teams will then be able to refine their project ideas based on feedback from the other teams and mentors.\nTeams will work together on their projects for the remainder of the Hackathon, with mentors available to provide guidance and support.\nIn the afternoon of day 4, each team will present their work to the other teams and mentors. Presentations will be informal and will focus on what was accomplished, what was learned, and what the next steps are for the project.\nThe morning of day 5 will have time for teams to meet and decide on post-hackathon plans and give “pop-up” presentations if they want."
+  },
+  {
+    "objectID": "about/projects-overview.html#project-team-members",
+    "href": "about/projects-overview.html#project-team-members",
+    "title": "Projects Overview",
+    "section": "Project Team Members",
+    "text": "Project Team Members\nEach member of a team will contribute to contribute the success of the project and hackathon experience for everyone.\n\nGoals\n\nSupporting all team members in getting something valuable out of their time during hackathon project work.\nFostering collaboration within a small team.\nContributing your ideas and expertise, in whatever form that is.\n\n\n\nSpecific Activities\n\nPitch an idea for a project.\nGather/join a team and help each person get clear on their individual goals during the project work.\nFacilitate relationship-building and development of collaborative structures among the team.\nCo-design project work that is within the scope of this hackathon."
+  },
+  {
+    "objectID": "about/instructor-guide.html",
+    "href": "about/instructor-guide.html",
+    "title": "Tutorial Instructor Guide",
+    "section": "",
+    "text": "This guide is adapted from Ocean Hackweek. As tutorial instructors, we will shape tutorials with the following in mind."
+  },
+  {
+    "objectID": "about/instructor-guide.html#target-audience",
+    "href": "about/instructor-guide.html#target-audience",
+    "title": "Tutorial Instructor Guide",
+    "section": "Target Audience",
+    "text": "Target Audience\nPlease specify the target audience for this tutorial. What does the audience need to know to be able to benefit from your tutorial? Can you eliminate unnecessary prerequisites?\nHackathon participants come from diverse technical backgrounds: while some may have basic scripting experience, others may have built complex applications within their domain, and still may be completely unfamiliar with libraries used in an adjacent domain."
+  },
+  {
+    "objectID": "about/instructor-guide.html#learning-objectives",
+    "href": "about/instructor-guide.html#learning-objectives",
+    "title": "Tutorial Instructor Guide",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nPlease provide a few measurable learning objectives for your tutorial: those should be short statements of what participants will be able to do immediately after the tutorial. Consider learning objectives of varying complexity: some expect participants to be able to execute simple tasks, while others expect them to be able to develop new approaches to address a problem. You can use the Bloom’s Taxonomy categorization to structure your objectives.\nExample:\nAfter the lesson the learners will be able to\n\nOutline elements of ML pipelines\nList major differences between types of ML methods, and steps to proceed to evaluate their performance\nIdentify contexts where deep learning can be useful\nOrganize labeled datasets in a format expected by ML libraries\n\nThink about the balance of how your tutorial can be helpful to participants during the hackathon vs. afterwards throughout their careers."
+  },
+  {
+    "objectID": "about/instructor-guide.html#general-tips",
+    "href": "about/instructor-guide.html#general-tips",
+    "title": "Tutorial Instructor Guide",
+    "section": "General Tips",
+    "text": "General Tips\nThink of ways to engage the audience during the tutorial. That can also set the right tone of how much detail you need to provide. Remember the more experienced participants may be the more vocal ones so think of ways to hear from everybody without making them feel uncomfortable for not knowing a concept.\nAlthough the content of your tutorial may not seem a lot when presented as stand-alone, the participants are going through a sequence of tutorials during the week, and are also learning a lot of new things for their projects.\n\nLess is more: it is better to get through less material in a calm cadence than too much at a fast pace that can overwhelm learners.\nIf using notebooks/code, be explicit (write down and/or say out loud) whether you expect people to follow along running the cells/changing code on the fly, or they can just follow your demo, and dive into the notebook later.\nScrolling through notebooks/code can become confusing, so consider having sections in the notebook and hiding the code cells, only to reveal it when talking about a specific section\nAdd a few key points after a section\nIf there are steps for which participants need to navigate to specific places on a website, consider saving snapshots and circling the places they need to click to avoid them missing crucial steps after which they cannot navigate the lesson; pause to make sure people are at the right place\nLook through the tutorial and see what jargon/acronyms you are using:\n\nRemove the ones not crucial for the tutorial\nSpell out the ones that the participants need to know"
+  },
+  {
+    "objectID": "about/instructor-guide.html#tips-for-use-caseworkflow-presentations",
+    "href": "about/instructor-guide.html#tips-for-use-caseworkflow-presentations",
+    "title": "Tutorial Instructor Guide",
+    "section": "Tips for Use Case/Workflow Presentations",
+    "text": "Tips for Use Case/Workflow Presentations\n\nWhile preparing your presentation, identify which of its components generalize outside of the use case; state those explicitly to help listeners focus on what can be relevant to them\nShare lessons learned: what worked well, what did not"
+  },
+  {
+    "objectID": "about/instructor-guide.html#technical-setup",
+    "href": "about/instructor-guide.html#technical-setup",
+    "title": "Tutorial Instructor Guide",
+    "section": "Technical Setup",
+    "text": "Technical Setup\nThe hackathon will provide a JupyterHub environment in EarthCODE, within which participants can run any interactive tutorials. As an instructor you will have to ensure that your tutorial can run within the environment. For that you will need to:\n\nTalk to the organizing team to get added to JupyterHub\nFamiliarize yourself with the JupyterHub environment\nIdentify which packages (and corresponding versions) you will need for the tutorial and provide them to the organizing team so that they are included into an image for building the JupyterHub (those can be PyPi, conda/conda-forge, R)\nContribute your tutorial content to the tutorials repo (link TBD)\nEnsure participants have access to the datasets used in the tutorial\n\nIf there is need to store some datasets on JupyterHub, let us know!\nMake sure the datasets are reduced to a reasonable size to demonstrate the point, but not make the tutorial cumbersome to run\nIf the tutorial requires executing many expensive queries to a server, please, consider storing a local copy for the demonstration"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "Applying\n\nWhat background or skills do I need?\nWe plan to accept participants with broad skill levels and backgrounds. Some experience with Python, R, or a similar programming language is recommended, as is some familiarity with Earth Observation data. Familiarity with Git and GitHub is beneficial but not required, since we will provide a short tutorial during the hackathon.\n\n\nDo I need to come with a project or team?\nNo, however we encourage you to think of a science use case you would like to work on, and you will have an opportunity to pitch it at the start of the hackathon. Participants then form small project teams (ideally 3-5 people per team) based on shared interests and goals. ESA Cluster leads will also have suggestions for potential projects.\n\n\nCan I join the hackathon remotely?\nThe hackathon is an in-person-only event at ESA ESRIN in Frascati, Italy, and applicants are asked to confirm that they can attend in person for the full week.\n\n\nAre applicants affiliated with institutions outside ESA Member States eligible to participate in the hackathon?\nApplicants from institutions outside ESA Member States are eligible to participate. If we reach capacity, priority will be given to people participating in relevant projects as part of the ESA Science Clusters or the Earth System Science Initiative.\n\n\nWhen will I find out if I have been selected?\nApplications close on October 30, 2026 at 5pm Central European Time, and accepted applicants will be notified no later than November 4, 2026.\n\n\n\nCost and travel support\n\nIs there a cost to attend, and are meals included?\nThere is no fee for the hackathon itself. Participants are responsible for their own travel and accommodation, with some travel support available. Morning and afternoon snacks and coffee will be provided each day, along with an Icebreaker event on the evening of the first day. Lunch is available for you to purchase at the ESA canteen each day; breakfast and dinner are not provided. See the logistics page for details.\n\n\nHow does financial assistance work? If travel support is available, what does it typically cover?\nWe are able to offer needs-based travel support to a number of participants up to a maximum amount that will be reimbursed after the event - this is designed to cover typical travel and accommodation expenses for people traveling within Europe. Please describe your needs in the registration form when applying. Selected participants will be informed before they are required to confirm attendance.\n\n\nIs the needs-based travel support available to all participants, or is it restricted to applicants from Member States?\nFunding for travel support is only eligible for applicants from organizations or institutions in ESA Member States.\n\n\n\nPreparing to attend\n\nDoes on-site access to ESRIN require any additional administrative steps?\nYes, access to the ESRIN site is subject to security verifications. More information on what this looks like will be shared with selected participants.\n\n\nDo I need to bring my own laptop?\nYes, please bring your own laptop. You will have access to the EarthCODE compute platform, a cloud-based environment for running Jupyter notebooks and other tools. See the logistics page for details.\n\n\nDo you have accommodation recommendations?\nYes, please see the logistics page for recommendations."
+  }
+]
