@@ -3,15 +3,15 @@ title: "Hackathon Roles"
 ---
 
 There are many roles required to envision, organize, and execute a successful hackathon. This page defines roles for the planning team and helpers.
-While we define discrete roles here, everyone is expected to actively participate to support project teams. You might embed in a team. More likely you will be needed to move between teams as needed. Take 15 minutes to sit alongside them and listen. The idea is for you to get a sense of how they are doing. Are they struggling? Ask a powerful question to help them see what they need. Bring in someone who might be able to help, like a Technical Helper or Project Consultant.  
+Every role is expected to actively participate to support project teams. You might embed in a team. More likely you will move between teams. Take 15 minutes to sit with the team and listen. Your first goal is to get a sense of how they are doing. Are they struggling? Ask a [powerful question](helper-guide.qmd#powerful-questions) to help understand what they need. Support them with your expertise or bring it to another Helper or Mentor who might be able to help.
 
 The roles described here are lightly modified from those outlined in the [eScience Hackweek Guide](https://guidebook.hackweek.io/intro.html).
 
 
-## Project Consultant 
+## Project Mentor 
 
-The Project Consultant has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. 
-See the [Project Guide](projects-overview.qmd) for more information on projects, and the [Helper Guide](mentor-guide.qmd), as project consultants will also help teams with projects. This role will primarily be Cluster Leads as well as the organizing team.
+The Project Mentor has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. Domain expertise is key during project initiation, and Mentors will use their expertise to help guide teams to shape ideas into well-defined and realistic project designs.
+See the [Project Guide](projects-overview.qmd) for more information on projects, and the [Helper Guide](helper-guide.qmd), as project mentors will also help teams with projects throughout the hackathon.
 
 ### Goals
 
@@ -21,10 +21,10 @@ See the [Project Guide](projects-overview.qmd) for more information on projects,
 
 ### Specific Activities
 
-- Present session to participants about the goals and scope of hackathon projects.
 - Suggest project ideas.
 - Assemble and make sense of project ideas.
 - Guide the formation of project teams on the first day of the hackathon.
+- Assist individuals and teams in preparing project pitches.
 - Facilitate small group collaborations during the hackathon.
 - Assist teams in setting goals and sharing results.
 - Provide guidance to teams who wish to remain connected after the hackathon.
@@ -33,7 +33,7 @@ See the [Project Guide](projects-overview.qmd) for more information on projects,
 
 ## Project Helpers
 
-Helpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. See the [Helper Guide](mentor-guide.qmd) for more details. They can include ESA staff, community members and hackathon participants. 
+Helpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. See the [Helper Guide](helper-guide.qmd) for more details. 
 
 ### Goals
 
@@ -43,7 +43,7 @@ Helpers have knowledge of data or domain science tools and methods that they wis
 
 ### Specific Activities
 
-- Answer questions from participants during the teaching of tutorials.
+- Answer questions from participants during tutorials and projects.
 - Help participants access resources needed to address specific problems.
 - Participate in project teams and assist with technical questions.
 - Offer feedback to tutorial developers based on participant experiences with the materials.
@@ -53,7 +53,7 @@ Helpers have knowledge of data or domain science tools and methods that they wis
 
 ## Community Leads
 
-The Community Leads guide the activities of community members engaged in hackathon organization and execution. This role has been shared by the organizing team, with Openscapes as primary lead.  
+The Community Leads guide the activities of community members engaged in hackathon organization and execution. This role is shared by the organizing team, with Openscapes as primary lead.  
 
 ### Goals
 
