@@ -1,7 +1,7 @@
 ---
 title: "Hackathon Roles"
 ---
-
+ 
 There are many roles required to envision, organize, and execute a successful hackathon. This page defines roles for the planning team and helpers.
 Every role is expected to actively participate to support project teams. You might embed in a team. More likely you will move between teams. Take 15 minutes to sit with the team and listen. Your first goal is to get a sense of how they are doing. Are they struggling? Ask a [powerful question](helper-guide.qmd#powerful-questions) to help understand what they need. Support them with your expertise or bring it to another Helper or Mentor who might be able to help.
 
