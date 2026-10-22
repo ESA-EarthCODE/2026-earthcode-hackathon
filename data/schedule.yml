@@ -57,14 +57,14 @@ days:
     date: "Tuesday"
     sessions:
       - time: "9:00 - 9:30"
-        title: "Getting Set Up on Git and GitHub for Hackathon Work"
-        type: "tutorial"
-        leads: ["Andy"]
-        description: ""
-      - time: "9:30 - 10:00"
         title: "Getting Set Up on the EarthCODE Platform and Open Science Catalogue"
         type: "tutorial"
         leads: ["Dean"]
+        description: ""
+      - time: "9:30 - 10:00"
+        title: "Getting Set Up on Git and GitHub for Hackathon Work"
+        type: "tutorial"
+        leads: ["Andy"]
         description: ""
       - time: "10:00 - 10:30"
         title: "Project Slides"
