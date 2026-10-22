@@ -11,28 +11,28 @@
     "href": "about/roles.html",
     "title": "Hackathon Roles",
     "section": "",
-    "text": "There are many roles required to envision, organize, and execute a successful hackathon. This page defines roles for the planning team and helpers. While we define discrete roles here, everyone is expected to actively participate to support project teams. You might embed in a team. More likely you will be needed to move between teams as needed. Take 15 minutes to sit alongside them and listen. The idea is for you to get a sense of how they are doing. Are they struggling? Ask a powerful question to help them see what they need. Bring in someone who might be able to help, like a Technical Helper or Project Consultant.\nThe roles described here are lightly modified from those outlined in the eScience Hackweek Guide."
+    "text": "There are many roles required to envision, organize, and execute a successful hackathon. This page defines roles for the planning team and helpers. Every role is expected to actively participate to support project teams. You might embed in a team. More likely you will move between teams. Take 15 minutes to sit with the team and listen. Your first goal is to get a sense of how they are doing. Are they struggling? Ask a powerful question to help understand what they need. Support them with your expertise or bring it to another Helper or Mentor who might be able to help.\nThe roles described here are lightly modified from those outlined in the eScience Hackweek Guide."
   },
   {
-    "objectID": "about/roles.html#project-consultant",
-    "href": "about/roles.html#project-consultant",
+    "objectID": "about/roles.html#project-mentor",
+    "href": "about/roles.html#project-mentor",
     "title": "Hackathon Roles",
-    "section": "Project Consultant",
-    "text": "Project Consultant\nThe Project Consultant has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. See the Project Guide for more information on projects, and the Helper Guide, as project consultants will also help teams with projects. This role will primarily be Cluster Leads as well as the organizing team.\n\nGoals\n\nCommunicating the purpose and approach of small group collaborations.\nShaping community ideas into well-defined and realistic project designs.\nCreating a welcoming space for participants to engage in project ideation and completion.\n\n\n\nSpecific Activities\n\nPresent session to participants about the goals and scope of hackathon projects.\nSuggest project ideas.\nAssemble and make sense of project ideas.\nGuide the formation of project teams on the first day of the hackathon.\nFacilitate small group collaborations during the hackathon.\nAssist teams in setting goals and sharing results.\nProvide guidance to teams who wish to remain connected after the hackathon."
+    "section": "Project Mentor",
+    "text": "Project Mentor\nThe Project Mentor has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. Domain expertise is key during project initiation, and Mentors will use their expertise to help guide teams to shape ideas into well-defined and realistic project designs. See the Project Guide for more information on projects, and the Helper Guide, as project mentors will also help teams with projects throughout the hackathon.\n\nGoals\n\nCommunicating the purpose and approach of small group collaborations.\nShaping community ideas into well-defined and realistic project designs.\nCreating a welcoming space for participants to engage in project ideation and completion.\n\n\n\nSpecific Activities\n\nSuggest project ideas.\nAssemble and make sense of project ideas.\nGuide the formation of project teams on the first day of the hackathon.\nAssist individuals and teams in preparing project pitches.\nFacilitate small group collaborations during the hackathon.\nAssist teams in setting goals and sharing results.\nProvide guidance to teams who wish to remain connected after the hackathon."
   },
   {
     "objectID": "about/roles.html#project-helpers",
     "href": "about/roles.html#project-helpers",
     "title": "Hackathon Roles",
     "section": "Project Helpers",
-    "text": "Project Helpers\nHelpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. See the Helper Guide for more details. They can include ESA staff, community members and hackathon participants.\n\nGoals\n\nHelping hackathon participants move past stuck points and complete learning objectives.\nIncluding all participants in the learning process.\nEmpowering learners to connect with external educational resources.\n\n\n\nSpecific Activities\n\nAnswer questions from participants during the teaching of tutorials.\nHelp participants access resources needed to address specific problems.\nParticipate in project teams and assist with technical questions.\nOffer feedback to tutorial developers based on participant experiences with the materials.\nLead daily standup team check-ins."
+    "text": "Project Helpers\nHelpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. See the Helper Guide for more details.\n\nGoals\n\nHelping hackathon participants move past stuck points and complete learning objectives.\nIncluding all participants in the learning process.\nEmpowering learners to connect with external educational resources.\n\n\n\nSpecific Activities\n\nAnswer questions from participants during tutorials and projects.\nHelp participants access resources needed to address specific problems.\nParticipate in project teams and assist with technical questions.\nOffer feedback to tutorial developers based on participant experiences with the materials.\nLead daily standup team check-ins."
   },
   {
     "objectID": "about/roles.html#community-leads",
     "href": "about/roles.html#community-leads",
     "title": "Hackathon Roles",
     "section": "Community Leads",
-    "text": "Community Leads\nThe Community Leads guide the activities of community members engaged in hackathon organization and execution. This role has been shared by the organizing team, with Openscapes as primary lead.\n\nGoals\n\nDesigning this hackathon, and matching the technical and scientific needs of the community.\nEnsuring everyone involved is sufficiently resourced to carry out the work.\nStrategizing on how best to implement practices of open-source science within this community.\nBuilding supportive partnerships and communities of practice before, during, and after the hackathon.\n\n\n\nSpecific Activities\n\nWork with the community to define the overarching goals of the hackathon.\nBuild a diverse, inclusive, and equitable hackathon organizing team; recruit broadly for organizers and participants.\nReview tutorial content, evaluating meeting hackathon goals, learning objectives, and community relevance.\nAttend the hackathon and be available to assist with project and tutorial work."
+    "text": "Community Leads\nThe Community Leads guide the activities of community members engaged in hackathon organization and execution. This role is shared by the organizing team, with Openscapes as primary lead.\n\nGoals\n\nDesigning this hackathon, and matching the technical and scientific needs of the community.\nEnsuring everyone involved is sufficiently resourced to carry out the work.\nStrategizing on how best to implement practices of open-source science within this community.\nBuilding supportive partnerships and communities of practice before, during, and after the hackathon.\n\n\n\nSpecific Activities\n\nWork with the community to define the overarching goals of the hackathon.\nBuild a diverse, inclusive, and equitable hackathon organizing team; recruit broadly for organizers and participants.\nReview tutorial content, evaluating meeting hackathon goals, learning objectives, and community relevance.\nAttend the hackathon and be available to assist with project and tutorial work."
   },
   {
     "objectID": "about/roles.html#technical-lead",
@@ -49,46 +49,18 @@
     "text": "Tutorial Leads\nTutorial Leads use their knowledge of data science tools and methods to create online learning materials and teach tutorials during the hackathon. See the Instructor Guide for guidance. This role is led by Lampata, assisted by Openscapes.\n\nGoals\n\nFostering the learning and development of community members on topics of interest at the hackathon.\nSupporting the design of a shared open source curriculum.\n\n\n\nSpecific Activities\n\nDefine learning outcomes that are tailored to community needs.\nBuild new skills in data science pedagogy.\nOffer feedback to peers on tutorial design.\nCreate interactive tutorials in Jupyter Notebooks.\nUse GitHub to share tutorial content in an open source environment.\nTeach or assist with teaching tutorials during the hackathon."
   },
   {
-    "objectID": "about/projects-overview.html",
-    "href": "about/projects-overview.html",
-    "title": "Projects Overview",
+    "objectID": "about/helper-guide.html",
+    "href": "about/helper-guide.html",
+    "title": "Project Mentor and Helper Guide",
     "section": "",
-    "text": "This guide is adapted from Ocean Hackweek.\nCollaborative projects are a key component of the ESA EarthCODE Hackathon, in which you get to interact with others closely and apply new skills to make something exciting happen: it can be creating tools to streamline access to a particular data source, creating and visualizing new, integrated datasets, testing existing models with new data sources, or anything else you may want to do at the intersection of earth and data science.\nWe will discuss, develop and pitch projects to work on during the Hackathon."
+    "text": "Everyone is expected to actively participate during the hackathon to support project teams. We assign Mentor and Helper roles for project ideation & work time so that everyone – planning team and participants – know what to expect and who to ask when help is needed.\nThe Roles page has an overview of the Mentor and Helper roles, and this guide is to give you more ideas to help you effectively support teams in their projects.\nThis guide is adapted from Ocean Hackweek."
   },
   {
-    "objectID": "about/projects-overview.html#tips-for-getting-started",
-    "href": "about/projects-overview.html#tips-for-getting-started",
-    "title": "Projects Overview",
-    "section": "Tips for getting started",
-    "text": "Tips for getting started\n\nPotentially choose something that you’ve been interested in but haven’t had the time or skills to do before, or something you can continue to work on post Hackathon.\nHacking is a community activity! It’s okay to choose projects that you can’t accomplish alone as other people will be there to help you, both at the Hackathon and outside of it!\nHelp your group members: you might be the person they need to solve their problem, and vice versa.\nWhen discussing, pitch your explanation to the least experienced people in the group, and you’ll end up better understanding what you’re trying to do, or need to revise your idea.\nYou can mix programming languages as needed in order to get started, but do check in with your project mentors and group members to make sure your efforts are straightforward to be absorbed into the project."
-  },
-  {
-    "objectID": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
-    "href": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
-    "title": "Projects Overview",
-    "section": "What is a good-sized project for the Hackathon?",
-    "text": "What is a good-sized project for the Hackathon?\nA good-sized project is small and aims to solve a specific problem using computational tools.\nExamples include:\n\nCreation of new datasets from existing data sources\nBuild a working demo of a new or modified algorithm\nOutline of a larger project, with some key features scoped\nVisualization of an old dataset in a new manner\nModify an algorithm and apply it to a new dataset\nCombine two pre-existing pieces of code to perform some new function\nCreate a tool to apply to work with existing code, datasets\nTransform code from one language to another to use with other tools\nUpdate old code to run faster, on new machines, and/or more efficiently\nExtend an existing project with an additional feature"
-  },
-  {
-    "objectID": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
-    "href": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
-    "title": "Projects Overview",
-    "section": "Why have projects at the ESA EarthCODE Hackathon?",
-    "text": "Why have projects at the ESA EarthCODE Hackathon?\nIncreasingly, research and software development are conducted by groups of people with diverse skills and backgrounds. We believe this collaborative work leads to more innovative solutions to complex problems. At the ESA EarthCODE Hackathon, our goal is to explore with you some of the skills needed to navigate technical and social challenges of working in these kinds of collaborative settings. We believe the best way to do so is to provide opportunities for you to gain hands-on experience in working together with others on a well-defined problem related to earth sciences."
-  },
-  {
-    "objectID": "about/projects-overview.html#how-will-the-projects-be-conducted",
-    "href": "about/projects-overview.html#how-will-the-projects-be-conducted",
-    "title": "Projects Overview",
-    "section": "How will the projects be conducted?",
-    "text": "How will the projects be conducted?\n\nOn day 1 we will facilitate the sharing of ideas and begin formation of people into small teams (2-5 people)\nOnce formed, each team will narrow in on a set of tasks and create and present a one-slide “Project Pitch”. Teams will then be able to refine their project ideas based on feedback from the other teams and mentors.\nTeams will work together on their projects for the remainder of the Hackathon, with mentors available to provide guidance and support.\nIn the afternoon of day 4, each team will present their work to the other teams and mentors. Presentations will be informal and will focus on what was accomplished, what was learned, and what the next steps are for the project.\nThe morning of day 5 will have time for teams to meet and decide on post-hackathon plans and give “pop-up” presentations if they want."
-  },
-  {
-    "objectID": "about/projects-overview.html#project-team-members",
-    "href": "about/projects-overview.html#project-team-members",
-    "title": "Projects Overview",
-    "section": "Project Team Members",
-    "text": "Project Team Members\nEach member of a team will contribute to contribute the success of the project and hackathon experience for everyone.\n\nGoals\n\nSupporting all team members in getting something valuable out of their time during hackathon project work.\nFostering collaboration within a small team.\nContributing your ideas and expertise, in whatever form that is.\n\n\n\nSpecific Activities\n\nPitch an idea for a project.\nGather/join a team and help each person get clear on their individual goals during the project work.\nFacilitate relationship-building and development of collaborative structures among the team.\nCo-design project work that is within the scope of this hackathon."
+    "objectID": "about/helper-guide.html#powerful-questions",
+    "href": "about/helper-guide.html#powerful-questions",
+    "title": "Project Mentor and Helper Guide",
+    "section": "Powerful Questions",
+    "text": "Powerful Questions\nPowerful questions are a coaching technique to help people think through what they need. They are short, open ended. Here are some that could be helpful during the hackathon:\n\nWhere do you feel like you’re stuck?\nWhat has been successful?\nWhat is unclear or fuzzy?\nWhat is your next step?\nWhat’s one thing you can let go?\nWhat do you need?\nWhat options do you have?"
   },
   {
     "objectID": "about/instructor-guide.html",
@@ -238,11 +210,46 @@
     "text": "Our organizing team is made up of people from ESA, Openscapes, Lampata, and Telespazio, we all share in the various roles it takes to organize a successful hackathon. We are committed to making this hackathon a welcoming and inclusive event for all participants, and we are excited to work with you to make this hackathon a success!\n\nAnca Anghelea (ESA): Program officer\nEwelina Dobrowolska (ESA): Program officer support, Cluster organizer\nGeraint Cooksley (Telespazio): Project manager\nAmanda Hall (Telespazio): Lead communications\nDean Summers (Lampata): Lead developer and teacher\nKrasen Samardzhiev (Lampata): Lead developer and teacher\nJulie Lowndes (Openscapes): Co-lead designer and co-facilitator\nAndy Teucher (Openscapes): Lead designer and co-facilitator\nStefanie Butland (Openscapes): Supporting designer and co-facilitator\nFrancesca Romana Cupellini (ESA Conference Bureau): Lead logistics coordinator"
   },
   {
-    "objectID": "about/mentor-guide.html",
-    "href": "about/mentor-guide.html",
-    "title": "Project Mentor Guide",
+    "objectID": "about/projects-overview.html",
+    "href": "about/projects-overview.html",
+    "title": "Projects Overview",
     "section": "",
-    "text": "This guide is adapted from Ocean Hackweek.\n\nA project mentor can also propose a project idea and lead it. But the priority should be on enabling leadership and collaborative work by participants themselves. The project mentor shouldn’t be the center of attention.\nMonitor participation by everyone, to mitigate situations where extroverts dominate discussions or introverts don’t feel comfortable to participate. Suggest ways to rebalance participation so that everyone feels they have something to contribute.\nProvide scientific advisory support. Serve as a resource. Ideally the project will be in your broader scientific domains, but it’s not really necessary.\nProvide technical advisory support. Serve as a resource for Python, R, git/GitHub, sources of relevant data, analytical or data processing methods, etc. Help the team arrive at solutions to specific challenges.\nWhen you can’t help directly, help them seek help elsewhere in the ESA EarthCODE community. Link to other helpers or participants who may have relevant expertise.\nMaintain regular communication with project team via a Slack channel, in person (as appropriate) and GitHub issues and PR discussions.\nBe a resource for the preparation of project presentations. Make suggestions if the team is stuck because the different strands of a project are not coming together semi cleanly."
+    "text": "This guide is adapted from Ocean Hackweek.\nCollaborative projects are a key component of the ESA EarthCODE Hackathon, in which you get to interact with others closely and apply new skills to make something exciting happen: it can be creating tools to streamline access to a particular data source, creating and visualizing new, integrated datasets, testing existing models with new data sources, or anything else you may want to do at the intersection of earth and data science.\nWe will discuss, develop and pitch projects to work on during the Hackathon."
+  },
+  {
+    "objectID": "about/projects-overview.html#tips-for-getting-started",
+    "href": "about/projects-overview.html#tips-for-getting-started",
+    "title": "Projects Overview",
+    "section": "Tips for getting started",
+    "text": "Tips for getting started\n\nPotentially choose something that you’ve been interested in but haven’t had the time or skills to do before, or something you can continue to work on post Hackathon.\nHacking is a community activity! It’s okay to choose projects that you can’t accomplish alone as other people will be there to help you, both at the Hackathon and outside of it!\nHelp your group members: you might be the person they need to solve their problem, and vice versa.\nWhen discussing, pitch your explanation to the least experienced people in the group, and you’ll end up better understanding what you’re trying to do, or need to revise your idea.\nYou can mix programming languages as needed in order to get started, but do check in with your project mentors and group members to make sure your efforts are straightforward to be absorbed into the project."
+  },
+  {
+    "objectID": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
+    "href": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
+    "title": "Projects Overview",
+    "section": "What is a good-sized project for the Hackathon?",
+    "text": "What is a good-sized project for the Hackathon?\nA good-sized project is small and aims to solve a specific problem using computational tools.\nExamples include:\n\nCreation of new datasets from existing data sources\nBuild a working demo of a new or modified algorithm\nOutline of a larger project, with some key features scoped\nVisualization of an old dataset in a new manner\nModify an algorithm and apply it to a new dataset\nCombine two pre-existing pieces of code to perform some new function\nCreate a tool to apply to work with existing code, datasets\nTransform code from one language to another to use with other tools\nUpdate old code to run faster, on new machines, and/or more efficiently\nExtend an existing project with an additional feature"
+  },
+  {
+    "objectID": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
+    "href": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
+    "title": "Projects Overview",
+    "section": "Why have projects at the ESA EarthCODE Hackathon?",
+    "text": "Why have projects at the ESA EarthCODE Hackathon?\nIncreasingly, research and software development are conducted by groups of people with diverse skills and backgrounds. We believe this collaborative work leads to more innovative solutions to complex problems. At the ESA EarthCODE Hackathon, our goal is to explore with you some of the skills needed to navigate technical and social challenges of working in these kinds of collaborative settings. We believe the best way to do so is to provide opportunities for you to gain hands-on experience in working together with others on a well-defined problem related to earth sciences."
+  },
+  {
+    "objectID": "about/projects-overview.html#how-will-the-projects-be-conducted",
+    "href": "about/projects-overview.html#how-will-the-projects-be-conducted",
+    "title": "Projects Overview",
+    "section": "How will the projects be conducted?",
+    "text": "How will the projects be conducted?\n\nOn day 1 we will facilitate the sharing of ideas and begin formation of people into small teams (2-5 people)\nOnce formed, each team will narrow in on a set of tasks and create and present a one-slide “Project Pitch”. Teams will then be able to refine their project ideas based on feedback from the other teams and mentors.\nTeams will work together on their projects for the remainder of the Hackathon, with mentors available to provide guidance and support.\nIn the afternoon of day 4, each team will present their work to the other teams and mentors. Presentations will be informal and will focus on what was accomplished, what was learned, and what the next steps are for the project.\nThe morning of day 5 will have time for teams to meet and decide on post-hackathon plans and give “pop-up” presentations if they want."
+  },
+  {
+    "objectID": "about/projects-overview.html#project-team-members",
+    "href": "about/projects-overview.html#project-team-members",
+    "title": "Projects Overview",
+    "section": "Project Team Members",
+    "text": "Project Team Members\nEach member of a team will contribute to contribute the success of the project and hackathon experience for everyone.\n\nGoals\n\nSupporting all team members in getting something valuable out of their time during hackathon project work.\nFostering collaboration within a small team.\nContributing your ideas and expertise, in whatever form that is.\n\n\n\nSpecific Activities\n\nPitch an idea for a project.\nGather/join a team and help each person get clear on their individual goals during the project work.\nFacilitate relationship-building and development of collaborative structures among the team.\nCo-design project work that is within the scope of this hackathon."
   },
   {
     "objectID": "about/facilitator-guide.html",
