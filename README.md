@@ -1,6 +1,6 @@
 # EarthCODE Hackathon 2026
 
-Source for the [EarthCODE Hackathon 2026](https://esa-earthcode.github.io/) website — a [Quarto](https://quarto.org/) website with the event's schedule, logistics, and supporting pages.
+Source for the [EarthCODE Hackathon 2026](https://esa-earthcode.github.io/) website — a [Quarto](https://quarto.org/) website with the event's schedule, logistics, and supporting pages. 
 
 ## Project structure
 
