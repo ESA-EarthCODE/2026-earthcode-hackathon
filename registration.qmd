@@ -2,8 +2,14 @@
 title: "Registration"
 ---
 
-Registration for the EarthCODE Hackathon 2026 **is now open**.
-[Register here](https://nikal.eventsair.com/earthcode-hackathon/registration-portal/)!
+::: {.callout-important}
+
+Registration for EarthCODE Hackathon 2026 **is closed as of Oct 30, 2026**.
+
+If you applied, you will hear from us the week of Nov 3 whether or not your application was accepted, and if you are approved for travel funding. 
+
+:::
+
 
 ### Information for applicants
 
