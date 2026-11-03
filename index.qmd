@@ -34,6 +34,13 @@ During EarthCODE Hackathon 2026, we will have a combination of science lectures,
 
 ### Registration
 
+::: {.callout-important}
+
+**Registration closed as of Oct 30, 2026**
+
+:::
+
+
 See the [registration page](registration.qmd) for more information on how to apply.
 We are able to provide some needs-based travel support.
 We welcome applications from:
