@@ -6,7 +6,7 @@ Everyone is expected to actively participate during the hackathon to support pro
 
 The [Roles](roles.qmd) page has an overview of the Mentor and Helper roles, and this guide is to give you more ideas to help you effectively support teams in their projects.
 
-This guide is adapted from [Ocean Hackweek](https://oceanhackweek.org/resources/organizing/project-mentor-guide.html). 
+This guide is adapted from [Ocean Hackweek](https://oceanhackweek.org/resources/organizing/project-mentor-guide.html) and the University of Washington eScience Institute [Hackweek Guide](https://guidebook.hackweek.io/training/projects/project-during.html). 
 
 - Project Mentors will be very active in the project ideation, pitching, and organization phase, and can even propose project ideas. Once projects get underway the priority for both Mentors and Helpers should be on enabling leadership and collaborative work by participants themselves. The project mentor shouldn't be the center of attention.
 - Monitor participation by *everyone*, to mitigate situations where extroverts dominate discussions or introverts don't feel comfortable to participate. Suggest ways to rebalance participation so that everyone feels they have something to contribute.
@@ -28,5 +28,11 @@ Powerful questions are a coaching technique to help people think through what th
 - What do you need?
 - What options do you have?
 
+## Daily Standups
 
+Each morning teams will have a short (15 minute) "standup" meeting. During these meetings, each team member is given a minute or so to briefly share 1) progress they have made on their tasks, 2) anything preventing progress, and 3) what they plan on working on next.
 
+The goal of these "standups" is to make sure everyone has the resources and support they need to achieve their hackathon goals - it can be hard to ask for help when you're working with a new team!
+
+As a helper, you can lead or help facilitate these meetings by asking the questions to each team member,
+and ensure each person has a chance to provide their update. Listen for things another teammate, you, or another helper can do to help people get unstuck. The goal of these is not to get into the details of a problem or "solutioneering", but to identify things to work on during project time.
