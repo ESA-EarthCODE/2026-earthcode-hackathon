@@ -16,22 +16,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: registration.qmd
-        text: Registration
       - href: logistics.qmd
         text: Logistics
       - href: schedule.qmd
         text: Schedule
       - href: faq.qmd
         text: FAQ
-      # - text: Preparation
-      #   menu:
-      #     - href: preparation/what-to-expect.qmd
-      #       text: What to expect
-      #     - href: preparation/checklist.qmd
-      #       text: Checklist
       - text: About
         menu:
+          - href: registration.qmd
+            text: Registration
           - href: about/team.qmd
             text: Team
           - href: about/roles.qmd
