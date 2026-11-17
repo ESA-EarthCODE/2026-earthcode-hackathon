@@ -105,6 +105,55 @@
     "text": "Technical Setup\nThe hackathon will provide a JupyterHub environment in EarthCODE, within which participants can run any interactive tutorials. As an instructor you will have to ensure that your tutorial can run within the environment. For that you will need to:\n\nTalk to the organizing team to get added to JupyterHub\nFamiliarize yourself with the JupyterHub environment\nIdentify which packages (and corresponding versions) you will need for the tutorial and provide them to the organizing team so that they are included into an image for building the JupyterHub (those can be PyPi, conda/conda-forge, R)\nContribute your tutorial content to the tutorials repo (link TBD)\nEnsure participants have access to the datasets used in the tutorial\n\nIf there is need to store some datasets on JupyterHub, let us know!\nMake sure the datasets are reduced to a reasonable size to demonstrate the point, but not make the tutorial cumbersome to run\nIf the tutorial requires executing many expensive queries to a server, please, consider storing a local copy for the demonstration"
   },
   {
+    "objectID": "resources/jupyterhubs.html",
+    "href": "resources/jupyterhubs.html",
+    "title": "JupyterHub Compute Platform",
+    "section": "",
+    "text": "During the Hackathon, all participants will have access to a JupyterHub-based shared cloud computing environment through the EarthCODE platform."
+  },
+  {
+    "objectID": "resources/jupyterhubs.html#why-are-we-using-a-shared-cloud-computing-environment",
+    "href": "resources/jupyterhubs.html#why-are-we-using-a-shared-cloud-computing-environment",
+    "title": "JupyterHub Compute Platform",
+    "section": "Why are we using a shared cloud computing environment?",
+    "text": "Why are we using a shared cloud computing environment?\nTeaching software to a diverse group of participants, each with different computers and operating systems, can be challenging. There are specific ways to configure our software for the tutorials to be successful, so it takes time to get everyone set up consistently. Our solution to this is to give everyone access to a cloud computing environment that is pre-configured for the specific software we will deploy. This cloud computing instance can be accessed from any web browser, which eliminates the need for configuring each person’s individual computer. We use JupyterHub as a way to give a Jupyter Notebook server (JupyterLab) to each person in a group. JupyterHub enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone’s individual computers.\nWe will be providing access to two different JupyterHubs available through EarthCODE. These are very similar in functionality, but each one is optimized for cloud data access for different data sources.\nWe encourage you to use these platforms for running the tutorials and for your projects. We also hope you will practice installing Python libraries locally on your laptop so that you can continue working after leaving the event."
+  },
+  {
+    "objectID": "resources/jupyterhubs.html#accessing-the-jupyterhub",
+    "href": "resources/jupyterhubs.html#accessing-the-jupyterhub",
+    "title": "JupyterHub Compute Platform",
+    "section": "Accessing the JupyterHub",
+    "text": "Accessing the JupyterHub"
+  },
+  {
+    "objectID": "resources/jupyterhubs.html#starting-up",
+    "href": "resources/jupyterhubs.html#starting-up",
+    "title": "JupyterHub Compute Platform",
+    "section": "Starting up",
+    "text": "Starting up"
+  },
+  {
+    "objectID": "resources/jupyterhubs.html#how-do-i-get-my-code-in-and-out-of-the-jupyterhub",
+    "href": "resources/jupyterhubs.html#how-do-i-get-my-code-in-and-out-of-the-jupyterhub",
+    "title": "JupyterHub Compute Platform",
+    "section": "How do I get my code in and out of the JupyterHub?",
+    "text": "How do I get my code in and out of the JupyterHub?"
+  },
+  {
+    "objectID": "resources/git-github.html",
+    "href": "resources/git-github.html",
+    "title": "Git and GitHub",
+    "section": "",
+    "text": "Git is a popular version control system that is the foundation of most open source software development. You are not required to be a Git pro in advance of this event, but come prepared to learn about it and practice! GitHub is a hosting service for Git repositories, enabling us to share code across teams in a web environment.\nWe will use Git and GitHub for collaborative work. Be sure to arrive at the Hackathon with your own GitHub account.\nYou will be added to the ESA EarthCODE Hackathon GitHub organization with your GitHub user name. This will give you access to the repositories relevant to the hackathon, and allow you to create a repository for your project in which you can collaborate with your team."
+  },
+  {
+    "objectID": "resources/git-github.html#git",
+    "href": "resources/git-github.html#git",
+    "title": "Git and GitHub",
+    "section": "Git",
+    "text": "Git"
+  },
+  {
     "objectID": "resources/git-github.html#github",
     "href": "resources/git-github.html#github",
     "title": "Git and GitHub",
