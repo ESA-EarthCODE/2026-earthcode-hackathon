@@ -6,7 +6,7 @@ title: "Logistics"
 
 ## Event Facility
 
-The hackathon will be held at [ESA ESRIN](https://www.esa.int/About_Us/ESRIN) in Frascati, a small town 20km south of Rome, Italy.
+The hackathon will be held at [ESA ESRIN](https://www.esa.int/establishment/about-us/meet-us/visit-esa/esa-esrin) in Frascati, a small town 20km south of Rome, Italy.
 Power supply and WiFi access will be available at the venue.
 If you have non-European power plugs, please bring an appropriate adapter.
 
@@ -19,7 +19,7 @@ You will have access to the [EarthCODE compute platform](https://earthcode.esa.i
 
 Travel to and from Frascati is the responsibility of the participants.
 The closest international airport is Rome Fiumicino (FCO), which is approximately 50km from Frascati.
-See [Getting to ESRIN](https://www.esa.int/About_Us/Getting_to_ESRIN) for more information on how to get to Frascati from Rome.
+See [Getting to ESRIN](https://www.esa.int/articles/about-us/getting-to-esrin) for more information on how to get to Frascati from Rome.
 Some travel support is available, and will be provided on a case-by-case basis.
 See the [registration](registration.qmd) page for more information.
 
