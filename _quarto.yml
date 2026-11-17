@@ -52,6 +52,14 @@ website:
             text: Lectures
           - href: presentations/supplementary-materials.qmd
             text: Supplementary Materials
+      - text: Resources
+        menu:
+          - href: resources/resources.qmd
+            text: Resources
+          - href: resources/git-github.qmd
+            text: Git and GitHub
+          - href: resources/jupyterhubs.qmd
+            text: JupyterHubs
       - text: Tutorials
         menu:
           - href: https://esa-earthcode.github.io/polar_hackathon/
