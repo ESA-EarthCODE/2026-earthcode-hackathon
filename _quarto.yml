@@ -6,6 +6,7 @@ execute:
 
 website:
   title: "EarthCODE Hackathon 2026"
+  favicon: img/favicon.png
   page-navigation: true
   site-url: https://esa-earthcode.github.io/2026-earthcode-hackathon
   repo-url: https://github.com/esa-earthcode/2026-earthcode-hackathon
