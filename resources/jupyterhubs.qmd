@@ -19,6 +19,8 @@ We encourage you to use these platforms for running the tutorials and for your p
 ## How do I get my code in and out of the JupyterHub?
 
 <!-- 
+## TODO: The below is from OHW, needs to be adapted for EarthCODE (or discarded)
+
 ## Before you can log in: your GitHub membership
 
 CryoCloud decides what you can access from your GitHub organization and team membership, so two things need to be true before your first login:
