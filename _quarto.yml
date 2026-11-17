@@ -20,8 +20,7 @@ website:
         text: Logistics
       - href: schedule.qmd
         text: Schedule
-      - href: faq.qmd
-        text: FAQ
+
       - text: About
         menu:
           - href: registration.qmd
@@ -40,12 +39,7 @@ website:
             text: Tutorial Instructor Guide
           - href: about/facilitator-guide.qmd
             text: Facilitator Guide
-      - text: Presentations
-        menu:
-          - href: presentations/lectures.qmd
-            text: Lectures
-          - href: presentations/supplementary-materials.qmd
-            text: Supplementary Materials
+
       - text: Resources
         menu:
           - href: resources/resources.qmd
@@ -54,6 +48,14 @@ website:
             text: Git and GitHub
           - href: resources/jupyterhubs.qmd
             text: JupyterHubs
+
+      - text: Presentations
+        menu:
+          - href: presentations/lectures.qmd
+            text: Lectures
+          - href: presentations/supplementary-materials.qmd
+            text: Supplementary Materials
+
       - text: Tutorials
         menu:
           - href: https://esa-earthcode.github.io/polar_hackathon/
@@ -62,6 +64,9 @@ website:
             text: Ocean Hackathon
           - href: https://esa-earthcode.github.io/carbon_hackathon/
             text: Carbon Hackathon
+
+      - href: faq.qmd
+        text: FAQ
 
 format:
   html:
