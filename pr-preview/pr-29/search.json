@@ -105,11 +105,11 @@
     "text": "Technical Setup\nThe hackathon will provide a JupyterHub environment in EarthCODE, within which participants can run any interactive tutorials. As an instructor you will have to ensure that your tutorial can run within the environment. For that you will need to:\n\nTalk to the organizing team to get added to JupyterHub\nFamiliarize yourself with the JupyterHub environment\nIdentify which packages (and corresponding versions) you will need for the tutorial and provide them to the organizing team so that they are included into an image for building the JupyterHub (those can be PyPi, conda/conda-forge, R)\nContribute your tutorial content to the tutorials repo (link TBD)\nEnsure participants have access to the datasets used in the tutorial\n\nIf there is need to store some datasets on JupyterHub, let us know!\nMake sure the datasets are reduced to a reasonable size to demonstrate the point, but not make the tutorial cumbersome to run\nIf the tutorial requires executing many expensive queries to a server, please, consider storing a local copy for the demonstration"
   },
   {
-    "objectID": "resources/git-github.html#jupyterhubs",
-    "href": "resources/git-github.html#jupyterhubs",
+    "objectID": "resources/git-github.html#github",
+    "href": "resources/git-github.html#github",
     "title": "Git and GitHub",
-    "section": "JupyterHubs",
-    "text": "JupyterHubs"
+    "section": "GitHub",
+    "text": "GitHub"
   },
   {
     "objectID": "registration.html",
