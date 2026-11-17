@@ -112,6 +112,13 @@
     "text": "Technical Setup\nThe hackathon will provide a JupyterHub environment in EarthCODE, within which participants can run any interactive tutorials. As an instructor you will have to ensure that your tutorial can run within the environment. For that you will need to:\n\nTalk to the organizing team to get added to JupyterHub\nFamiliarize yourself with the JupyterHub environment\nIdentify which packages (and corresponding versions) you will need for the tutorial and provide them to the organizing team so that they are included into an image for building the JupyterHub (those can be PyPi, conda/conda-forge, R)\nContribute your tutorial content to the tutorials repo (link TBD)\nEnsure participants have access to the datasets used in the tutorial\n\nIf there is need to store some datasets on JupyterHub, let us know!\nMake sure the datasets are reduced to a reasonable size to demonstrate the point, but not make the tutorial cumbersome to run\nIf the tutorial requires executing many expensive queries to a server, please, consider storing a local copy for the demonstration"
   },
   {
+    "objectID": "resources/git-github.html#jupyterhubs",
+    "href": "resources/git-github.html#jupyterhubs",
+    "title": "Git and GitHub",
+    "section": "JupyterHubs",
+    "text": "JupyterHubs"
+  },
+  {
     "objectID": "registration.html",
     "href": "registration.html",
     "title": "Registration",
@@ -124,6 +131,13 @@
     "title": "Projects Overview",
     "section": "",
     "text": "This guide is adapted from Ocean Hackweek.\nCollaborative projects are a key component of the ESA EarthCODE Hackathon, in which you get to interact with others closely and apply new skills to make something exciting happen: it can be creating tools to streamline access to a particular data source, creating and visualizing new, integrated datasets, testing existing models with new data sources, or anything else you may want to do at the intersection of earth and data science.\nWe will discuss, develop and pitch projects to work on during the Hackathon."
+  },
+  {
+    "objectID": "about/projects-overview.html#suggesting-project-ideas",
+    "href": "about/projects-overview.html#suggesting-project-ideas",
+    "title": "Projects Overview",
+    "section": "Suggesting project ideas",
+    "text": "Suggesting project ideas\nIf you have an idea for a project before the hackathon, please post your idea as an Issue in the Project Ideas GitHub repository so others can see it and discuss it. Project ideas don’t need to be fully thought-out, even a general idea or theme is a great starting point! If you see an idea that you are interested in, please comment on it to continue the discussion. We will have ample time dedicated to discussing and developing project ideas and forming teams in the first day and a half of the Hackathon."
   },
   {
     "objectID": "about/projects-overview.html#tips-for-getting-started",
