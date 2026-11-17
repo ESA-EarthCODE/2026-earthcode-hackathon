@@ -242,7 +242,7 @@
     "href": "logistics.html#event-facility",
     "title": "Logistics",
     "section": "Event Facility",
-    "text": "Event Facility\nThe hackathon will be held at ESA ESRIN in Frascati, a small town 20km south of Rome, Italy. Power supply and WiFi access will be available at the venue. If you have non-European power plugs, please bring an appropriate adapter.\n\nCompute\nPlease bring your own laptop to work on at the hackathon. You will have access to the EarthCODE compute platform, which is a cloud-based environment for running Jupyter notebooks and other tools."
+    "text": "Event Facility\nThe hackathon will be held at ESA ESRIN in Frascati, a small town 20km south of Rome, Italy. Power supply and WiFi access will be available at the venue. If you have non-European power plugs, please bring an appropriate adapter.\n\nCompute\nPlease bring your own laptop to work on at the hackathon. You will have access to JupyterHub compute platforms on EarthCODE, which is a cloud-based environment for running Jupyter notebooks and other tools."
   },
   {
     "objectID": "logistics.html#transportation",
