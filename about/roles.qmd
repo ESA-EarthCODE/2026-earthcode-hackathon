@@ -47,7 +47,7 @@ Helpers have knowledge of data or domain science tools and methods that they wis
 - Help participants access resources needed to address specific problems.
 - Participate in project teams and assist with technical questions.
 - Offer feedback to tutorial developers based on participant experiences with the materials.
-- Lead daily standup team check-ins.
+- Lead daily [standup team check-ins](helper-guide.qmd#daily-standups).
 
 ---
 

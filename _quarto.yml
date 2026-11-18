@@ -6,6 +6,7 @@ execute:
 
 website:
   title: "EarthCODE Hackathon 2026"
+  favicon: img/favicon.png
   page-navigation: true
   site-url: https://esa-earthcode.github.io/2026-earthcode-hackathon
   repo-url: https://github.com/esa-earthcode/2026-earthcode-hackathon
@@ -15,22 +16,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: registration.qmd
-        text: Registration
       - href: logistics.qmd
         text: Logistics
       - href: schedule.qmd
         text: Schedule
-      - href: faq.qmd
-        text: FAQ
-      # - text: Preparation
-      #   menu:
-      #     - href: preparation/what-to-expect.qmd
-      #       text: What to expect
-      #     - href: preparation/checklist.qmd
-      #       text: Checklist
+
       - text: About
         menu:
+          - href: registration.qmd
+            text: Registration
           - href: about/team.qmd
             text: Team
           - href: about/roles.qmd
@@ -45,12 +39,23 @@ website:
             text: Tutorial Instructor Guide
           - href: about/facilitator-guide.qmd
             text: Facilitator Guide
+
+      - text: Resources
+        menu:
+          - href: resources/resources.qmd
+            text: Resources
+          - href: resources/git-github.qmd
+            text: Git and GitHub
+          - href: resources/jupyterhubs.qmd
+            text: JupyterHubs
+
       - text: Presentations
         menu:
           - href: presentations/lectures.qmd
             text: Lectures
           - href: presentations/supplementary-materials.qmd
             text: Supplementary Materials
+
       - text: Tutorials
         menu:
           - href: https://esa-earthcode.github.io/polar_hackathon/
@@ -59,6 +64,9 @@ website:
             text: Ocean Hackathon
           - href: https://esa-earthcode.github.io/carbon_hackathon/
             text: Carbon Hackathon
+
+      - href: faq.qmd
+        text: FAQ
 
 format:
   html:

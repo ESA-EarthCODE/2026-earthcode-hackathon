@@ -8,6 +8,10 @@ Collaborative projects are a key component of the ESA EarthCODE Hackathon, in wh
 
 We will discuss, develop and pitch projects to work on during the Hackathon.
 
+## Suggesting project ideas
+
+If you have an idea for a project before the hackathon, please post your idea as an [Issue](https://github.com/esa-earthcode-hackathon/project-ideas/issues) in the [Project Ideas GitHub repository](https://github.com/esa-earthcode-hackathon/project-ideas) so others can see it and discuss it. Project ideas don't need to be fully thought-out, even a general idea or theme is a great starting point! If you see an idea that you are interested in, please comment on it to continue the discussion. We will have ample time dedicated to discussing and developing project ideas and forming teams in the first day and a half of the Hackathon.
+
 ## Tips for getting started
 
 * Potentially choose something that you've been interested in but haven't had the time or skills to do before, or something you can continue to work on post Hackathon.
