@@ -21,13 +21,6 @@
     "text": "MIT License\nCopyright (c) 2026 Openscapes\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "preparation/what-to-expect.html",
-    "href": "preparation/what-to-expect.html",
-    "title": "What to Expect",
-    "section": "",
-    "text": "Content coming soon."
-  },
-  {
     "objectID": "faq.html",
     "href": "faq.html",
     "title": "Frequently Asked Questions",
@@ -39,7 +32,7 @@
     "href": "about/helper-guide.html",
     "title": "Project Mentor and Helper Guide",
     "section": "",
-    "text": "Everyone is expected to actively participate during the hackathon to support project teams. We assign Mentor and Helper roles for project ideation & work time so that everyone – planning team and participants – know what to expect and who to ask when help is needed.\nThe Roles page has an overview of the Mentor and Helper roles, and this guide is to give you more ideas to help you effectively support teams in their projects.\nThis guide is adapted from Ocean Hackweek."
+    "text": "Everyone is expected to actively participate during the hackathon to support project teams. We assign Mentor and Helper roles for project ideation & work time so that everyone – planning team and participants – know what to expect and who to ask when help is needed.\nThe Roles page has an overview of the Mentor and Helper roles, and this guide is to give you more ideas to help you effectively support teams in their projects.\nThis guide is adapted from Ocean Hackweek and the University of Washington eScience Institute Hackweek Guide."
   },
   {
     "objectID": "about/helper-guide.html#powerful-questions",
@@ -47,6 +40,13 @@
     "title": "Project Mentor and Helper Guide",
     "section": "Powerful Questions",
     "text": "Powerful Questions\nPowerful questions are a coaching technique to help people think through what they need. They are short, open ended. Here are some that could be helpful during the hackathon:\n\nWhere do you feel like you’re stuck?\nWhat has been successful?\nWhat is unclear or fuzzy?\nWhat is your next step?\nWhat’s one thing you can let go?\nWhat do you need?\nWhat options do you have?"
+  },
+  {
+    "objectID": "about/helper-guide.html#daily-standups",
+    "href": "about/helper-guide.html#daily-standups",
+    "title": "Project Mentor and Helper Guide",
+    "section": "Daily Standups",
+    "text": "Daily Standups\nEach morning teams will have a short (15 minute) “standup” meeting. During these meetings, each team member is given a minute or so to briefly share 1) progress they have made on their tasks, 2) anything preventing progress, and 3) what they plan on working on next.\nThe goal of these “standups” is to make sure everyone has the resources and support they need to achieve their hackathon goals - it can be hard to ask for help when you’re working with a new team!\nAs a helper, you can lead or help facilitate these meetings by asking the questions to each team member, and ensure each person has a chance to provide their update. Listen for things another teammate, you, or another helper can do to help people get unstuck. The goal of these is not to get into the details of a problem or “solutioneering”, but to identify things to work on during project time."
   },
   {
     "objectID": "about/facilitator-guide.html",
@@ -105,6 +105,62 @@
     "text": "Technical Setup\nThe hackathon will provide a JupyterHub environment in EarthCODE, within which participants can run any interactive tutorials. As an instructor you will have to ensure that your tutorial can run within the environment. For that you will need to:\n\nTalk to the organizing team to get added to JupyterHub\nFamiliarize yourself with the JupyterHub environment\nIdentify which packages (and corresponding versions) you will need for the tutorial and provide them to the organizing team so that they are included into an image for building the JupyterHub (those can be PyPi, conda/conda-forge, R)\nContribute your tutorial content to the tutorials repo (link TBD)\nEnsure participants have access to the datasets used in the tutorial\n\nIf there is need to store some datasets on JupyterHub, let us know!\nMake sure the datasets are reduced to a reasonable size to demonstrate the point, but not make the tutorial cumbersome to run\nIf the tutorial requires executing many expensive queries to a server, please, consider storing a local copy for the demonstration"
   },
   {
+    "objectID": "resources/jupyterhubs.html",
+    "href": "resources/jupyterhubs.html",
+    "title": "JupyterHub Compute Platform",
+    "section": "",
+    "text": "During the Hackathon, all participants will have access to a JupyterHub-based shared cloud computing environment through the EarthCODE platform."
+  },
+  {
+    "objectID": "resources/jupyterhubs.html#why-are-we-using-a-shared-cloud-computing-environment",
+    "href": "resources/jupyterhubs.html#why-are-we-using-a-shared-cloud-computing-environment",
+    "title": "JupyterHub Compute Platform",
+    "section": "Why are we using a shared cloud computing environment?",
+    "text": "Why are we using a shared cloud computing environment?\nTeaching software to a diverse group of participants, each with different computers and operating systems, can be challenging. There are specific ways to configure our software for the tutorials to be successful, so it takes time to get everyone set up consistently. Our solution to this is to give everyone access to a cloud computing environment that is pre-configured for the specific software we will deploy. This cloud computing instance can be accessed from any web browser, which eliminates the need for configuring each person’s individual computer. We use JupyterHub as a way to give a Jupyter Notebook server (JupyterLab) to each person in a group. JupyterHub enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone’s individual computers.\nWe will be providing access to two different JupyterHubs available through EarthCODE. These are very similar in functionality, but each one is optimized for cloud data access for different data sources.\nWe encourage you to use these platforms for running the tutorials and for your projects. We also hope you will practice installing Python libraries locally on your laptop so that you can continue working after leaving the event."
+  },
+  {
+    "objectID": "resources/jupyterhubs.html#accessing-the-jupyterhub",
+    "href": "resources/jupyterhubs.html#accessing-the-jupyterhub",
+    "title": "JupyterHub Compute Platform",
+    "section": "Accessing the JupyterHub",
+    "text": "Accessing the JupyterHub"
+  },
+  {
+    "objectID": "resources/jupyterhubs.html#starting-up",
+    "href": "resources/jupyterhubs.html#starting-up",
+    "title": "JupyterHub Compute Platform",
+    "section": "Starting up",
+    "text": "Starting up"
+  },
+  {
+    "objectID": "resources/jupyterhubs.html#how-do-i-get-my-code-in-and-out-of-the-jupyterhub",
+    "href": "resources/jupyterhubs.html#how-do-i-get-my-code-in-and-out-of-the-jupyterhub",
+    "title": "JupyterHub Compute Platform",
+    "section": "How do I get my code in and out of the JupyterHub?",
+    "text": "How do I get my code in and out of the JupyterHub?"
+  },
+  {
+    "objectID": "resources/git-github.html",
+    "href": "resources/git-github.html",
+    "title": "Git and GitHub",
+    "section": "",
+    "text": "Git is a popular version control system that is the foundation of most open source software development. You are not required to be a Git pro in advance of this event, but come prepared to learn about it and practice! GitHub is a hosting service for Git repositories, enabling us to share code across teams in a web environment.\nWe will use Git and GitHub for collaborative work. Be sure to arrive at the Hackathon with your own GitHub account.\nYou will be added to the ESA EarthCODE Hackathon GitHub organization with your GitHub user name. This will give you access to the repositories relevant to the hackathon, and allow you to create a repository for your project in which you can collaborate with your team."
+  },
+  {
+    "objectID": "resources/git-github.html#git",
+    "href": "resources/git-github.html#git",
+    "title": "Git and GitHub",
+    "section": "Git",
+    "text": "Git"
+  },
+  {
+    "objectID": "resources/git-github.html#github",
+    "href": "resources/git-github.html#github",
+    "title": "Git and GitHub",
+    "section": "GitHub",
+    "text": "GitHub"
+  },
+  {
     "objectID": "registration.html",
     "href": "registration.html",
     "title": "Registration",
@@ -117,6 +173,13 @@
     "title": "Projects Overview",
     "section": "",
     "text": "This guide is adapted from Ocean Hackweek.\nCollaborative projects are a key component of the ESA EarthCODE Hackathon, in which you get to interact with others closely and apply new skills to make something exciting happen: it can be creating tools to streamline access to a particular data source, creating and visualizing new, integrated datasets, testing existing models with new data sources, or anything else you may want to do at the intersection of earth and data science.\nWe will discuss, develop and pitch projects to work on during the Hackathon."
+  },
+  {
+    "objectID": "about/projects-overview.html#suggesting-project-ideas",
+    "href": "about/projects-overview.html#suggesting-project-ideas",
+    "title": "Projects Overview",
+    "section": "Suggesting project ideas",
+    "text": "Suggesting project ideas\nIf you have an idea for a project before the hackathon, please post your idea as an Issue in the Project Ideas GitHub repository so others can see it and discuss it. Project ideas don’t need to be fully thought-out, even a general idea or theme is a great starting point! If you see an idea that you are interested in, please comment on it to continue the discussion. We will have ample time dedicated to discussing and developing project ideas and forming teams in the first day and a half of the Hackathon."
   },
   {
     "objectID": "about/projects-overview.html#tips-for-getting-started",
@@ -203,13 +266,6 @@
     "text": "Our organizing team is made up of people from ESA, Openscapes, Lampata, and Telespazio, we all share in the various roles it takes to organize a successful hackathon. We are committed to making this hackathon a welcoming and inclusive event for all participants, and we are excited to work with you to make this hackathon a success!\n\nAnca Anghelea (ESA): Program officer\nEwelina Dobrowolska (ESA): Program officer support, Cluster organizer\nGeraint Cooksley (Telespazio): Project manager\nAmanda Hall (Telespazio): Lead communications\nDean Summers (Lampata): Lead developer and teacher\nKrasen Samardzhiev (Lampata): Lead developer and teacher\nJulie Lowndes (Openscapes): Co-lead designer and co-facilitator\nAndy Teucher (Openscapes): Lead designer and co-facilitator\nStefanie Butland (Openscapes): Supporting designer and co-facilitator\nFrancesca Romana Cupellini (ESA Conference Bureau): Lead logistics coordinator"
   },
   {
-    "objectID": "preparation/checklist.html",
-    "href": "preparation/checklist.html",
-    "title": "Checklist",
-    "section": "",
-    "text": "Content coming soon."
-  },
-  {
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "EarthCODE Hackathon 2026",
@@ -235,7 +291,7 @@
     "href": "logistics.html#event-facility",
     "title": "Logistics",
     "section": "Event Facility",
-    "text": "Event Facility\nThe hackathon will be held at ESA ESRIN in Frascati, a small town 20km south of Rome, Italy. Power supply and WiFi access will be available at the venue. If you have non-European power plugs, please bring an appropriate adapter.\n\nCompute\nPlease bring your own laptop to work on at the hackathon. You will have access to the EarthCODE compute platform, which is a cloud-based environment for running Jupyter notebooks and other tools."
+    "text": "Event Facility\nThe hackathon will be held at ESA ESRIN in Frascati, a small town 20km south of Rome, Italy. Power supply and WiFi access will be available at the venue. If you have non-European power plugs, please bring an appropriate adapter.\n\nCompute\nPlease bring your own laptop to work on at the hackathon. You will have access to JupyterHub compute platforms on EarthCODE, which is a cloud-based environment for running Jupyter notebooks and other tools."
   },
   {
     "objectID": "logistics.html#transportation",
