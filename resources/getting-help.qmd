@@ -1,0 +1,23 @@
+---
+title: Getting Help
+---
+
+# Getting Help
+
+We know how overwhelming all of this information can be. Here is some guidance on asking questions and figuring out where to turn for help.
+
+Our helpers and mentors are here to support you throughout the hackathon! Browse the [Helper introduction slides](https://docs.google.com/presentation/d/e/2PACX-1vRJcS5Gtnqcgad4Hbpc5cRupvQTPHvs3gK3bEL57SWZTF6Zx6n2EyX1VBF1lmhG9PI7u8kJpPcAmCQq/pub?start=false&loop=false&delayms=3000) to get to know them and who to reach out to with your questions.
+
+You can ask anything on the Slack `#eh26-general` channel, any time. Organizers and helpers are monitoring this channel, and some of your fellow participants may be able to help you! Also, feel free to send a direct message on Slack to any of the organizers or helpers.
+
+## Online Resources
+
+We provide a number of resources to help get you started on our [Resources page](resources.qmd), including [Git and GitHub](git-github.qmd), and [JupyterHub](jupyterhubs.qmd).
+
+## Projects
+
+See the [Projects page](../about/projects-overview.qmd) for more information on how projects work, and how to get started. Feel free to post any questions in Slack.
+
+## Reporting a Code of Conduct violation
+
+Harassment and other [Code of Conduct violations](https://openscapes.org/code-of-conduct) reduce the value of the hackathon for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the instructors. You can make a report either personally or anonymously (form/contact coming soon).
