@@ -2,8 +2,6 @@
 title: Getting Help
 ---
 
-# Getting Help
-
 We know how overwhelming all of this information can be. Here is some guidance on asking questions and figuring out where to turn for help.
 
 Our helpers and mentors are here to support you throughout the hackathon! Browse the [Helper introduction slides](https://docs.google.com/presentation/d/e/2PACX-1vRJcS5Gtnqcgad4Hbpc5cRupvQTPHvs3gK3bEL57SWZTF6Zx6n2EyX1VBF1lmhG9PI7u8kJpPcAmCQq/pub?start=false&loop=false&delayms=3000) to get to know them and who to reach out to with your questions.
