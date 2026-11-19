@@ -8,55 +8,40 @@ During the Hackathon, all participants will have access to a JupyterHub-based sh
 
 Teaching software to a diverse group of participants, each with different computers and operating systems, can be challenging. There are specific ways to configure our software for the tutorials to be successful, so it takes time to get everyone set up consistently. Our solution to this is to give everyone access to a cloud computing environment that is pre-configured for the specific software we will deploy. This cloud computing instance can be accessed from any web browser, which eliminates the need for configuring each person's individual computer. We use JupyterHub as a way to give a Jupyter Notebook server ([JupyterLab](https://jupyterlab.readthedocs.io/en/stable/)) to each person in a group. JupyterHub enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone's individual computers.
 
+## Compute platforms available during the Hackathon
+
 We will be providing access to two different JupyterHubs available through EarthCODE. These are very similar in functionality, but each one is optimized for cloud data access for different data sources.
 
-We encourage you to use these platforms for running the tutorials and for your projects. We also hope you will practice installing Python libraries locally on your laptop so that you can continue working after leaving the event.
+1. **Euro Data Cube (EDC; link coming soon)** This JupyterHub is ideal for working with ocean and polar data. It is hosted on the same cloud infrastructure as the EarthCODE data (CloudFerro object storage), providing fast streaming access to these datasets.
+2. **Earth Systems Data Lab ([DeepESDL](https://deep.earthsystemdatalab.net/))** This Hub is optimized for accessing carbon-related datasets using [EO-LINCS](https://www.eo-lincs.org/).
 
-## Accessing the JupyterHub
+We encourage you to use these platforms for running the tutorials and for your projects. You can use either of the hubs available, but we recommend choosing the one that best matches the data you will be working with. We also hope you will practice installing Python libraries locally on your laptop so that you can continue working after leaving the event.
+
+### Pangeo Tools
+
+[Pangeo](https://pangeo.io/) is a community-driven ecosystem for scalable analysis of Earth and environmental data. The notebooks use several tools commonly found in Pangeo environments:
+
+- **Xarray** for labelled multidimensional arrays.
+- **STAC** for consistent discovery and description of geospatial collections.
+- **Dask** for lazy, parallel, and distributed computation.
+- **Zarr** for chunked, cloud-optimised array storage.
+- **Jupyter** for interactive and shareable workflows.
+
+Together, these tools support workflows that begin with collection discovery, read only the required data, scale when necessary, and remain reproducible.
+
+## Accessing the JupyterHubs
+
+You will log in to the JupyterHubs using your GitHub account. Once you click the login button, you will be redirected to GitHub to authorize access. An admin will then approve your GitHub user account to allow access to the JupyterHub.
 
 ## Starting up
 
-## How do I get my code in and out of the JupyterHub?
-
-<!-- 
-## TODO: The below is from OHW, needs to be adapted for EarthCODE (or discarded)
-
-## Before you can log in: your GitHub membership
-
-CryoCloud decides what you can access from your GitHub organization and team membership, so two things need to be true before your first login:
-
-1. You have **accepted the invitation** to the [OceanHackWeek GitHub organization](https://github.com/oceanhackweek).
-2. Your organization membership is **public**, so that you show up in the participants team for the current event (for OHW26, [`ohw26-participants`](https://github.com/orgs/oceanhackweek/teams/ohw26-participants)).
-
-To check the second one, find yourself on the team page above and open your own profile within the organization (a URL like `https://github.com/orgs/oceanhackweek/people/YOUR-USERNAME`). **Membership** should read `public`. 
-If it reads `private`, use the dropdown next to it to switch it to public.
-
-## How do I access the shared cloud environment?
-
-Go to [https://hub.cryointhecloud.com](https://hub.cryointhecloud.com) and sign in with GitHub.
-
-The first time you log in, GitHub will ask you to authorize `nasa-cryo-prod` (the CryoCloud deployment, run by 2i2c) to read your organization and team membership:
-
-![Authorize nasa-cryo-prod by 2i2c](../img/ohw26-cryocloud-authorize-2i2c.png)
-
-::: {.callout-important}
-## Grant access to the oceanhackweek organization
-
-On this screen, make sure **`oceanhackweek`** is granted — if it shows an `✕` with a **Grant** button next to it, click **Grant** before authorizing. CryoCloud cannot see your OceanHackWeek team membership otherwise, and your server won't have the OceanHackWeek environment available.
-:::
-
-Next you will land on the **Server Options** page, where you choose an **Environment** (the image, i.e. the set of installed software) and a **Resource Allocation** (how much RAM and CPU):
-
-![CryoCloud Server Options: Environment and Resource Allocation](../img/ohw26-cryocloud-server-options.png)
-
-- **Environment** — choose the **OceanHackWeek Python Image** for the tutorials and for most project work. If you are working in R, choose the **Py-Rocket** R image instead.
-- **Resource Allocation** — **8 GB of RAM** should be plenty for the tutorials. Pick the smallest allocation that does the job; the compute is shared and donated.
+- **Environment** — choose the appropriate environment for the tutorials and project work <!-- TODO: Add guidance on which environment to pick. How many? -->.
+- **Resource Allocation** — **8 GB of RAM** should be plenty for the tutorials. Pick the smallest allocation that does the job; the compute is shared and donated (see below for more [tips on resource management](#choosing-the-right-server-size)).
 
 You make this choice on every startup, so you can come back and pick something different later.
 
-Then click **Start**. You will see a progress bar and an event log while your server spins up:
-
-![Server starting up, pulling the OceanHackWeek image](../img/ohw26-cryocloud-server-starting.png)
+Then click **Start**. You will see a progress bar and an event log while your server spins up. 
+<!-- TODO: Add a screenshot -->
 
 ::: {.callout-note}
 ## Startup can take several minutes
@@ -64,40 +49,70 @@ Then click **Start**. You will see a progress bar and an event log while your se
 Starting a new node and pulling our environment takes a while — especially if everyone is logging in at once, such as at the beginning of a tutorial. Be patient, and don't reload repeatedly.
 :::
 
-Once things are spun up, you will be dropped into your very own cloud instance of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface (or [RStudio](https://posit.co/products/open-source/rstudio/), if you started the Py-Rocket R image).
+Once things are spun up, you will be dropped into your very own cloud instance of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface.
 
-## How do I get the tutorial repository?
+## How do I get the tutorial repositories?
 
-For the tutorials, there are two primary ways of getting the notebooks. You can use the traditional git management route ([described below](#how-do-i-get-my-code-in-and-out-of-jupyterhub)), or you can use the magical nbgitpuller link below.
+For the tutorials, there are two primary ways of getting the notebooks. You can use the traditional git management route ([described below](#how-do-i-get-my-code-in-and-out-of-jupyterhub)), or you can use the magical nbgitpuller links below.
 
-:::: {.callout-note}
-## Pull tutorial repo via the magic of nbgitpuller
-
-The nbgitpuller link is magical, but it can't detect which profile you are currently running. Either should update the (same) tutorial repo, but it may error if you use the Python link if you are actively using the R profile, or the other way around.
-
-::: {.panel-tabset}
-
-## Python
-
-[Pull tutorial repo for the Python profile](https://hub.cryointhecloud.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Foceanhackweek%2Fohw-tutorials&urlpath=lab%2Ftree%2Fohw-tutorials%2F&branch=OHW26)
-
-## R
-
-[Pull tutorial repo for the R profile](https://hub.cryointhecloud.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Foceanhackweek%2Fohw-tutorials&urlpath=rstudio%2F&branch=OHW26)
-
-:::
-
-::::
+<!-- TODO: Add nbgitpuller links for the tutorials -->
 
 Nbgitpuller is nice, because it will automatically merge any changes you make with the changes from the upstream repo on subsequent pulls (i.e., when you click the links above again) via a [series of sane rules](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html#topic-automatic-merging).
 
-You can accomplish the same results as nbgitpuller when using `git` directly, but it can take a complicated dance of `git add`, `git stash`, `git pull`, and `git stash apply` to keep your changes and get the changes from upstream.
+## How do I get my code in and out of the JupyterHub?
 
-::: {.callout-warning}
-If you start by using the `nbgitpuller` link and then switch to using git directly, or if you already have a copy of the repository in your account from a previous OHW, using the `nbgitpuller` link again will most likely lead to [unpredictable results](https://jupyterhub.github.io/nbgitpuller/#when-to-use-nbgitpuller).
+When you start your own instance of JupyterHub you will have access to your own virtual drive space. No other JupyterHub users will be able to see or access your data files. Next we will explain how you can upload files to your virtual drive space and how to save files from JupyterHub back to another location, such as GitHub or your own local laptop drive.
 
-This can be fixed by [removing, renaming, or moving the `ohw-tutorials` directory](https://imgs.xkcd.com/comics/git.png) and using nbgitpuller again.
-:::
+First we'll show you how to pull some files from GitHub into your virtual drive space.
+
+To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we will need to open a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the "File" menu, choose "New" and then "Terminal" or (2) click on the "terminal" button in JupyterLab:
+
+![terminal-button](../img/terminal-button.png)
+This will open a new terminal tab in your JupyterLab interface:
+
+![terminal-tab](../img/terminal.png)
+
+You can issue any Linux commands to manage your local file system.
+
+Now let's clone a repository (see the [Git Setup and Basics](../prep/git.md) page). We'll illustrate this with the `ohw-tutorials` repository. First, navigate in a browser on your own computer to the repository link [https://github.com/oceanhackweek/ohw-tutorials](https://github.com/oceanhackweek/ohw-tutorials). Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
+
+![clone](../img/ohw21-clone.png)
+
+Now navigate back to your command line in JupyterLab. Type `git clone` and then paste in the url:
+
+```bash
+git clone https://github.com/oceanhackweek/ohw-tutorials.git
+```
+
+After issuing the `git clone` command you should see something like this (again, the screenshot below is for a different repo, but the concept is identical):
+
+![clone-result](../img/clone-result.png
+
+
+## Choosing the right server size
+
+When you start your server, you choose a server size (for example, "~4 GB RAM, ~0.5 CPUs").
+Choosing a server that is larger than you need wastes compute resources and reduces availability for others.
+
+### Tips for choosing the right size:
+
+- **Start small.** The smallest server is enough for a lot of work, including writing code, and exploring data.
+  If you run out of memory, choose a larger instance - you will need to shut down your server (File > Hub Control Panel > Stop My Server) and launch a new one by choosing an option with more resources in the dropdown menu.
+- **Watch your memory use.** The memory indicator at the bottom of JupyterLab shows how much memory you are using.
+  If you are consistently using under half of your server's memory, try choosing a smaller size.
+  ![](images/jupyterlab-memory.png){fig-alt="JupyterLab memory usage indicator showing 287 MB of 2 GB used."}
+- If your session restarts or crashes unexpectedly while loading or processing data, you have probably run out of memory.
+  Try the next size up.
+- **Use large servers only when you need them.** If you have a short, memory intensive task, start a large server for that task, then shut it down and go back to a smaller one for the rest of your work.
+- **Shut down your server when you are done.**
+  Use **File > Hub Control Panel > Stop My Server** rather than just closing your browser tab.
+  Servers are shut down automatically after a period of inactivity, but stopping them yourself is a good idea.
+- **Work in chunks.** Processing data in smaller pieces (for example, by time step or region) or loading data lazily (e.g., with `xarray` and `dask`) often lets you use a much smaller server.
+
+<!-- 
+## TODO: The below is from OHW, needs to be adapted for EarthCODE (or discarded)
+
+
 
 
 ## How do I get my code in and out of JupyterHub?
