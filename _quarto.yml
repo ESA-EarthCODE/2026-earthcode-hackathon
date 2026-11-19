@@ -48,6 +48,8 @@ website:
             text: Git and GitHub
           - href: resources/jupyterhubs.qmd
             text: JupyterHubs
+          - href: resources/getting-help.qmd
+            text: Getting Help
 
       - text: Presentations
         menu:
