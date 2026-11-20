@@ -18,4 +18,4 @@ See the [Projects page](../about/projects-overview.qmd) for more information on 
 
 ## Reporting a Code of Conduct violation
 
-Harassment and other [Code of Conduct violations](https://openscapes.org/code-of-conduct) reduce the value of the hackathon for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the instructors. You can make a report either personally or anonymously (form/contact coming soon).
+Harassment and other [Code of Conduct violations](https://openscapes.org/code-of-conduct) reduce the value of the hackathon for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the instructors, or using the [reporting form](https://docs.google.com/forms/d/e/1FAIpQLSf9q4WrFvhz6nAKoKFgldxcY382VOBzoE3YQcLOrETj0EvM-w/viewform?usp=header).
