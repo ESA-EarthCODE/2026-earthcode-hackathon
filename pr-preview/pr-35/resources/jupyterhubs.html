@@ -82,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8594781c3ec5cca2097c922050a14265.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d0fd7081c2e4c02617bc3382c7435583.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -271,9 +271,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#starting-up" id="toc-starting-up" class="nav-link" data-scroll-target="#starting-up">Starting up</a></li>
   <li><a href="#how-do-i-get-the-tutorial-repositories" id="toc-how-do-i-get-the-tutorial-repositories" class="nav-link" data-scroll-target="#how-do-i-get-the-tutorial-repositories">How do I get the tutorial repositories?</a></li>
   <li><a href="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub" id="toc-how-do-i-get-my-code-in-and-out-of-the-jupyterhub" class="nav-link" data-scroll-target="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub">How do I get my code in and out of the JupyterHub?</a></li>
-  <li><a href="#choosing-the-right-server-size" id="toc-choosing-the-right-server-size" class="nav-link" data-scroll-target="#choosing-the-right-server-size">Choosing the right server size</a>
+  <li><a href="#tips-for-managing-server-resources" id="toc-tips-for-managing-server-resources" class="nav-link" data-scroll-target="#tips-for-managing-server-resources">Tips for managing server resources</a>
   <ul class="collapse">
-  <li><a href="#tips-for-choosing-the-right-size" id="toc-tips-for-choosing-the-right-size" class="nav-link" data-scroll-target="#tips-for-choosing-the-right-size">Tips for choosing the right size:</a></li>
+  <li><a href="#choosing-the-compute-resources-you-need" id="toc-choosing-the-compute-resources-you-need" class="nav-link" data-scroll-target="#choosing-the-compute-resources-you-need">Choosing the compute resources you need:</a></li>
+  <li><a href="#end-your-hub-session-every-day." id="toc-end-your-hub-session-every-day." class="nav-link" data-scroll-target="#end-your-hub-session-every-day.">End your Hub session every day.</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/esa-earthcode/2026-earthcode-hackathon/edit/main/resources/jupyterhubs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/esa-earthcode/2026-earthcode-hackathon/blob/main/resources/jupyterhubs.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/esa-earthcode/2026-earthcode-hackathon/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -341,7 +342,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="starting-up">Starting up</h2>
 <ul>
 <li><strong>Environment</strong> — choose the appropriate environment for the tutorials and project work <!-- TODO: Add guidance on which environment to pick. How many? -->.</li>
-<li><strong>Resource Allocation</strong> — <strong>8 GB of RAM</strong> should be plenty for the tutorials. Pick the smallest allocation that does the job; the compute is shared and donated (see below for more <a href="#choosing-the-right-server-size">tips on resource management</a>).</li>
+<li><strong>Resource Allocation</strong> — <strong>8 GB of RAM</strong> should be plenty for the tutorials. Pick the smallest allocation that does the job; the compute is shared and donated (see below for more <a href="#tips-for-managing-server-resources">tips on resource management</a>).</li>
 </ul>
 <p>You make this choice on every startup, so you can come back and pick something different later.</p>
 <p>Then click <strong>Start</strong>. You will see a progress bar and an event log while your server spins up. <!-- TODO: Add a screenshot --></p>
@@ -371,31 +372,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>When you start your own instance of JupyterHub you will have access to your own virtual drive space. No other JupyterHub users will be able to see or access your data files. Next we will explain how you can upload files to your virtual drive space and how to save files from JupyterHub back to another location, such as GitHub or your own local laptop drive.</p>
 <p>First we’ll show you how to pull some files from GitHub into your virtual drive space.</p>
 <p>To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we will need to open a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the “File” menu, choose “New” and then “Terminal” or (2) click on the “terminal” button in JupyterLab:</p>
-<p><img src="../img/terminal-button.png" class="img-fluid" alt="terminal-button"> This will open a new terminal tab in your JupyterLab interface:</p>
+<p><img src="img/terminal-button.png" class="img-fluid" alt="terminal-button"> This will open a new terminal tab in your JupyterLab interface:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../img/terminal.png" class="img-fluid figure-img"></p>
+<p><img src="img/terminal-tab.png" class="img-fluid figure-img"></p>
 <figcaption>terminal-tab</figcaption>
 </figure>
 </div>
 <p>You can issue any Linux commands to manage your local file system.</p>
-<p>Now let’s clone a repository (see the <a href="../prep/git.md">Git Setup and Basics</a> page). We’ll illustrate this with the <code>ohw-tutorials</code> repository. First, navigate in a browser on your own computer to the repository link <a href="https://github.com/oceanhackweek/ohw-tutorials">https://github.com/oceanhackweek/ohw-tutorials</a>. Next, click on the green “Code” button and then copy the url into your clipboard by clicking the copy button (clipboard icon):</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../img/ohw21-clone.png" class="img-fluid figure-img"></p>
-<figcaption>clone</figcaption>
-</figure>
-</div>
-<p>Now navigate back to your command line in JupyterLab. Type <code>git clone</code> and then paste in the url:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/oceanhackweek/ohw-tutorials.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>After issuing the <code>git clone</code> command you should see something like this (again, the screenshot below is for a different repo, but the concept is identical):</p>
-<p>![clone-result](../img/clone-result.png</p>
+<p>Now let’s clone a repository (see the <a href="../resources/git-github.html">Git Setup and Basics</a> page). We’ll illustrate this with the [placeholder] repository. First, navigate in a browser on your own computer to the repository link (TBD). Next, click on the green “Code” button and then copy the url into your clipboard by clicking the copy button (clipboard icon):</p>
+<p><img src="img/github-clone.png" class="img-fluid"></p>
+<p>Now navigate back to your terminal in JupyterLab. Type <code>git clone</code> and then paste in the url:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone <span class="pp">[</span><span class="ss">url</span><span class="pp">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This will create a new directory in your current working directory with the same name as the repository (in this case, <code>[placeholder]</code>), and download all the files from the repository into it. You can navigate into this directory using the <code>cd</code> command:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="pp">[</span><span class="ss">placeholder</span><span class="pp">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>To be able to push changes back to the repository, you will need to configure your Git credentials and have the necessary permissions for the repository. See the <a href="../resources/git-github.html">Git Setup and Basics</a> page for instructions on setting up your Git credentials.</p>
 </section>
-<section id="choosing-the-right-server-size" class="level2">
-<h2 class="anchored" data-anchor-id="choosing-the-right-server-size">Choosing the right server size</h2>
+<section id="tips-for-managing-server-resources" class="level2">
+<h2 class="anchored" data-anchor-id="tips-for-managing-server-resources">Tips for managing server resources</h2>
+<section id="choosing-the-compute-resources-you-need" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-the-compute-resources-you-need">Choosing the compute resources you need:</h3>
 <p>When you start your server, you choose a server size (for example, “~4 GB RAM, ~0.5 CPUs”). Choosing a server that is larger than you need wastes compute resources and reduces availability for others.</p>
-<section id="tips-for-choosing-the-right-size" class="level3">
-<h3 class="anchored" data-anchor-id="tips-for-choosing-the-right-size">Tips for choosing the right size:</h3>
 <ul>
 <li><strong>Start small.</strong> The smallest server is enough for a lot of work, including writing code, and exploring data. If you run out of memory, choose a larger instance - you will need to shut down your server (File &gt; Hub Control Panel &gt; Stop My Server) and launch a new one by choosing an option with more resources in the dropdown menu.</li>
 <li><strong>Watch your memory use.</strong> The memory indicator at the bottom of JupyterLab shows how much memory you are using. If you are consistently using under half of your server’s memory, try choosing a smaller size. <img src="images/jupyterlab-memory.png" class="img-fluid" alt="JupyterLab memory usage indicator showing 287 MB of 2 GB used."></li>
@@ -404,71 +401,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Shut down your server when you are done.</strong> Use <strong>File &gt; Hub Control Panel &gt; Stop My Server</strong> rather than just closing your browser tab. Servers are shut down automatically after a period of inactivity, but stopping them yourself is a good idea.</li>
 <li><strong>Work in chunks.</strong> Processing data in smaller pieces (for example, by time step or region) or loading data lazily (e.g., with <code>xarray</code> and <code>dask</code>) often lets you use a much smaller server.</li>
 </ul>
-<!-- 
-## TODO: The below is from OHW, needs to be adapted for EarthCODE (or discarded)
-
-
-
-
-## How do I get my code in and out of JupyterHub?
-
-When you start your own instance of JupyterHub you will have access to your own virtual drive space. No other JupyterHub users will be able to see or access your data files. Next we will explain how you can upload files to your virtual drive space and how to save files from JupyterHub back to another location, such as GitHub or your own local laptop drive.
-
-First we'll show you how to pull some files from GitHub into your virtual drive space.  This will be a common task during the hackweek: at the start of most tutorials we'll ask you to "clone" (make a copy of) the GitHub repository corresponding to the specific tutorial being taught into your JupyterHub drive space.
-
-To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we will need to open a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the "File" menu, choose "New" and then "Terminal" or (2) click on the "terminal" button in JupyterLab:
-
-![terminal-button](../img/terminal-button.png)
-This will open a new terminal tab in your JupyterLab interface:
-
-![terminal-tab](../img/terminal.png)
-
-You can issue any Linux commands to manage your local file system.
-
-Now let's clone a repository (see the [Git Setup and Basics](../prep/git.md) page). We'll illustrate this with the `ohw-tutorials` repository. First, navigate in a browser on your own computer to the repository link [https://github.com/oceanhackweek/ohw-tutorials](https://github.com/oceanhackweek/ohw-tutorials). Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
-
-![clone](../img/ohw21-clone.png)
-
-Now navigate back to your command line in JupyterLab. Type `git clone` and then paste in the url:
-
-```bash
-git clone https://github.com/oceanhackweek/ohw-tutorials.git
-```
-
-After issuing the `git clone` command you should see something like this (again, the screenshot below is for a different repo, but the concept is identical):
-
-![clone-result](../img/clone-result.png
-
-## End your Hub session every day. Will I lose all of my work?
-
-**When you are finished working for the day or for an extended period of time, it is important to explicitly shutdown your JupyterHub session,**
-to reduce the load on our cloud infrastructure and overall costs.
-
-**To shutdown your server:**
-
-If you are **using JupyterLab**, you access the control via `File > Hub Control Panel` menu item:
-
-![File menu with Hub Control Panel highlighted](../img/ohw26-cryocloud-hub-control-panel.png
-
-Then click **Stop My Server** in your hub control panel (which you can also reach directly at [https://hub.cryointhecloud.com/hub/home](https://hub.cryointhecloud.com/hub/home)):
-
-![Hub control panel with Stop My Server button](../img/ohw26-cryocloud-stop-server.png
-
-Note that the menu item `File > Log Out` doesn't actually shut down the server, so please follow these steps instead.
-
-::: {.callout-note}
-**You will not lose your work when shutting down the server.** Shutting down (`Stop My Server`) will **NOT**
-cause any of your work to be lost or deleted. It simply shuts down some resources.
-It would be equivalent to turning off your desktop computer at the end of the day.
-:::
-
-## References and Resources
-
-- [Why Jupyter is data scientists’ computational notebook of choice. An improved architecture and enthusiastic user base are driving uptake of the open-source web tool (Nature, 2018-10)](https://www.nature.com/articles/d41586-018-07196-1)
-- [Teaching and Learning with Jupyter](https://jupyter4edu.github.io/jupyter-edu-book/), an online open book.
-- [Getting Started with JupyterLab](https://www.blog.pythonlibrary.org/2019/02/05/getting-started-with-jupyterlab/)
-- [Jupyter Lab: Evolution of the Jupyter Notebook. An overview of JupyterLab, the next generation of the Jupyter Notebook.](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
--->
+</section>
+<section id="end-your-hub-session-every-day." class="level3">
+<h3 class="anchored" data-anchor-id="end-your-hub-session-every-day.">End your Hub session every day.</h3>
+<p><strong>When you are finished working for the day or for an extended period of time, it is important to explicitly shutdown your JupyterHub session</strong>, to reduce the load on our cloud infrastructure and overall costs.</p>
+<p><strong>To shutdown your server:</strong></p>
+<p>If you are <strong>using JupyterLab</strong>, you access the control via <code>File &gt; Hub Control Panel</code> menu item:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/eox-hub-control-panel.png" class="img-fluid figure-img"></p>
+<figcaption>File menu with Hub Control Panel highlighted</figcaption>
+</figure>
+</div>
+<p>Then click <strong>Stop My Server</strong> in your hub control panel (which you can also reach directly at <a href="https://hub.eoxhub.com/hub/home">https://hub.eoxhub.com/hub/home</a>):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/eox-hub-stop-server.png" class="img-fluid figure-img"></p>
+<figcaption>Hub control panel with Stop My Server button</figcaption>
+</figure>
+</div>
+<p>Note that the menu item <code>File &gt; Log Out</code> doesn’t actually shut down the server, so please follow these steps instead.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>You will not lose your work when shutting down the server.</strong> Shutting down (<code>Stop My Server</code>) will <strong>NOT</strong> cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day.</p>
+</div>
+</div>
 
 
 </section>
