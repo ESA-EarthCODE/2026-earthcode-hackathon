@@ -51,7 +51,7 @@ An admin will then approve your GitHub user account to allow access to the Jupyt
 ## Starting up
 
 - **Environment** — choose the appropriate environment for the tutorials and project work <!-- TODO: Add guidance on which environment to pick. How many? -->.
-- **Resource Allocation** — **8 GB of RAM** should be plenty for the tutorials. Pick the smallest allocation that does the job; the compute is shared and donated (see below for more [tips on resource management](#choosing-the-right-server-size)).
+- **Resource Allocation** — **8 GB of RAM** should be plenty for the tutorials. Pick the smallest allocation that does the job; the compute is shared and donated (see below for more [tips on resource management](#tips-for-managing-server-resources)).
 
 You make this choice on every startup, so you can come back and pick something different later.
 
@@ -82,34 +82,37 @@ First we'll show you how to pull some files from GitHub into your virtual drive 
 
 To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we will need to open a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the "File" menu, choose "New" and then "Terminal" or (2) click on the "terminal" button in JupyterLab:
 
-![terminal-button](../img/terminal-button.png)
+![terminal-button](img/terminal-button.png)
 This will open a new terminal tab in your JupyterLab interface:
 
-![terminal-tab](../img/terminal.png)
+![terminal-tab](img/terminal-tab.png)
 
 You can issue any Linux commands to manage your local file system.
 
-Now let's clone a repository (see the [Git Setup and Basics](../prep/git.md) page). We'll illustrate this with the `ohw-tutorials` repository. First, navigate in a browser on your own computer to the repository link [https://github.com/oceanhackweek/ohw-tutorials](https://github.com/oceanhackweek/ohw-tutorials). Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
+Now let's clone a repository (see the [Git Setup and Basics](git-github.qmd) page). We'll illustrate this with the [placeholder] repository. First, navigate in a browser on your own computer to the repository link (TBD). Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
 
-![clone](../img/ohw21-clone.png)
+![](img/github-clone.png)
 
-Now navigate back to your command line in JupyterLab. Type `git clone` and then paste in the url:
+Now navigate back to your terminal in JupyterLab. Type `git clone` and then paste in the url:
 
 ```bash
-git clone https://github.com/oceanhackweek/ohw-tutorials.git
+git clone [url]
 ```
 
-After issuing the `git clone` command you should see something like this (again, the screenshot below is for a different repo, but the concept is identical):
+This will create a new directory in your current working directory with the same name as the repository (in this case, `[placeholder]`), and download all the files from the repository into it. You can navigate into this directory using the `cd` command:
 
-![clone-result](../img/clone-result.png
+```bash
+cd [placeholder]
+```
 
+To be able to push changes back to the repository, you will need to configure your Git credentials and have the necessary permissions for the repository. See the [Git Setup and Basics](git-github.qmd) page for instructions on setting up your Git credentials.
 
-## Choosing the right server size
+## Tips for managing server resources
+
+### Choosing the compute resources you need:
 
 When you start your server, you choose a server size (for example, "~4 GB RAM, ~0.5 CPUs").
 Choosing a server that is larger than you need wastes compute resources and reduces availability for others.
-
-### Tips for choosing the right size:
 
 - **Start small.** The smallest server is enough for a lot of work, including writing code, and exploring data.
   If you run out of memory, choose a larger instance - you will need to shut down your server (File > Hub Control Panel > Stop My Server) and launch a new one by choosing an option with more resources in the dropdown menu.
@@ -124,55 +127,19 @@ Choosing a server that is larger than you need wastes compute resources and redu
   Servers are shut down automatically after a period of inactivity, but stopping them yourself is a good idea.
 - **Work in chunks.** Processing data in smaller pieces (for example, by time step or region) or loading data lazily (e.g., with `xarray` and `dask`) often lets you use a much smaller server.
 
-<!-- 
-## TODO: The below is from OHW, needs to be adapted for EarthCODE (or discarded)
+### End your Hub session every day.
 
-
-
-
-## How do I get my code in and out of JupyterHub?
-
-When you start your own instance of JupyterHub you will have access to your own virtual drive space. No other JupyterHub users will be able to see or access your data files. Next we will explain how you can upload files to your virtual drive space and how to save files from JupyterHub back to another location, such as GitHub or your own local laptop drive.
-
-First we'll show you how to pull some files from GitHub into your virtual drive space.  This will be a common task during the hackweek: at the start of most tutorials we'll ask you to "clone" (make a copy of) the GitHub repository corresponding to the specific tutorial being taught into your JupyterHub drive space.
-
-To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we will need to open a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the "File" menu, choose "New" and then "Terminal" or (2) click on the "terminal" button in JupyterLab:
-
-![terminal-button](../img/terminal-button.png)
-This will open a new terminal tab in your JupyterLab interface:
-
-![terminal-tab](../img/terminal.png)
-
-You can issue any Linux commands to manage your local file system.
-
-Now let's clone a repository (see the [Git Setup and Basics](../prep/git.md) page). We'll illustrate this with the `ohw-tutorials` repository. First, navigate in a browser on your own computer to the repository link [https://github.com/oceanhackweek/ohw-tutorials](https://github.com/oceanhackweek/ohw-tutorials). Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
-
-![clone](../img/ohw21-clone.png)
-
-Now navigate back to your command line in JupyterLab. Type `git clone` and then paste in the url:
-
-```bash
-git clone https://github.com/oceanhackweek/ohw-tutorials.git
-```
-
-After issuing the `git clone` command you should see something like this (again, the screenshot below is for a different repo, but the concept is identical):
-
-![clone-result](../img/clone-result.png
-
-## End your Hub session every day. Will I lose all of my work?
-
-**When you are finished working for the day or for an extended period of time, it is important to explicitly shutdown your JupyterHub session,**
-to reduce the load on our cloud infrastructure and overall costs.
+**When you are finished working for the day or for an extended period of time, it is important to explicitly shutdown your JupyterHub session**, to reduce the load on our cloud infrastructure and overall costs.
 
 **To shutdown your server:**
 
 If you are **using JupyterLab**, you access the control via `File > Hub Control Panel` menu item:
 
-![File menu with Hub Control Panel highlighted](../img/ohw26-cryocloud-hub-control-panel.png
+![File menu with Hub Control Panel highlighted](img/eox-hub-control-panel.png)
 
-Then click **Stop My Server** in your hub control panel (which you can also reach directly at [https://hub.cryointhecloud.com/hub/home](https://hub.cryointhecloud.com/hub/home)):
+Then click **Stop My Server** in your hub control panel (which you can also reach directly at [https://hub.eoxhub.com/hub/home](https://hub.eoxhub.com/hub/home)):
 
-![Hub control panel with Stop My Server button](../img/ohw26-cryocloud-stop-server.png
+![Hub control panel with Stop My Server button](img/eox-hub-stop-server.png)
 
 Note that the menu item `File > Log Out` doesn't actually shut down the server, so please follow these steps instead.
 
@@ -181,11 +148,3 @@ Note that the menu item `File > Log Out` doesn't actually shut down the server, 
 cause any of your work to be lost or deleted. It simply shuts down some resources.
 It would be equivalent to turning off your desktop computer at the end of the day.
 :::
-
-## References and Resources
-
-- [Why Jupyter is data scientists’ computational notebook of choice. An improved architecture and enthusiastic user base are driving uptake of the open-source web tool (Nature, 2018-10)](https://www.nature.com/articles/d41586-018-07196-1)
-- [Teaching and Learning with Jupyter](https://jupyter4edu.github.io/jupyter-edu-book/), an online open book.
-- [Getting Started with JupyterLab](https://www.blog.pythonlibrary.org/2019/02/05/getting-started-with-jupyterlab/)
-- [Jupyter Lab: Evolution of the Jupyter Notebook. An overview of JupyterLab, the next generation of the Jupyter Notebook.](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
--->
