@@ -12,7 +12,7 @@ Teaching software to a diverse group of participants, each with different comput
 
 We will be providing access to two different JupyterHubs available through EarthCODE. These are very similar in functionality, but each one is optimized for cloud data access for different data sources.
 
-1. **Euro Data Cube ([EDC](https://workspace.earthcode-hackathon.hub-cf.eox.at/))** This JupyterHub is ideal for working with ocean and polar data. It is hosted on the same cloud infrastructure as the EarthCODE data (CloudFerro object storage), providing fast streaming access to these datasets.
+1. **[EOx Hub](https://workspace.earthcode-hackathon.hub-cf.eox.at/)** This JupyterHub is ideal for working with ocean and polar data. It is hosted on the same cloud infrastructure as the EarthCODE data (CloudFerro object storage), providing fast streaming access to these datasets.
 2. **Earth Systems Data Lab ([DeepESDL](https://workspace.deepesdl-earthcode-hackathon-2026.deepesdl-v2.eox.at/hub))** This Hub is optimized for accessing carbon-related datasets using [EO-LINCS](https://www.eo-lincs.org/).
 
 We encourage you to use these platforms for running the tutorials and for your projects. You can use either of the hubs available, but we recommend choosing the one that best matches the data you will be working with. We also hope you will practice installing Python libraries locally on your laptop so that you can continue working after leaving the event.
