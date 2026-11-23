@@ -26,7 +26,19 @@ See the [registration](registration.qmd) page for more information.
 ### Daily Courtesy Transport  
 
 The ESRIN facility is located approximately 2.5km outside Frascati.
-There will be a courtesy bus to take participants from Frascati to ESRIN in the morning and back to Frascati in the afternoon each day of the hackathon. The pick-up and drop-off point will be at [Piazza Guglielmo Marconi](https://maps.app.goo.gl/d58MdaqwnDBaw8xf8?g_st=ic). 
+There will be a courtesy bus to take participants from Frascati to ESRIN in the morning and back to Frascati in the afternoon each day of the hackathon. The pick-up and drop-off point will be at [Piazza Guglielmo Marconi](https://maps.app.goo.gl/d58MdaqwnDBaw8xf8?g_st=ic).
+The shuttle will have an ESA-ESRIN sign. If the bus is full, a second trip will be arranged.
+
+| Date | Service | Route | Departure |
+| :---- | :---- | :---- | :---- |
+| Monday, 30 November | Evening | ESRIN → Piazza Guglielmo Marconi (Frascati) | 20:15 |
+| Tuesday, 1 December | Morning | Piazza Guglielmo Marconi (Frascati) → ESRIN | 08:00 |
+| Tuesday, 1 December | Evening | ESRIN → Piazza Guglielmo Marconi (Frascati) | 17:15 |
+| Wednesday, 2 December | Morning | Piazza Guglielmo Marconi (Frascati) → ESRIN | 08:00 |
+| Wednesday, 2 December | Evening | ESRIN → Piazza Guglielmo Marconi (Frascati) | 17:15 |
+| Thursday, 3 December | Morning | Piazza Guglielmo Marconi (Frascati) → ESRIN | 08:00 |
+| Thursday, 3 December | Evening | ESRIN → Piazza Guglielmo Marconi (Frascati) | 17:15 |
+| Friday, 4 December | Morning | Piazza Guglielmo Marconi (Frascati) → ESRIN | 08:00 |
 
 ## Accommodation
 
