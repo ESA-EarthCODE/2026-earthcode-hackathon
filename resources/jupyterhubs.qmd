@@ -19,7 +19,7 @@ We encourage you to use these platforms for running the tutorials and for your p
 
 ### Pangeo Tools
 
-[Pangeo](https://pangeo.io/) is a community-driven ecosystem for scalable analysis of Earth and environmental data. The notebooks use several tools commonly found in Pangeo environments:
+[Pangeo](https://pangeo.io/) is a community-driven ecosystem for scalable analysis of Earth and environmental data. The JupyterHubs provide an environment where you can use several tools commonly found in Pangeo environments:
 
 - **Xarray** for labelled multidimensional arrays.
 - **STAC** for consistent discovery and description of geospatial collections.
