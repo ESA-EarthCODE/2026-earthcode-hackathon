@@ -48,15 +48,20 @@ You will see a screen telling you your access is awaiting approval.
 
 An admin will then approve your GitHub user account to allow access to the JupyterHub.
 
+Once you are approved, you can log in to the platform and you will see various links and options. Click on the "JupyterHub" link, and then "Start My Server".
+
+![](img/EOx-loggedin.png)
+
 ## Starting up
 
-- **Environment** — choose the appropriate environment for the tutorials and project work <!-- TODO: Add guidance on which environment to pick. How many? -->.
-- **Resource Allocation** — **8 GB of RAM** should be plenty for the tutorials. Pick the smallest allocation that does the job; the compute is shared and donated (see below for more [tips on resource management](#tips-for-managing-server-resources)).
+- **Environment** — choose the appropriate environment for the tutorials and project work. There will typically be multiple environments available, each pre-configured with different sets of tools and libraries.
+- **Resource Allocation** — Pick the smallest allocation that does the job; the compute is shared and donated (see below for more [tips on resource management](#tips-for-managing-server-resources)).
 
 You make this choice on every startup, so you can come back and pick something different later.
 
 Then click **Start**. You will see a progress bar and an event log while your server spins up. 
-<!-- TODO: Add a screenshot -->
+
+![](img/EOx-choose-image-resources.png)
 
 ::: {.callout-note}
 ## Startup can take several minutes
@@ -64,13 +69,17 @@ Then click **Start**. You will see a progress bar and an event log while your se
 Starting a new node and pulling our environment takes a while — especially if everyone is logging in at once, such as at the beginning of a tutorial. Be patient, and don't reload repeatedly.
 :::
 
-Once things are spun up, you will be dropped into your very own cloud instance of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface.
+Once things are spun up, you will be dropped into your very own cloud instance of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface. Here you will see the "Launcher" tab, which provides quick access to opening notebooks, a terminal, and other file types.
+
+![](img/EOx-JupyterLab.png)
 
 ## How do I get the tutorial repositories?
 
-For the tutorials, there are two primary ways of getting the notebooks. You can use the traditional git management route ([described below](#how-do-i-get-my-code-in-and-out-of-jupyterhub)), or you can use the magical nbgitpuller links below.
+For the tutorials, there are two primary ways of getting the notebooks. You can use the traditional git management route ([described below](#how-do-i-get-my-code-in-and-out-of-jupyterhub)), or you can use the magical nbgitpuller links below:
 
-<!-- TODO: Add nbgitpuller links for the tutorials -->
+- [Placeholder for Tutorial 1](nbgitpuller-link-for-tutorial-1)
+- [Placeholder for Tutorial 2](nbgitpuller-link-for-tutorial-2)
+- ...
 
 Nbgitpuller is nice, because it will automatically merge any changes you make with the changes from the upstream repo on subsequent pulls (i.e., when you click the links above again) via a [series of sane rules](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html#topic-automatic-merging).
 
