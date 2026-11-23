@@ -8,6 +8,7 @@ title: "Logistics"
 
 The hackathon will be held at [ESA ESRIN](https://www.esa.int/establishment/about-us/meet-us/visit-esa/esa-esrin) in Frascati, a small town 20km south of Rome, Italy.
 Power supply and WiFi access will be available at the venue.
+Please ask at the Registration Desk for WiFi access credentials.
 If you have non-European power plugs, please bring an appropriate adapter.
 
 ### Compute
@@ -39,6 +40,11 @@ The shuttle will have an ESA-ESRIN sign. If the bus is full, a second trip will 
 | Thursday, 3 December | Morning | Piazza Guglielmo Marconi (Frascati) → ESRIN | 08:00 |
 | Thursday, 3 December | Evening | ESRIN → Piazza Guglielmo Marconi (Frascati) | 17:15 |
 | Friday, 4 December | Morning | Piazza Guglielmo Marconi (Frascati) → ESRIN | 08:00 |
+
+### Taxi
+
+If you need a taxi, please book well in advance with Professional Car Service s.n.c. at <info@professionalcarservice.com>.
+During the event, the Registration Desk can also book a taxi for you.
 
 ## Accommodation
 
