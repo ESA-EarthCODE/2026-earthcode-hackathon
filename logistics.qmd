@@ -26,7 +26,7 @@ See the [registration](registration.qmd) page for more information.
 ### Daily Courtesy Transport  
 
 The ESRIN facility is located approximately 2.5km outside Frascati.
-There will be a courtesy bus to take participants from Frascati to ESRIN in the morning and back to Frascati in the afternoon each day of the hackathon. The pick-up and drop-off point will be at [Piazza Guglielmo Marconi](https://maps.app.goo.gl/d58MdaqwnDBaw8xf8?g_st=ic).
+There will be a courtesy bus between Frascati and ESRIN on the schedule below. There is no bus to ESRIN on Monday morning, and no bus back to Frascati on Friday. The pick-up and drop-off point will be at [Piazza Guglielmo Marconi](https://maps.app.goo.gl/d58MdaqwnDBaw8xf8?g_st=ic).
 The shuttle will have an ESA-ESRIN sign. If the bus is full, a second trip will be arranged.
 
 | Date | Service | Route | Departure |
@@ -57,6 +57,7 @@ We recommend staying in the town of Frascati. The following is a list of hotels 
 
 ## Food
 
-Lunch and a morning and afternoon snack/coffee will be served each day at the ESRIN canteen.
-On the evening of the first day, we will have an Icebreaker event at the ESRIN canteen, with non-alcoholic drinks and snacks provided.
+Coffee, tea, and water will be available during breaks in the Big Hall.
+Lunch will be available in the ESRIN canteen from 12:15 to 13:00, Monday to Friday. Participants are responsible for the cost of their own meals.
+On Monday, 30 November, there will be a hosted Icebreaker Aperitif in the Big Hall from 18:00 to 20:00.
 Breakfast and dinner are not provided.
