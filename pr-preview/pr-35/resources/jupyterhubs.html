@@ -82,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d0fd7081c2e4c02617bc3382c7435583.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-17c757b14ea6910d097b621182c7298f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -316,7 +316,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>We encourage you to use these platforms for running the tutorials and for your projects. You can use either of the hubs available, but we recommend choosing the one that best matches the data you will be working with. We also hope you will practice installing Python libraries locally on your laptop so that you can continue working after leaving the event.</p>
 <section id="pangeo-tools" class="level3">
 <h3 class="anchored" data-anchor-id="pangeo-tools">Pangeo Tools</h3>
-<p><a href="https://pangeo.io/">Pangeo</a> is a community-driven ecosystem for scalable analysis of Earth and environmental data. The notebooks use several tools commonly found in Pangeo environments:</p>
+<p><a href="https://pangeo.io/">Pangeo</a> is a community-driven ecosystem for scalable analysis of Earth and environmental data. The JupyterHubs provide an environment where you can use several tools commonly found in Pangeo environments:</p>
 <ul>
 <li><strong>Xarray</strong> for labelled multidimensional arrays.</li>
 <li><strong>STAC</strong> for consistent discovery and description of geospatial collections.</li>
@@ -337,15 +337,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><img src="img/eox-t-and-c.png" class="img-fluid"> You will see a screen telling you your access is awaiting approval.</p>
 <p><img src="img/eox-awaiting-approval.png" class="img-fluid"></p>
 <p>An admin will then approve your GitHub user account to allow access to the JupyterHub.</p>
+<p>Once you are approved, you can log in to the platform and you will see various links and options. Click on the “JupyterHub” link, and then “Start My Server”.</p>
+<p><img src="img/EOx-loggedin.png" class="img-fluid"></p>
 </section>
 <section id="starting-up" class="level2">
 <h2 class="anchored" data-anchor-id="starting-up">Starting up</h2>
 <ul>
-<li><strong>Environment</strong> — choose the appropriate environment for the tutorials and project work <!-- TODO: Add guidance on which environment to pick. How many? -->.</li>
-<li><strong>Resource Allocation</strong> — <strong>8 GB of RAM</strong> should be plenty for the tutorials. Pick the smallest allocation that does the job; the compute is shared and donated (see below for more <a href="#tips-for-managing-server-resources">tips on resource management</a>).</li>
+<li><strong>Environment</strong> — choose the appropriate environment for the tutorials and project work. There will typically be multiple environments available, each pre-configured with different sets of tools and libraries.</li>
+<li><strong>Resource Allocation</strong> — Pick the smallest allocation that does the job; the compute is shared and donated (see below for more <a href="#tips-for-managing-server-resources">tips on resource management</a>).</li>
 </ul>
 <p>You make this choice on every startup, so you can come back and pick something different later.</p>
-<p>Then click <strong>Start</strong>. You will see a progress bar and an event log while your server spins up. <!-- TODO: Add a screenshot --></p>
+<p>Then click <strong>Start</strong>. You will see a progress bar and an event log while your server spins up.</p>
+<p><img src="img/EOx-choose-image-resources.png" class="img-fluid"></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -359,12 +362,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Starting a new node and pulling our environment takes a while — especially if everyone is logging in at once, such as at the beginning of a tutorial. Be patient, and don’t reload repeatedly.</p>
 </div>
 </div>
-<p>Once things are spun up, you will be dropped into your very own cloud instance of the <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> interface.</p>
+<p>Once things are spun up, you will be dropped into your very own cloud instance of the <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> interface. Here you will see the “Launcher” tab, which provides quick access to opening notebooks, a terminal, and other file types.</p>
+<p><img src="img/EOx-JupyterLab.png" class="img-fluid"></p>
 </section>
 <section id="how-do-i-get-the-tutorial-repositories" class="level2">
 <h2 class="anchored" data-anchor-id="how-do-i-get-the-tutorial-repositories">How do I get the tutorial repositories?</h2>
-<p>For the tutorials, there are two primary ways of getting the notebooks. You can use the traditional git management route (<a href="#how-do-i-get-my-code-in-and-out-of-jupyterhub">described below</a>), or you can use the magical nbgitpuller links below.</p>
-<!-- TODO: Add nbgitpuller links for the tutorials -->
+<p>For the tutorials, there are two primary ways of getting the notebooks. You can use the traditional git management route (<a href="#how-do-i-get-my-code-in-and-out-of-jupyterhub">described below</a>), or you can use the magical nbgitpuller links below:</p>
+<ul>
+<li><a href="nbgitpuller-link-for-tutorial-1">Placeholder for Tutorial 1</a></li>
+<li><a href="nbgitpuller-link-for-tutorial-2">Placeholder for Tutorial 2</a></li>
+<li>…</li>
+</ul>
 <p>Nbgitpuller is nice, because it will automatically merge any changes you make with the changes from the upstream repo on subsequent pulls (i.e., when you click the links above again) via a <a href="https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html#topic-automatic-merging">series of sane rules</a>.</p>
 </section>
 <section id="how-do-i-get-my-code-in-and-out-of-the-jupyterhub" class="level2">
