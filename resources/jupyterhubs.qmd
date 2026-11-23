@@ -127,7 +127,7 @@ Choosing a server that is larger than you need wastes compute resources and redu
   If you run out of memory, choose a larger instance - you will need to shut down your server (File > Hub Control Panel > Stop My Server) and launch a new one by choosing an option with more resources in the dropdown menu.
 - **Watch your memory use.** The memory indicator at the bottom of JupyterLab shows how much memory you are using.
   If you are consistently using under half of your server's memory, try choosing a smaller size.
-  ![](images/jupyterlab-memory.png){fig-alt="JupyterLab memory usage indicator showing 287 MB of 2 GB used."}
+  ![](img/jupyterlab-memory.png){fig-alt="JupyterLab memory usage indicator showing 287 MB of 2 GB used."}
 - If your session restarts or crashes unexpectedly while loading or processing data, you have probably run out of memory.
   Try the next size up.
 - **Use large servers only when you need them.** If you have a short, memory intensive task, start a large server for that task, then shut it down and go back to a smaller one for the rest of your work.
@@ -148,7 +148,7 @@ If you are **using JupyterLab**, you access the control via `File > Hub Control 
 
 Then click **Stop My Server** in your hub control panel (which you can also reach directly at [https://hub.eoxhub.com/hub/home](https://hub.eoxhub.com/hub/home)):
 
-![Hub control panel with Stop My Server button](img/eox-hub-stop-server.png)
+![Hub control panel with Stop My Server button](img/eox-stop-server.png)
 
 Note that the menu item `File > Log Out` doesn't actually shut down the server, so please follow these steps instead.
 
