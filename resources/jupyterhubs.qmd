@@ -59,9 +59,9 @@ Once you are approved, you can log in to the platform and you will see various l
 
 You make this choice on every startup, so you can come back and pick something different later.
 
-Then click **Start**. You will see a progress bar and an event log while your server spins up. 
-
 ![](img/EOx-choose-image-resources.png)
+
+Then click **Start**. You will see a progress bar and an event log while your server spins up. 
 
 ::: {.callout-note}
 ## Startup can take several minutes
