@@ -347,8 +347,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Resource Allocation</strong> — Pick the smallest allocation that does the job; the compute is shared and donated (see below for more <a href="#tips-for-managing-server-resources">tips on resource management</a>).</li>
 </ul>
 <p>You make this choice on every startup, so you can come back and pick something different later.</p>
-<p>Then click <strong>Start</strong>. You will see a progress bar and an event log while your server spins up.</p>
 <p><img src="img/EOx-choose-image-resources.png" class="img-fluid"></p>
+<p>Then click <strong>Start</strong>. You will see a progress bar and an event log while your server spins up.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -403,7 +403,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>When you start your server, you choose a server size (for example, “~4 GB RAM, ~0.5 CPUs”). Choosing a server that is larger than you need wastes compute resources and reduces availability for others.</p>
 <ul>
 <li><strong>Start small.</strong> The smallest server is enough for a lot of work, including writing code, and exploring data. If you run out of memory, choose a larger instance - you will need to shut down your server (File &gt; Hub Control Panel &gt; Stop My Server) and launch a new one by choosing an option with more resources in the dropdown menu.</li>
-<li><strong>Watch your memory use.</strong> The memory indicator at the bottom of JupyterLab shows how much memory you are using. If you are consistently using under half of your server’s memory, try choosing a smaller size. <img src="images/jupyterlab-memory.png" class="img-fluid" alt="JupyterLab memory usage indicator showing 287 MB of 2 GB used."></li>
+<li><strong>Watch your memory use.</strong> The memory indicator at the bottom of JupyterLab shows how much memory you are using. If you are consistently using under half of your server’s memory, try choosing a smaller size. <img src="img/jupyterlab-memory.png" class="img-fluid" alt="JupyterLab memory usage indicator showing 287 MB of 2 GB used."></li>
 <li>If your session restarts or crashes unexpectedly while loading or processing data, you have probably run out of memory. Try the next size up.</li>
 <li><strong>Use large servers only when you need them.</strong> If you have a short, memory intensive task, start a large server for that task, then shut it down and go back to a smaller one for the rest of your work.</li>
 <li><strong>Shut down your server when you are done.</strong> Use <strong>File &gt; Hub Control Panel &gt; Stop My Server</strong> rather than just closing your browser tab. Servers are shut down automatically after a period of inactivity, but stopping them yourself is a good idea.</li>
@@ -424,7 +424,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Then click <strong>Stop My Server</strong> in your hub control panel (which you can also reach directly at <a href="https://hub.eoxhub.com/hub/home">https://hub.eoxhub.com/hub/home</a>):</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/eox-hub-stop-server.png" class="img-fluid figure-img"></p>
+<p><img src="img/eox-stop-server.png" class="img-fluid figure-img"></p>
 <figcaption>Hub control panel with Stop My Server button</figcaption>
 </figure>
 </div>
