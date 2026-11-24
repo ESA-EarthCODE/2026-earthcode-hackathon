@@ -91,14 +91,15 @@ First we'll show you how to pull some files from GitHub into your virtual drive 
 
 To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we can use a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the "File" menu, choose "New" and then "Terminal" or (2) click on the "terminal" button in the JupyterLab Launcher:
 
-![terminal-button](img/terminal-button.png)
+![](img/terminal-button.png)
+
 This will open a new terminal tab in your JupyterLab interface:
 
-![terminal-tab](img/terminal-tab.png)
+![](img/terminal-tab.png)
 
-You can issue any Linux commands to manage your local file system.
+Here you can issue any Linux commands to manage your local file system.
 
-Now let's clone a repository. We'll illustrate this with a [sample project](https://github.com/esa-earthcode-hackathon/eh26_sample-project) repository. First, navigate in a browser on your own computer to the repository link (TBD). Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
+Now let's clone a repository. We'll illustrate this with a [sample project repository](https://github.com/esa-earthcode-hackathon/eh26_sample-project), created from the template for the hackathon. First, navigate in a browser on your own computer to the repository. Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
 
 ![](img/github-clone.png)
 
@@ -164,11 +165,11 @@ Choosing a server that is larger than you need wastes compute resources and redu
 
 If you are **using JupyterLab**, you access the control via `File > Hub Control Panel` menu item:
 
-![File menu with Hub Control Panel highlighted](img/eox-hub-control-panel.png)
+![](img/eox-hub-control-panel.png)
 
 Then click **Stop My Server** in your hub control panel (which you can also reach directly at [https://hub.eoxhub.com/hub/home](https://hub.eoxhub.com/hub/home)):
 
-![Hub control panel with Stop My Server button](img/eox-stop-server.png)
+![](img/eox-stop-server.png)
 
 Note that the menu item `File > Log Out` doesn't actually shut down the server, so please follow these steps instead.
 
