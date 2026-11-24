@@ -384,15 +384,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="using-git-to-clone-a-repository-from-github">Using Git to clone a repository from GitHub</h3>
 <p>First we’ll show you how to pull some files from GitHub into your virtual drive space.</p>
 <p>To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we can use a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the “File” menu, choose “New” and then “Terminal” or (2) click on the “terminal” button in the JupyterLab Launcher:</p>
-<p><img src="img/terminal-button.png" class="img-fluid" alt="terminal-button"> This will open a new terminal tab in your JupyterLab interface:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/terminal-tab.png" class="img-fluid figure-img"></p>
-<figcaption>terminal-tab</figcaption>
-</figure>
-</div>
-<p>You can issue any Linux commands to manage your local file system.</p>
-<p>Now let’s clone a repository. We’ll illustrate this with a <a href="https://github.com/esa-earthcode-hackathon/eh26_sample-project">sample project</a> repository. First, navigate in a browser on your own computer to the repository link (TBD). Next, click on the green “Code” button and then copy the url into your clipboard by clicking the copy button (clipboard icon):</p>
+<p><img src="img/terminal-button.png" class="img-fluid"></p>
+<p>This will open a new terminal tab in your JupyterLab interface:</p>
+<p><img src="img/terminal-tab.png" class="img-fluid"></p>
+<p>Here you can issue any Linux commands to manage your local file system.</p>
+<p>Now let’s clone a repository. We’ll illustrate this with a <a href="https://github.com/esa-earthcode-hackathon/eh26_sample-project">sample project repository</a>, created from the template for the hackathon. First, navigate in a browser on your own computer to the repository. Next, click on the green “Code” button and then copy the url into your clipboard by clicking the copy button (clipboard icon):</p>
 <p><img src="img/github-clone.png" class="img-fluid"></p>
 <p>Now navigate back to your terminal in JupyterLab. Type <code>git clone</code> and then paste in the url:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/esa-earthcode-hackathon/eh26_sample-project.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -436,19 +432,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>When you are finished working for the day or for an extended period of time, please shutdown your JupyterHub session</strong>, to reduce the load on our cloud infrastructure and overall costs.</p>
 <p><strong>To shutdown your server:</strong></p>
 <p>If you are <strong>using JupyterLab</strong>, you access the control via <code>File &gt; Hub Control Panel</code> menu item:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/eox-hub-control-panel.png" class="img-fluid figure-img"></p>
-<figcaption>File menu with Hub Control Panel highlighted</figcaption>
-</figure>
-</div>
+<p><img src="img/eox-hub-control-panel.png" class="img-fluid"></p>
 <p>Then click <strong>Stop My Server</strong> in your hub control panel (which you can also reach directly at <a href="https://hub.eoxhub.com/hub/home">https://hub.eoxhub.com/hub/home</a>):</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/eox-stop-server.png" class="img-fluid figure-img"></p>
-<figcaption>Hub control panel with Stop My Server button</figcaption>
-</figure>
-</div>
+<p><img src="img/eox-stop-server.png" class="img-fluid"></p>
 <p>Note that the menu item <code>File &gt; Log Out</code> doesn’t actually shut down the server, so please follow these steps instead.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
