@@ -270,7 +270,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#accessing-the-jupyterhubs" id="toc-accessing-the-jupyterhubs" class="nav-link" data-scroll-target="#accessing-the-jupyterhubs">Accessing the JupyterHubs</a></li>
   <li><a href="#starting-up" id="toc-starting-up" class="nav-link" data-scroll-target="#starting-up">Starting up</a></li>
   <li><a href="#how-do-i-get-the-tutorial-repositories" id="toc-how-do-i-get-the-tutorial-repositories" class="nav-link" data-scroll-target="#how-do-i-get-the-tutorial-repositories">How do I get the tutorial repositories?</a></li>
-  <li><a href="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub" id="toc-how-do-i-get-my-code-in-and-out-of-the-jupyterhub" class="nav-link" data-scroll-target="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub">How do I get my code in and out of the JupyterHub?</a></li>
+  <li><a href="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub" id="toc-how-do-i-get-my-code-in-and-out-of-the-jupyterhub" class="nav-link" data-scroll-target="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub">How do I get my code in and out of the JupyterHub?</a>
+  <ul class="collapse">
+  <li><a href="#using-git-to-get-a-repository-from-github" id="toc-using-git-to-get-a-repository-from-github" class="nav-link" data-scroll-target="#using-git-to-get-a-repository-from-github">Using Git to get a repository from GitHub</a></li>
+  <li><a href="#using-the-git-graphical-interface" id="toc-using-the-git-graphical-interface" class="nav-link" data-scroll-target="#using-the-git-graphical-interface">Using the Git graphical interface</a></li>
+  <li><a href="#manually-uploading-files-from-your-local-machine" id="toc-manually-uploading-files-from-your-local-machine" class="nav-link" data-scroll-target="#manually-uploading-files-from-your-local-machine">Manually uploading files from your local machine</a></li>
+  <li><a href="#downloading-files-from-jupyterhub-to-your-local-machine" id="toc-downloading-files-from-jupyterhub-to-your-local-machine" class="nav-link" data-scroll-target="#downloading-files-from-jupyterhub-to-your-local-machine">Downloading files from JupyterHub to your local machine</a></li>
+  </ul></li>
   <li><a href="#tips-for-managing-server-resources" id="toc-tips-for-managing-server-resources" class="nav-link" data-scroll-target="#tips-for-managing-server-resources">Tips for managing server resources</a>
   <ul class="collapse">
   <li><a href="#choosing-the-compute-resources-you-need" id="toc-choosing-the-compute-resources-you-need" class="nav-link" data-scroll-target="#choosing-the-compute-resources-you-need">Choosing the compute resources you need:</a></li>
@@ -363,24 +369,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Starting a new node and pulling our environment takes a while — especially if everyone is logging in at once, such as at the beginning of a tutorial. Be patient, and don’t reload repeatedly.</p>
 </div>
 </div>
-<p>Once things are spun up, you will be dropped into your very own cloud instance of the <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> interface. Here you will see the “Launcher” tab, which provides quick access to opening notebooks, a terminal, and other file types.</p>
+<p>Once things are spun up, you will be dropped into your very own cloud instance of the <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> interface. Here you will see the “Launcher” tab, which provides quick access to opening notebooks, a terminal, and other file types. You can always return to the Launcher tab by clicking on the “+” icon in the top left corner of the interface.</p>
+<p>On the left side is a file browser panel, which allows you to navigate your virtual drive space, open files, and manage directories. The <code>shared</code> directory is a space to share files with other participants and instructors who are using the same JupyterHub. The <code>bucket</code> directory is mapped to a shared cloud object storage location, which is good for storing large datasets. Everything else in your virtual drive space is private to you.</p>
 <p><img src="img/EOx-JupyterLab.png" class="img-fluid"></p>
 </section>
 <section id="how-do-i-get-the-tutorial-repositories" class="level2">
 <h2 class="anchored" data-anchor-id="how-do-i-get-the-tutorial-repositories">How do I get the tutorial repositories?</h2>
-<p>For the tutorials, there are two primary ways of getting the notebooks. You can use the magical nbgitpuller links below, or you can use the traditional git management route (<a href="#how-do-i-get-my-code-in-and-out-of-jupyterhub">described below</a>).</p>
-<ul>
-<li><a href="nbgitpuller-link-for-tutorial-1">Placeholder for Tutorial 1</a></li>
-<li><a href="nbgitpuller-link-for-tutorial-2">Placeholder for Tutorial 2</a></li>
-<li>…</li>
-</ul>
-<p>Nbgitpuller is nice, because it will automatically merge any changes you make with the changes from the upstream repo on subsequent pulls (i.e., when you click the links above again) via a <a href="https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html#topic-automatic-merging">series of sane rules</a>.</p>
+<p>For the tutorials, there are two primary ways of getting the notebooks. You can use the magical nbgitpuller links provided in the tutorials, or you can use the traditional git management route (<a href="#how-do-i-get-my-code-in-and-out-of-jupyterhub">described below</a>).</p>
+<p>Nbgitpuller is a tool for automatically pulling updates from a Git repository into your JupyterHub environment, without using Git directly. It is nice, because it will automatically merge any changes you make with the changes from the upstream repo on subsequent pulls (i.e., when you click the links above again) via a <a href="https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html#topic-automatic-merging">series of sane rules</a>.</p>
 </section>
 <section id="how-do-i-get-my-code-in-and-out-of-the-jupyterhub" class="level2">
 <h2 class="anchored" data-anchor-id="how-do-i-get-my-code-in-and-out-of-the-jupyterhub">How do I get my code in and out of the JupyterHub?</h2>
-<p>When you start your own instance of JupyterHub you will have access to your own virtual drive space. No other JupyterHub users will be able to see or access your data files. Next we will explain how you can upload files to your virtual drive space and how to save files from JupyterHub back to another location, such as GitHub or your own local laptop drive.</p>
+<section id="using-git-to-get-a-repository-from-github" class="level3">
+<h3 class="anchored" data-anchor-id="using-git-to-get-a-repository-from-github">Using Git to get a repository from GitHub</h3>
 <p>First we’ll show you how to pull some files from GitHub into your virtual drive space.</p>
-<p>To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we will need to open a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the “File” menu, choose “New” and then “Terminal” or (2) click on the “terminal” button in JupyterLab:</p>
+<p>To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we can use a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the “File” menu, choose “New” and then “Terminal” or (2) click on the “terminal” button in the JupyterLab Launcher:</p>
 <p><img src="img/terminal-button.png" class="img-fluid" alt="terminal-button"> This will open a new terminal tab in your JupyterLab interface:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -389,13 +392,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </figure>
 </div>
 <p>You can issue any Linux commands to manage your local file system.</p>
-<p>Now let’s clone a repository (see the <a href="../resources/git-github.html">Git Setup and Basics</a> page). We’ll illustrate this with the [placeholder] repository. First, navigate in a browser on your own computer to the repository link (TBD). Next, click on the green “Code” button and then copy the url into your clipboard by clicking the copy button (clipboard icon):</p>
+<p>Now let’s clone a repository. We’ll illustrate this with a <a href="https://github.com/esa-earthcode-hackathon/eh26_sample-project">sample project</a> repository. First, navigate in a browser on your own computer to the repository link (TBD). Next, click on the green “Code” button and then copy the url into your clipboard by clicking the copy button (clipboard icon):</p>
 <p><img src="img/github-clone.png" class="img-fluid"></p>
 <p>Now navigate back to your terminal in JupyterLab. Type <code>git clone</code> and then paste in the url:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone <span class="pp">[</span><span class="ss">url</span><span class="pp">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>This will create a new directory in your current working directory with the same name as the repository (in this case, <code>[placeholder]</code>), and download all the files from the repository into it. You can navigate into this directory using the <code>cd</code> command:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="pp">[</span><span class="ss">placeholder</span><span class="pp">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/esa-earthcode-hackathon/eh26_sample-project.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This will create a new directory in your current working directory with the same name as the repository (in this case, <code>eh26_sample-project</code>), and download all the files from the repository into it. You can navigate into this directory using the <code>cd</code> command:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> eh26_sample-project</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The new directory will also show up in the file browser panel on the left side of the JupyterLab interface.</p>
+<p><img src="img/repo-cloned.png" class="img-fluid"></p>
+</section>
+<section id="using-the-git-graphical-interface" class="level3">
+<h3 class="anchored" data-anchor-id="using-the-git-graphical-interface">Using the Git graphical interface</h3>
+<p>You can also clone a repository using the Git graphical interface in JupyterLab. Click the “clone” button in the top of the file browser, and enter the repository url.</p>
+<p><img src="img/git-clone-gui.png" class="img-fluid"></p>
 <p>To be able to push changes back to the repository, you will need to configure your Git credentials and have the necessary permissions for the repository. See the <a href="../resources/git-github.html">Git Setup and Basics</a> page for instructions on setting up your Git credentials.</p>
+</section>
+<section id="manually-uploading-files-from-your-local-machine" class="level3">
+<h3 class="anchored" data-anchor-id="manually-uploading-files-from-your-local-machine">Manually uploading files from your local machine</h3>
+<p>You can manually upload files to your JupyterHub environment using the file browser panel on the left side of JupyterLab. Click the upload button and select the files you want to upload from your local machine. The uploaded files will be placed in your current working directory in the virtual drive space.</p>
+<p><img src="img/upload-files.png" class="img-fluid"></p>
+</section>
+<section id="downloading-files-from-jupyterhub-to-your-local-machine" class="level3">
+<h3 class="anchored" data-anchor-id="downloading-files-from-jupyterhub-to-your-local-machine">Downloading files from JupyterHub to your local machine</h3>
+<p>You can download files from your JupyterHub environment to your local machine using the file browser panel in JupyterLab. Right-click on the file you want to download and select “Download”. The file will be saved to your local machine.</p>
+</section>
 </section>
 <section id="tips-for-managing-server-resources" class="level2">
 <h2 class="anchored" data-anchor-id="tips-for-managing-server-resources">Tips for managing server resources</h2>
@@ -413,7 +433,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="end-your-hub-session-every-day." class="level3">
 <h3 class="anchored" data-anchor-id="end-your-hub-session-every-day.">End your Hub session every day.</h3>
-<p><strong>When you are finished working for the day or for an extended period of time, it is important to explicitly shutdown your JupyterHub session</strong>, to reduce the load on our cloud infrastructure and overall costs.</p>
+<p><strong>When you are finished working for the day or for an extended period of time, please shutdown your JupyterHub session</strong>, to reduce the load on our cloud infrastructure and overall costs.</p>
 <p><strong>To shutdown your server:</strong></p>
 <p>If you are <strong>using JupyterLab</strong>, you access the control via <code>File &gt; Hub Control Panel</code> menu item:</p>
 <div class="quarto-figure quarto-figure-center">
