@@ -63,188 +63,6 @@
     "text": "GitHub"
   },
   {
-    "objectID": "about/team.html",
-    "href": "about/team.html",
-    "title": "Organizing Team",
-    "section": "",
-    "text": "Our organizing team is made up of people from ESA, Openscapes, Lampata, and Telespazio, we all share in the various roles it takes to organize a successful hackathon. We are committed to making this hackathon a welcoming and inclusive event for all participants, and we are excited to work with you to make this hackathon a success!"
-  },
-  {
-    "objectID": "about/team.html#meet-our-helpers-by-browsing-the-slildes",
-    "href": "about/team.html#meet-our-helpers-by-browsing-the-slildes",
-    "title": "Organizing Team",
-    "section": "Meet our helpers by browsing the slildes!",
-    "text": "Meet our helpers by browsing the slildes!"
-  },
-  {
-    "objectID": "about/projects-overview.html",
-    "href": "about/projects-overview.html",
-    "title": "Projects Overview",
-    "section": "",
-    "text": "This guide is adapted from Ocean Hackweek.\nCollaborative projects are a key component of the ESA EarthCODE Hackathon, in which you get to interact with others closely and apply new skills to make something exciting happen: it can be creating tools to streamline access to a particular data source, creating and visualizing new, integrated datasets, testing existing models with new data sources, or anything else you may want to do at the intersection of earth and data science.\nWe will discuss, develop and pitch projects to work on during the Hackathon."
-  },
-  {
-    "objectID": "about/projects-overview.html#suggesting-project-ideas",
-    "href": "about/projects-overview.html#suggesting-project-ideas",
-    "title": "Projects Overview",
-    "section": "Suggesting project ideas",
-    "text": "Suggesting project ideas\nIf you have an idea for a project before the hackathon, please post your idea as an Issue in the Project Ideas GitHub repository so others can see it and discuss it. Project ideas don’t need to be fully thought-out, even a general idea or theme is a great starting point! If you see an idea that you are interested in, please comment on it to continue the discussion. We will have ample time dedicated to discussing and developing project ideas and forming teams in the first day and a half of the Hackathon."
-  },
-  {
-    "objectID": "about/projects-overview.html#tips-for-getting-started",
-    "href": "about/projects-overview.html#tips-for-getting-started",
-    "title": "Projects Overview",
-    "section": "Tips for getting started",
-    "text": "Tips for getting started\n\nPotentially choose something that you’ve been interested in but haven’t had the time or skills to do before, or something you can continue to work on post Hackathon.\nHacking is a community activity! It’s okay to choose projects that you can’t accomplish alone as other people will be there to help you, both at the Hackathon and outside of it!\nHelp your group members: you might be the person they need to solve their problem, and vice versa.\nWhen discussing, pitch your explanation to the least experienced people in the group, and you’ll end up better understanding what you’re trying to do, or need to revise your idea.\nYou can mix programming languages as needed in order to get started, but do check in with your project mentors and group members to make sure your efforts are straightforward to be absorbed into the project."
-  },
-  {
-    "objectID": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
-    "href": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
-    "title": "Projects Overview",
-    "section": "What is a good-sized project for the Hackathon?",
-    "text": "What is a good-sized project for the Hackathon?\nA good-sized project is small and aims to solve a specific problem using computational tools.\nExamples include:\n\nCreation of new datasets from existing data sources\nBuild a working demo of a new or modified algorithm\nOutline of a larger project, with some key features scoped\nVisualization of an old dataset in a new manner\nModify an algorithm and apply it to a new dataset\nCombine two pre-existing pieces of code to perform some new function\nCreate a tool to apply to work with existing code, datasets\nTransform code from one language to another to use with other tools\nUpdate old code to run faster, on new machines, and/or more efficiently\nExtend an existing project with an additional feature"
-  },
-  {
-    "objectID": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
-    "href": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
-    "title": "Projects Overview",
-    "section": "Why have projects at the ESA EarthCODE Hackathon?",
-    "text": "Why have projects at the ESA EarthCODE Hackathon?\nIncreasingly, research and software development are conducted by groups of people with diverse skills and backgrounds. We believe this collaborative work leads to more innovative solutions to complex problems. At the ESA EarthCODE Hackathon, our goal is to explore with you some of the skills needed to navigate technical and social challenges of working in these kinds of collaborative settings. We believe the best way to do so is to provide opportunities for you to gain hands-on experience in working together with others on a well-defined problem related to earth sciences."
-  },
-  {
-    "objectID": "about/projects-overview.html#how-will-the-projects-be-conducted",
-    "href": "about/projects-overview.html#how-will-the-projects-be-conducted",
-    "title": "Projects Overview",
-    "section": "How will the projects be conducted?",
-    "text": "How will the projects be conducted?\n\nOn day 1 we will facilitate the sharing of ideas and begin formation of people into small teams (2-5 people)\nOnce formed, each team will narrow in on a set of tasks and create and present a one-slide “Project Pitch”. Teams will then be able to refine their project ideas based on feedback from the other teams and mentors.\nTeams will work together on their projects for the remainder of the Hackathon, with mentors available to provide guidance and support.\nIn the afternoon of day 4, each team will present their work to the other teams and mentors. Presentations will be informal and will focus on what was accomplished, what was learned, and what the next steps are for the project.\nThe morning of day 5 will have time for teams to meet and decide on post-hackathon plans and give “pop-up” presentations if they want."
-  },
-  {
-    "objectID": "about/projects-overview.html#project-team-members",
-    "href": "about/projects-overview.html#project-team-members",
-    "title": "Projects Overview",
-    "section": "Project Team Members",
-    "text": "Project Team Members\nEach member of a team will contribute to contribute the success of the project and hackathon experience for everyone.\n\nGoals\n\nSupporting all team members in getting something valuable out of their time during hackathon project work.\nFostering collaboration within a small team.\nContributing your ideas and expertise, in whatever form that is.\n\n\n\nSpecific Activities\n\nPitch an idea for a project.\nGather/join a team and help each person get clear on their individual goals during the project work.\nFacilitate relationship-building and development of collaborative structures among the team.\nCo-design project work that is within the scope of this hackathon."
-  },
-  {
-    "objectID": "about/helper-guide.html",
-    "href": "about/helper-guide.html",
-    "title": "Project Mentor and Helper Guide",
-    "section": "",
-    "text": "Everyone is expected to actively participate during the hackathon to support project teams. We assign Mentor and Helper roles for project ideation & work time so that everyone – planning team and participants – know what to expect and who to ask when help is needed.\nThe Roles page has an overview of the Mentor and Helper roles, and this guide is to give you more ideas to help you effectively support teams in their projects.\nThis guide is adapted from Ocean Hackweek and the University of Washington eScience Institute Hackweek Guide."
-  },
-  {
-    "objectID": "about/helper-guide.html#powerful-questions",
-    "href": "about/helper-guide.html#powerful-questions",
-    "title": "Project Mentor and Helper Guide",
-    "section": "Powerful Questions",
-    "text": "Powerful Questions\nPowerful questions are a coaching technique to help people think through what they need. They are short, open ended. Here are some that could be helpful during the hackathon:\n\nWhere do you feel like you’re stuck?\nWhat has been successful?\nWhat is unclear or fuzzy?\nWhat is your next step?\nWhat’s one thing you can let go?\nWhat do you need?\nWhat options do you have?"
-  },
-  {
-    "objectID": "about/helper-guide.html#daily-standups",
-    "href": "about/helper-guide.html#daily-standups",
-    "title": "Project Mentor and Helper Guide",
-    "section": "Daily Standups",
-    "text": "Daily Standups\nEach morning teams will have a short (15 minute) “standup” meeting. During these meetings, each team member is given a minute or so to briefly share 1) progress they have made on their tasks, 2) anything preventing progress, and 3) what they plan on working on next.\nThe goal of these “standups” is to make sure everyone has the resources and support they need to achieve their hackathon goals - it can be hard to ask for help when you’re working with a new team!\nAs a helper, you can lead or help facilitate these meetings by asking the questions to each team member, and ensure each person has a chance to provide their update. Listen for things another teammate, you, or another helper can do to help people get unstuck. The goal of these is not to get into the details of a problem or “solutioneering”, but to identify things to work on during project time."
-  },
-  {
-    "objectID": "about/roles.html",
-    "href": "about/roles.html",
-    "title": "Hackathon Roles",
-    "section": "",
-    "text": "There are many roles required to envision, organize, and execute a successful hackathon. This page defines roles for the planning team and helpers. Every role is expected to actively participate to support project teams. You might embed in a team. More likely you will move between teams. Take 15 minutes to sit with the team and listen. Your first goal is to get a sense of how they are doing. Are they struggling? Ask a powerful question to help understand what they need. Support them with your expertise or bring it to another Helper or Mentor who might be able to help.\nThe roles described here are lightly modified from those outlined in the eScience Hackweek Guide."
-  },
-  {
-    "objectID": "about/roles.html#project-mentor",
-    "href": "about/roles.html#project-mentor",
-    "title": "Hackathon Roles",
-    "section": "Project Mentor",
-    "text": "Project Mentor\nThe Project Mentor has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. Domain expertise is key during project initiation, and Mentors will use their expertise to help guide teams to shape ideas into well-defined and realistic project designs. See the Project Guide for more information on projects, and the Helper Guide, as project mentors will also help teams with projects throughout the hackathon.\n\nGoals\n\nCommunicating the purpose and approach of small group collaborations.\nShaping community ideas into well-defined and realistic project designs.\nCreating a welcoming space for participants to engage in project ideation and completion.\n\n\n\nSpecific Activities\n\nSuggest project ideas.\nAssemble and make sense of project ideas.\nGuide the formation of project teams on the first day of the hackathon.\nAssist individuals and teams in preparing project pitches.\nFacilitate small group collaborations during the hackathon.\nAssist teams in setting goals and sharing results.\nProvide guidance to teams who wish to remain connected after the hackathon."
-  },
-  {
-    "objectID": "about/roles.html#project-helpers",
-    "href": "about/roles.html#project-helpers",
-    "title": "Hackathon Roles",
-    "section": "Project Helpers",
-    "text": "Project Helpers\nHelpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. See the Helper Guide for more details.\n\nGoals\n\nHelping hackathon participants move past stuck points and complete learning objectives.\nIncluding all participants in the learning process.\nEmpowering learners to connect with external educational resources.\n\n\n\nSpecific Activities\n\nAnswer questions from participants during tutorials and projects.\nHelp participants access resources needed to address specific problems.\nParticipate in project teams and assist with technical questions.\nOffer feedback to tutorial developers based on participant experiences with the materials.\nLead daily standup team check-ins."
-  },
-  {
-    "objectID": "about/roles.html#community-leads",
-    "href": "about/roles.html#community-leads",
-    "title": "Hackathon Roles",
-    "section": "Community Leads",
-    "text": "Community Leads\nThe Community Leads guide the activities of community members engaged in hackathon organization and execution. This role is shared by the organizing team, with Openscapes as primary lead.\n\nGoals\n\nDesigning this hackathon, and matching the technical and scientific needs of the community.\nEnsuring everyone involved is sufficiently resourced to carry out the work.\nStrategizing on how best to implement practices of open-source science within this community.\nBuilding supportive partnerships and communities of practice before, during, and after the hackathon.\n\n\n\nSpecific Activities\n\nWork with the community to define the overarching goals of the hackathon.\nBuild a diverse, inclusive, and equitable hackathon organizing team; recruit broadly for organizers and participants.\nReview tutorial content, evaluating meeting hackathon goals, learning objectives, and community relevance.\nAttend the hackathon and be available to assist with project and tutorial work."
-  },
-  {
-    "objectID": "about/roles.html#technical-lead",
-    "href": "about/roles.html#technical-lead",
-    "title": "Hackathon Roles",
-    "section": "Technical Lead",
-    "text": "Technical Lead\nThe Technical Lead is experienced with the computational platforms that support collaboration and learning during the hackathon. This role is led by Lampata and Openscapes.\n\nGoals\n\nEmpowering hackathon organizers to follow best practices in creating open source learning materials.\nEnsuring shared hackathon tools are accessible to everyone.\nGuiding workflow development to be reproducible and deployable on multiple infrastructures.\n\n\n\nSpecific Activities\n\nSet up a shared computational environment.\nDeploy the hackathon website, and archive hackathon outcomes.\nTeach hackathon organizers how to use GitHub and the shared computational environment for planning and design of the hackathon.\nAssist tutorial leads in uploading their notebooks and sample datasets.\nHelp participants gain access to shared resources."
-  },
-  {
-    "objectID": "about/roles.html#tutorial-leads",
-    "href": "about/roles.html#tutorial-leads",
-    "title": "Hackathon Roles",
-    "section": "Tutorial Leads",
-    "text": "Tutorial Leads\nTutorial Leads use their knowledge of data science tools and methods to create online learning materials and teach tutorials during the hackathon. See the Instructor Guide for guidance. This role is led by Lampata, assisted by Openscapes.\n\nGoals\n\nFostering the learning and development of community members on topics of interest at the hackathon.\nSupporting the design of a shared open source curriculum.\n\n\n\nSpecific Activities\n\nDefine learning outcomes that are tailored to community needs.\nBuild new skills in data science pedagogy.\nOffer feedback to peers on tutorial design.\nCreate interactive tutorials in Jupyter Notebooks.\nUse GitHub to share tutorial content in an open source environment.\nTeach or assist with teaching tutorials during the hackathon."
-  },
-  {
-    "objectID": "about/facilitator-guide.html",
-    "href": "about/facilitator-guide.html",
-    "title": "Facilitator Guide",
-    "section": "",
-    "text": "The facilitator role oversees the “run of show” throughout the whole Hackathon, making sure that we:\nAdditionally, this role acts as tutorial moderators."
-  },
-  {
-    "objectID": "about/facilitator-guide.html#tutorial-moderators",
-    "href": "about/facilitator-guide.html#tutorial-moderators",
-    "title": "Facilitator Guide",
-    "section": "Tutorial moderators",
-    "text": "Tutorial moderators\n\nAsk tutorial presenter ahead of time if:\n\nthey would like to answer questions throughout the tutorial, or hold questions until the end\n\nIntroduce the tutorial and tutorial presenter\nAsk questions (if requested by the presenter) that have the most +1 reactions\nKeep track of time and end session on time"
-  },
-  {
-    "objectID": "about/instructor-guide.html",
-    "href": "about/instructor-guide.html",
-    "title": "Tutorial Instructor Guide",
-    "section": "",
-    "text": "This guide is adapted from Ocean Hackweek. As tutorial instructors, we will shape tutorials with the following in mind."
-  },
-  {
-    "objectID": "about/instructor-guide.html#target-audience",
-    "href": "about/instructor-guide.html#target-audience",
-    "title": "Tutorial Instructor Guide",
-    "section": "Target Audience",
-    "text": "Target Audience\nPlease specify the target audience for this tutorial. What does the audience need to know to be able to benefit from your tutorial? Can you eliminate unnecessary prerequisites?\nHackathon participants come from diverse technical backgrounds: while some may have basic scripting experience, others may have built complex applications within their domain, and still may be completely unfamiliar with libraries used in an adjacent domain."
-  },
-  {
-    "objectID": "about/instructor-guide.html#learning-objectives",
-    "href": "about/instructor-guide.html#learning-objectives",
-    "title": "Tutorial Instructor Guide",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\nPlease provide a few measurable learning objectives for your tutorial: those should be short statements of what participants will be able to do immediately after the tutorial. Consider learning objectives of varying complexity: some expect participants to be able to execute simple tasks, while others expect them to be able to develop new approaches to address a problem. You can use the Bloom’s Taxonomy categorization to structure your objectives.\nExample:\nAfter the lesson the learners will be able to\n\nOutline elements of ML pipelines\nList major differences between types of ML methods, and steps to proceed to evaluate their performance\nIdentify contexts where deep learning can be useful\nOrganize labeled datasets in a format expected by ML libraries\n\nThink about the balance of how your tutorial can be helpful to participants during the hackathon vs. afterwards throughout their careers."
-  },
-  {
-    "objectID": "about/instructor-guide.html#general-tips",
-    "href": "about/instructor-guide.html#general-tips",
-    "title": "Tutorial Instructor Guide",
-    "section": "General Tips",
-    "text": "General Tips\nThink of ways to engage the audience during the tutorial. That can also set the right tone of how much detail you need to provide. Remember the more experienced participants may be the more vocal ones so think of ways to hear from everybody without making them feel uncomfortable for not knowing a concept.\nAlthough the content of your tutorial may not seem a lot when presented as stand-alone, the participants are going through a sequence of tutorials during the week, and are also learning a lot of new things for their projects.\n\nLess is more: it is better to get through less material in a calm cadence than too much at a fast pace that can overwhelm learners.\nIf using notebooks/code, be explicit (write down and/or say out loud) whether you expect people to follow along running the cells/changing code on the fly, or they can just follow your demo, and dive into the notebook later.\nScrolling through notebooks/code can become confusing, so consider having sections in the notebook and hiding the code cells, only to reveal it when talking about a specific section\nAdd a few key points after a section\nIf there are steps for which participants need to navigate to specific places on a website, consider saving snapshots and circling the places they need to click to avoid them missing crucial steps after which they cannot navigate the lesson; pause to make sure people are at the right place\nLook through the tutorial and see what jargon/acronyms you are using:\n\nRemove the ones not crucial for the tutorial\nSpell out the ones that the participants need to know"
-  },
-  {
-    "objectID": "about/instructor-guide.html#tips-for-use-caseworkflow-presentations",
-    "href": "about/instructor-guide.html#tips-for-use-caseworkflow-presentations",
-    "title": "Tutorial Instructor Guide",
-    "section": "Tips for Use Case/Workflow Presentations",
-    "text": "Tips for Use Case/Workflow Presentations\n\nWhile preparing your presentation, identify which of its components generalize outside of the use case; state those explicitly to help listeners focus on what can be relevant to them\nShare lessons learned: what worked well, what did not"
-  },
-  {
-    "objectID": "about/instructor-guide.html#technical-setup",
-    "href": "about/instructor-guide.html#technical-setup",
-    "title": "Tutorial Instructor Guide",
-    "section": "Technical Setup",
-    "text": "Technical Setup\nThe hackathon will provide a JupyterHub environment in EarthCODE, within which participants can run any interactive tutorials. As an instructor you will have to ensure that your tutorial can run within the environment. For that you will need to:\n\nTalk to the organizing team to get added to JupyterHub\nFamiliarize yourself with the JupyterHub environment\nIdentify which packages (and corresponding versions) you will need for the tutorial and provide them to the organizing team so that they are included into an image for building the JupyterHub (those can be PyPi, conda/conda-forge, R)\nContribute your tutorial content to the tutorials repo (link TBD)\nEnsure participants have access to the datasets used in the tutorial\n\nIf there is need to store some datasets on JupyterHub, let us know!\nMake sure the datasets are reduced to a reasonable size to demonstrate the point, but not make the tutorial cumbersome to run\nIf the tutorial requires executing many expensive queries to a server, please, consider storing a local copy for the demonstration"
-  },
-  {
     "objectID": "resources/jupyterhubs.html",
     "href": "resources/jupyterhubs.html",
     "title": "JupyterHub Compute Platform",
@@ -299,6 +117,188 @@
     "title": "JupyterHub Compute Platform",
     "section": "Tips for managing server resources",
     "text": "Tips for managing server resources\n\nChoosing the compute resources you need:\nWhen you start your server, you choose a server size (for example, “~4 GB RAM, ~0.5 CPUs”). Choosing a server that is larger than you need wastes compute resources and reduces availability for others.\n\nStart small. The smallest server is enough for a lot of work, including writing code, and exploring data. If you run out of memory, choose a larger instance - you will need to shut down your server (File &gt; Hub Control Panel &gt; Stop My Server) and launch a new one by choosing an option with more resources in the dropdown menu.\nWatch your memory use. The memory indicator at the bottom of JupyterLab shows how much memory you are using. If you are consistently using under half of your server’s memory, try choosing a smaller size. \nIf your session restarts or crashes unexpectedly while loading or processing data, you have probably run out of memory. Try the next size up.\nUse large servers only when you need them. If you have a short, memory intensive task, start a large server for that task, then shut it down and go back to a smaller one for the rest of your work.\nShut down your server when you are done. Use File &gt; Hub Control Panel &gt; Stop My Server rather than just closing your browser tab. Servers are shut down automatically after a period of inactivity, but stopping them yourself is a good idea.\nWork in chunks. Processing data in smaller pieces (for example, by time step or region) or loading data lazily (e.g., with xarray and dask) often lets you use a much smaller server.\n\n\n\nEnd your Hub session every day.\nWhen you are finished working for the day or for an extended period of time, please shutdown your JupyterHub session, to reduce the load on our cloud infrastructure and overall costs.\nTo shutdown your server:\nIf you are using JupyterLab, you access the control via File &gt; Hub Control Panel menu item:\n\nThen click Stop My Server in your hub control panel (which you can also reach directly at https://hub.eoxhub.com/hub/home):\n\nNote that the menu item File &gt; Log Out doesn’t actually shut down the server, so please follow these steps instead.\n\n\n\n\n\n\nNote\n\n\n\nYou will not lose your work when shutting down the server. Shutting down (Stop My Server) will NOT cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day."
+  },
+  {
+    "objectID": "about/instructor-guide.html",
+    "href": "about/instructor-guide.html",
+    "title": "Tutorial Instructor Guide",
+    "section": "",
+    "text": "This guide is adapted from Ocean Hackweek. As tutorial instructors, we will shape tutorials with the following in mind."
+  },
+  {
+    "objectID": "about/instructor-guide.html#target-audience",
+    "href": "about/instructor-guide.html#target-audience",
+    "title": "Tutorial Instructor Guide",
+    "section": "Target Audience",
+    "text": "Target Audience\nPlease specify the target audience for this tutorial. What does the audience need to know to be able to benefit from your tutorial? Can you eliminate unnecessary prerequisites?\nHackathon participants come from diverse technical backgrounds: while some may have basic scripting experience, others may have built complex applications within their domain, and still may be completely unfamiliar with libraries used in an adjacent domain."
+  },
+  {
+    "objectID": "about/instructor-guide.html#learning-objectives",
+    "href": "about/instructor-guide.html#learning-objectives",
+    "title": "Tutorial Instructor Guide",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nPlease provide a few measurable learning objectives for your tutorial: those should be short statements of what participants will be able to do immediately after the tutorial. Consider learning objectives of varying complexity: some expect participants to be able to execute simple tasks, while others expect them to be able to develop new approaches to address a problem. You can use the Bloom’s Taxonomy categorization to structure your objectives.\nExample:\nAfter the lesson the learners will be able to\n\nOutline elements of ML pipelines\nList major differences between types of ML methods, and steps to proceed to evaluate their performance\nIdentify contexts where deep learning can be useful\nOrganize labeled datasets in a format expected by ML libraries\n\nThink about the balance of how your tutorial can be helpful to participants during the hackathon vs. afterwards throughout their careers."
+  },
+  {
+    "objectID": "about/instructor-guide.html#general-tips",
+    "href": "about/instructor-guide.html#general-tips",
+    "title": "Tutorial Instructor Guide",
+    "section": "General Tips",
+    "text": "General Tips\nThink of ways to engage the audience during the tutorial. That can also set the right tone of how much detail you need to provide. Remember the more experienced participants may be the more vocal ones so think of ways to hear from everybody without making them feel uncomfortable for not knowing a concept.\nAlthough the content of your tutorial may not seem a lot when presented as stand-alone, the participants are going through a sequence of tutorials during the week, and are also learning a lot of new things for their projects.\n\nLess is more: it is better to get through less material in a calm cadence than too much at a fast pace that can overwhelm learners.\nIf using notebooks/code, be explicit (write down and/or say out loud) whether you expect people to follow along running the cells/changing code on the fly, or they can just follow your demo, and dive into the notebook later.\nScrolling through notebooks/code can become confusing, so consider having sections in the notebook and hiding the code cells, only to reveal it when talking about a specific section\nAdd a few key points after a section\nIf there are steps for which participants need to navigate to specific places on a website, consider saving snapshots and circling the places they need to click to avoid them missing crucial steps after which they cannot navigate the lesson; pause to make sure people are at the right place\nLook through the tutorial and see what jargon/acronyms you are using:\n\nRemove the ones not crucial for the tutorial\nSpell out the ones that the participants need to know"
+  },
+  {
+    "objectID": "about/instructor-guide.html#tips-for-use-caseworkflow-presentations",
+    "href": "about/instructor-guide.html#tips-for-use-caseworkflow-presentations",
+    "title": "Tutorial Instructor Guide",
+    "section": "Tips for Use Case/Workflow Presentations",
+    "text": "Tips for Use Case/Workflow Presentations\n\nWhile preparing your presentation, identify which of its components generalize outside of the use case; state those explicitly to help listeners focus on what can be relevant to them\nShare lessons learned: what worked well, what did not"
+  },
+  {
+    "objectID": "about/instructor-guide.html#technical-setup",
+    "href": "about/instructor-guide.html#technical-setup",
+    "title": "Tutorial Instructor Guide",
+    "section": "Technical Setup",
+    "text": "Technical Setup\nThe hackathon will provide a JupyterHub environment in EarthCODE, within which participants can run any interactive tutorials. As an instructor you will have to ensure that your tutorial can run within the environment. For that you will need to:\n\nTalk to the organizing team to get added to JupyterHub\nFamiliarize yourself with the JupyterHub environment\nIdentify which packages (and corresponding versions) you will need for the tutorial and provide them to the organizing team so that they are included into an image for building the JupyterHub (those can be PyPi, conda/conda-forge, R)\nContribute your tutorial content to the tutorials repo (link TBD)\nEnsure participants have access to the datasets used in the tutorial\n\nIf there is need to store some datasets on JupyterHub, let us know!\nMake sure the datasets are reduced to a reasonable size to demonstrate the point, but not make the tutorial cumbersome to run\nIf the tutorial requires executing many expensive queries to a server, please, consider storing a local copy for the demonstration"
+  },
+  {
+    "objectID": "about/facilitator-guide.html",
+    "href": "about/facilitator-guide.html",
+    "title": "Facilitator Guide",
+    "section": "",
+    "text": "The facilitator role oversees the “run of show” throughout the whole Hackathon, making sure that we:\nAdditionally, this role acts as tutorial moderators."
+  },
+  {
+    "objectID": "about/facilitator-guide.html#tutorial-moderators",
+    "href": "about/facilitator-guide.html#tutorial-moderators",
+    "title": "Facilitator Guide",
+    "section": "Tutorial moderators",
+    "text": "Tutorial moderators\n\nAsk tutorial presenter ahead of time if:\n\nthey would like to answer questions throughout the tutorial, or hold questions until the end\n\nIntroduce the tutorial and tutorial presenter\nAsk questions (if requested by the presenter) that have the most +1 reactions\nKeep track of time and end session on time"
+  },
+  {
+    "objectID": "about/roles.html",
+    "href": "about/roles.html",
+    "title": "Hackathon Roles",
+    "section": "",
+    "text": "There are many roles required to envision, organize, and execute a successful hackathon. This page defines roles for the planning team and helpers. Every role is expected to actively participate to support project teams. You might embed in a team. More likely you will move between teams. Take 15 minutes to sit with the team and listen. Your first goal is to get a sense of how they are doing. Are they struggling? Ask a powerful question to help understand what they need. Support them with your expertise or bring it to another Helper or Mentor who might be able to help.\nThe roles described here are lightly modified from those outlined in the eScience Hackweek Guide."
+  },
+  {
+    "objectID": "about/roles.html#project-mentor",
+    "href": "about/roles.html#project-mentor",
+    "title": "Hackathon Roles",
+    "section": "Project Mentor",
+    "text": "Project Mentor\nThe Project Mentor has a big-picture view of the possible scope of projects for the hackathon community, and helps participants get clear on project ideas and objectives. Domain expertise is key during project initiation, and Mentors will use their expertise to help guide teams to shape ideas into well-defined and realistic project designs. See the Project Guide for more information on projects, and the Helper Guide, as project mentors will also help teams with projects throughout the hackathon.\n\nGoals\n\nCommunicating the purpose and approach of small group collaborations.\nShaping community ideas into well-defined and realistic project designs.\nCreating a welcoming space for participants to engage in project ideation and completion.\n\n\n\nSpecific Activities\n\nSuggest project ideas.\nAssemble and make sense of project ideas.\nGuide the formation of project teams on the first day of the hackathon.\nAssist individuals and teams in preparing project pitches.\nFacilitate small group collaborations during the hackathon.\nAssist teams in setting goals and sharing results.\nProvide guidance to teams who wish to remain connected after the hackathon."
+  },
+  {
+    "objectID": "about/roles.html#project-helpers",
+    "href": "about/roles.html#project-helpers",
+    "title": "Hackathon Roles",
+    "section": "Project Helpers",
+    "text": "Project Helpers\nHelpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. See the Helper Guide for more details.\n\nGoals\n\nHelping hackathon participants move past stuck points and complete learning objectives.\nIncluding all participants in the learning process.\nEmpowering learners to connect with external educational resources.\n\n\n\nSpecific Activities\n\nAnswer questions from participants during tutorials and projects.\nHelp participants access resources needed to address specific problems.\nParticipate in project teams and assist with technical questions.\nOffer feedback to tutorial developers based on participant experiences with the materials.\nLead daily standup team check-ins."
+  },
+  {
+    "objectID": "about/roles.html#community-leads",
+    "href": "about/roles.html#community-leads",
+    "title": "Hackathon Roles",
+    "section": "Community Leads",
+    "text": "Community Leads\nThe Community Leads guide the activities of community members engaged in hackathon organization and execution. This role is shared by the organizing team, with Openscapes as primary lead.\n\nGoals\n\nDesigning this hackathon, and matching the technical and scientific needs of the community.\nEnsuring everyone involved is sufficiently resourced to carry out the work.\nStrategizing on how best to implement practices of open-source science within this community.\nBuilding supportive partnerships and communities of practice before, during, and after the hackathon.\n\n\n\nSpecific Activities\n\nWork with the community to define the overarching goals of the hackathon.\nBuild a diverse, inclusive, and equitable hackathon organizing team; recruit broadly for organizers and participants.\nReview tutorial content, evaluating meeting hackathon goals, learning objectives, and community relevance.\nAttend the hackathon and be available to assist with project and tutorial work."
+  },
+  {
+    "objectID": "about/roles.html#technical-lead",
+    "href": "about/roles.html#technical-lead",
+    "title": "Hackathon Roles",
+    "section": "Technical Lead",
+    "text": "Technical Lead\nThe Technical Lead is experienced with the computational platforms that support collaboration and learning during the hackathon. This role is led by Lampata and Openscapes.\n\nGoals\n\nEmpowering hackathon organizers to follow best practices in creating open source learning materials.\nEnsuring shared hackathon tools are accessible to everyone.\nGuiding workflow development to be reproducible and deployable on multiple infrastructures.\n\n\n\nSpecific Activities\n\nSet up a shared computational environment.\nDeploy the hackathon website, and archive hackathon outcomes.\nTeach hackathon organizers how to use GitHub and the shared computational environment for planning and design of the hackathon.\nAssist tutorial leads in uploading their notebooks and sample datasets.\nHelp participants gain access to shared resources."
+  },
+  {
+    "objectID": "about/roles.html#tutorial-leads",
+    "href": "about/roles.html#tutorial-leads",
+    "title": "Hackathon Roles",
+    "section": "Tutorial Leads",
+    "text": "Tutorial Leads\nTutorial Leads use their knowledge of data science tools and methods to create online learning materials and teach tutorials during the hackathon. See the Instructor Guide for guidance. This role is led by Lampata, assisted by Openscapes.\n\nGoals\n\nFostering the learning and development of community members on topics of interest at the hackathon.\nSupporting the design of a shared open source curriculum.\n\n\n\nSpecific Activities\n\nDefine learning outcomes that are tailored to community needs.\nBuild new skills in data science pedagogy.\nOffer feedback to peers on tutorial design.\nCreate interactive tutorials in Jupyter Notebooks.\nUse GitHub to share tutorial content in an open source environment.\nTeach or assist with teaching tutorials during the hackathon."
+  },
+  {
+    "objectID": "about/helper-guide.html",
+    "href": "about/helper-guide.html",
+    "title": "Project Mentor and Helper Guide",
+    "section": "",
+    "text": "Everyone is expected to actively participate during the hackathon to support project teams. We assign Mentor and Helper roles for project ideation & work time so that everyone – planning team and participants – know what to expect and who to ask when help is needed.\nThe Roles page has an overview of the Mentor and Helper roles, and this guide is to give you more ideas to help you effectively support teams in their projects.\nThis guide is adapted from Ocean Hackweek and the University of Washington eScience Institute Hackweek Guide."
+  },
+  {
+    "objectID": "about/helper-guide.html#powerful-questions",
+    "href": "about/helper-guide.html#powerful-questions",
+    "title": "Project Mentor and Helper Guide",
+    "section": "Powerful Questions",
+    "text": "Powerful Questions\nPowerful questions are a coaching technique to help people think through what they need. They are short, open ended. Here are some that could be helpful during the hackathon:\n\nWhere do you feel like you’re stuck?\nWhat has been successful?\nWhat is unclear or fuzzy?\nWhat is your next step?\nWhat’s one thing you can let go?\nWhat do you need?\nWhat options do you have?"
+  },
+  {
+    "objectID": "about/helper-guide.html#daily-standups",
+    "href": "about/helper-guide.html#daily-standups",
+    "title": "Project Mentor and Helper Guide",
+    "section": "Daily Standups",
+    "text": "Daily Standups\nEach morning teams will have a short (15 minute) “standup” meeting. During these meetings, each team member is given a minute or so to briefly share 1) progress they have made on their tasks, 2) anything preventing progress, and 3) what they plan on working on next.\nThe goal of these “standups” is to make sure everyone has the resources and support they need to achieve their hackathon goals - it can be hard to ask for help when you’re working with a new team!\nAs a helper, you can lead or help facilitate these meetings by asking the questions to each team member, and ensure each person has a chance to provide their update. Listen for things another teammate, you, or another helper can do to help people get unstuck. The goal of these is not to get into the details of a problem or “solutioneering”, but to identify things to work on during project time."
+  },
+  {
+    "objectID": "about/projects-overview.html",
+    "href": "about/projects-overview.html",
+    "title": "Projects Overview",
+    "section": "",
+    "text": "This guide is adapted from Ocean Hackweek.\nCollaborative projects are a key component of the ESA EarthCODE Hackathon, in which you get to interact with others closely and apply new skills to make something exciting happen: it can be creating tools to streamline access to a particular data source, creating and visualizing new, integrated datasets, testing existing models with new data sources, or anything else you may want to do at the intersection of earth and data science.\nWe will discuss, develop and pitch projects to work on during the Hackathon."
+  },
+  {
+    "objectID": "about/projects-overview.html#suggesting-project-ideas",
+    "href": "about/projects-overview.html#suggesting-project-ideas",
+    "title": "Projects Overview",
+    "section": "Suggesting project ideas",
+    "text": "Suggesting project ideas\nIf you have an idea for a project before the hackathon, please post your idea as an Issue in the Project Ideas GitHub repository so others can see it and discuss it. Project ideas don’t need to be fully thought-out, even a general idea or theme is a great starting point! If you see an idea that you are interested in, please comment on it to continue the discussion. We will have ample time dedicated to discussing and developing project ideas and forming teams in the first day and a half of the Hackathon."
+  },
+  {
+    "objectID": "about/projects-overview.html#tips-for-getting-started",
+    "href": "about/projects-overview.html#tips-for-getting-started",
+    "title": "Projects Overview",
+    "section": "Tips for getting started",
+    "text": "Tips for getting started\n\nPotentially choose something that you’ve been interested in but haven’t had the time or skills to do before, or something you can continue to work on post Hackathon.\nHacking is a community activity! It’s okay to choose projects that you can’t accomplish alone as other people will be there to help you, both at the Hackathon and outside of it!\nHelp your group members: you might be the person they need to solve their problem, and vice versa.\nWhen discussing, pitch your explanation to the least experienced people in the group, and you’ll end up better understanding what you’re trying to do, or need to revise your idea.\nYou can mix programming languages as needed in order to get started, but do check in with your project mentors and group members to make sure your efforts are straightforward to be absorbed into the project."
+  },
+  {
+    "objectID": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
+    "href": "about/projects-overview.html#what-is-a-good-sized-project-for-the-hackathon",
+    "title": "Projects Overview",
+    "section": "What is a good-sized project for the Hackathon?",
+    "text": "What is a good-sized project for the Hackathon?\nA good-sized project is small and aims to solve a specific problem using computational tools.\nExamples include:\n\nCreation of new datasets from existing data sources\nBuild a working demo of a new or modified algorithm\nOutline of a larger project, with some key features scoped\nVisualization of an old dataset in a new manner\nModify an algorithm and apply it to a new dataset\nCombine two pre-existing pieces of code to perform some new function\nCreate a tool to apply to work with existing code, datasets\nTransform code from one language to another to use with other tools\nUpdate old code to run faster, on new machines, and/or more efficiently\nExtend an existing project with an additional feature"
+  },
+  {
+    "objectID": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
+    "href": "about/projects-overview.html#why-have-projects-at-the-esa-earthcode-hackathon",
+    "title": "Projects Overview",
+    "section": "Why have projects at the ESA EarthCODE Hackathon?",
+    "text": "Why have projects at the ESA EarthCODE Hackathon?\nIncreasingly, research and software development are conducted by groups of people with diverse skills and backgrounds. We believe this collaborative work leads to more innovative solutions to complex problems. At the ESA EarthCODE Hackathon, our goal is to explore with you some of the skills needed to navigate technical and social challenges of working in these kinds of collaborative settings. We believe the best way to do so is to provide opportunities for you to gain hands-on experience in working together with others on a well-defined problem related to earth sciences."
+  },
+  {
+    "objectID": "about/projects-overview.html#how-will-the-projects-be-conducted",
+    "href": "about/projects-overview.html#how-will-the-projects-be-conducted",
+    "title": "Projects Overview",
+    "section": "How will the projects be conducted?",
+    "text": "How will the projects be conducted?\n\nOn day 1 we will facilitate the sharing of ideas and begin formation of people into small teams (2-5 people)\nOnce formed, each team will narrow in on a set of tasks and create and present a one-slide “Project Pitch”. Teams will then be able to refine their project ideas based on feedback from the other teams and mentors.\nTeams will work together on their projects for the remainder of the Hackathon, with mentors available to provide guidance and support.\nIn the afternoon of day 4, each team will present their work to the other teams and mentors. Presentations will be informal and will focus on what was accomplished, what was learned, and what the next steps are for the project.\nThe morning of day 5 will have time for teams to meet and decide on post-hackathon plans and give “pop-up” presentations if they want."
+  },
+  {
+    "objectID": "about/projects-overview.html#project-team-members",
+    "href": "about/projects-overview.html#project-team-members",
+    "title": "Projects Overview",
+    "section": "Project Team Members",
+    "text": "Project Team Members\nEach member of a team will contribute to contribute the success of the project and hackathon experience for everyone.\n\nGoals\n\nSupporting all team members in getting something valuable out of their time during hackathon project work.\nFostering collaboration within a small team.\nContributing your ideas and expertise, in whatever form that is.\n\n\n\nSpecific Activities\n\nPitch an idea for a project.\nGather/join a team and help each person get clear on their individual goals during the project work.\nFacilitate relationship-building and development of collaborative structures among the team.\nCo-design project work that is within the scope of this hackathon."
+  },
+  {
+    "objectID": "about/team.html",
+    "href": "about/team.html",
+    "title": "Organizing Team",
+    "section": "",
+    "text": "Our organizing team is made up of people from ESA, Openscapes, Lampata, and Telespazio, we all share in the various roles it takes to organize a successful hackathon. We are committed to making this hackathon a welcoming and inclusive event for all participants, and we are excited to work with you to make this hackathon a success!"
+  },
+  {
+    "objectID": "about/team.html#meet-our-helpers-by-browsing-the-slildes",
+    "href": "about/team.html#meet-our-helpers-by-browsing-the-slildes",
+    "title": "Organizing Team",
+    "section": "Meet our helpers by browsing the slildes!",
+    "text": "Meet our helpers by browsing the slildes!"
   },
   {
     "objectID": "resources/getting-help.html",
