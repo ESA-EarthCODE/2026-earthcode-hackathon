@@ -71,27 +71,25 @@ Then click **Start**. You will see a progress bar and an event log while your se
 Starting a new node and pulling our environment takes a while — especially if everyone is logging in at once, such as at the beginning of a tutorial. Be patient, and don't reload repeatedly.
 :::
 
-Once things are spun up, you will be dropped into your very own cloud instance of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface. Here you will see the "Launcher" tab, which provides quick access to opening notebooks, a terminal, and other file types.
+Once things are spun up, you will be dropped into your very own cloud instance of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface. Here you will see the "Launcher" tab, which provides quick access to opening notebooks, a terminal, and other file types. You can always return to the Launcher tab by clicking on the "+" icon in the top left corner of the interface.
+
+On the left side is a file browser panel, which allows you to navigate your virtual drive space, open files, and manage directories. The `shared` directory is a space to share files with other participants and instructors who are using the same JupyterHub. The `bucket` directory is mapped to a shared cloud object storage location, which is good for storing large datasets. Everything else in your virtual drive space is private to you.
 
 ![](img/EOx-JupyterLab.png)
 
 ## How do I get the tutorial repositories?
 
-For the tutorials, there are two primary ways of getting the notebooks. You can use the magical nbgitpuller links below, or you can use the traditional git management route ([described below](#how-do-i-get-my-code-in-and-out-of-jupyterhub)).
+For the tutorials, there are two primary ways of getting the notebooks. You can use the magical nbgitpuller links provided in the tutorials, or you can use the traditional git management route ([described below](#how-do-i-get-my-code-in-and-out-of-jupyterhub)).
 
-- [Placeholder for Tutorial 1](nbgitpuller-link-for-tutorial-1)
-- [Placeholder for Tutorial 2](nbgitpuller-link-for-tutorial-2)
-- ...
-
-Nbgitpuller is nice, because it will automatically merge any changes you make with the changes from the upstream repo on subsequent pulls (i.e., when you click the links above again) via a [series of sane rules](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html#topic-automatic-merging).
+Nbgitpuller is a tool for automatically pulling updates from a Git repository into your JupyterHub environment, without using Git directly. It is nice, because it will automatically merge any changes you make with the changes from the upstream repo on subsequent pulls (i.e., when you click the links above again) via a [series of sane rules](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html#topic-automatic-merging).
 
 ## How do I get my code in and out of the JupyterHub?
 
-When you start your own instance of JupyterHub you will have access to your own virtual drive space. No other JupyterHub users will be able to see or access your data files. Next we will explain how you can upload files to your virtual drive space and how to save files from JupyterHub back to another location, such as GitHub or your own local laptop drive.
+### Using Git to get a repository from GitHub
 
 First we'll show you how to pull some files from GitHub into your virtual drive space.
 
-To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we will need to open a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the "File" menu, choose "New" and then "Terminal" or (2) click on the "terminal" button in JupyterLab:
+To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we can use a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the "File" menu, choose "New" and then "Terminal" or (2) click on the "terminal" button in the JupyterLab Launcher:
 
 ![terminal-button](img/terminal-button.png)
 This will open a new terminal tab in your JupyterLab interface:
@@ -100,23 +98,43 @@ This will open a new terminal tab in your JupyterLab interface:
 
 You can issue any Linux commands to manage your local file system.
 
-Now let's clone a repository (see the [Git Setup and Basics](git-github.qmd) page). We'll illustrate this with the [placeholder] repository. First, navigate in a browser on your own computer to the repository link (TBD). Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
+Now let's clone a repository. We'll illustrate this with a [sample project](https://github.com/esa-earthcode-hackathon/eh26_sample-project) repository. First, navigate in a browser on your own computer to the repository link (TBD). Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
 
 ![](img/github-clone.png)
 
 Now navigate back to your terminal in JupyterLab. Type `git clone` and then paste in the url:
 
 ```bash
-git clone [url]
+git clone https://github.com/esa-earthcode-hackathon/eh26_sample-project.git
 ```
 
-This will create a new directory in your current working directory with the same name as the repository (in this case, `[placeholder]`), and download all the files from the repository into it. You can navigate into this directory using the `cd` command:
+This will create a new directory in your current working directory with the same name as the repository (in this case, `eh26_sample-project`), and download all the files from the repository into it. You can navigate into this directory using the `cd` command:
 
 ```bash
-cd [placeholder]
+cd eh26_sample-project
 ```
 
+The new directory will also show up in the file browser panel on the left side of the JupyterLab interface.
+
+![](img/repo-cloned.png)
+
+### Using the Git graphical interface
+
+You can also clone a repository using the Git graphical interface in JupyterLab. Click the "clone" button in the top of the file browser, and enter the repository url.
+
+![](img/git-clone-gui.png)
+
 To be able to push changes back to the repository, you will need to configure your Git credentials and have the necessary permissions for the repository. See the [Git Setup and Basics](git-github.qmd) page for instructions on setting up your Git credentials.
+
+### Manually uploading files from your local machine
+
+You can manually upload files to your JupyterHub environment using the file browser panel on the left side of JupyterLab. Click the upload button and select the files you want to upload from your local machine. The uploaded files will be placed in your current working directory in the virtual drive space.
+
+![](img/upload-files.png)
+
+### Downloading files from JupyterHub to your local machine
+
+You can download files from your JupyterHub environment to your local machine using the file browser panel in JupyterLab. Right-click on the file you want to download and select "Download". The file will be saved to your local machine.
 
 ## Tips for managing server resources
 
@@ -140,7 +158,7 @@ Choosing a server that is larger than you need wastes compute resources and redu
 
 ### End your Hub session every day.
 
-**When you are finished working for the day or for an extended period of time, it is important to explicitly shutdown your JupyterHub session**, to reduce the load on our cloud infrastructure and overall costs.
+**When you are finished working for the day or for an extended period of time, please shutdown your JupyterHub session**, to reduce the load on our cloud infrastructure and overall costs.
 
 **To shutdown your server:**
 
