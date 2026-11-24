@@ -6,7 +6,9 @@ During the Hackathon, all participants will have access to a JupyterHub-based sh
 
 ## Why are we using a shared cloud computing environment?
 
-Teaching software to a diverse group of participants, each with different computers and operating systems, can be challenging. There are specific ways to configure our software for the tutorials to be successful, so it takes time to get everyone set up consistently. Our solution to this is to give everyone access to a cloud computing environment that is pre-configured for the specific software we will deploy. This cloud computing instance can be accessed from any web browser, which eliminates the need for configuring each person's individual computer. We use JupyterHub as a way to give a Jupyter Notebook server ([JupyterLab](https://jupyterlab.readthedocs.io/en/stable/)) to each person in a group. JupyterHub enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone's individual computers.
+We use JupyterHub to give everyone access to a cloud computing environment that is pre-configured for the specific software we will deploy. This cloud computing instance can be accessed from any web browser, which eliminates the need for configuring each person's individual computer. Teaching software to a diverse group of participants, each with different computers and operating systems, can be challenging. There are specific ways to configure our software for the tutorials to be successful, so it takes time to get everyone set up consistently. 
+
+We use JupyterHub as a way to give a Jupyter Notebook server ([JupyterLab](https://jupyterlab.readthedocs.io/en/stable/)) to each person in a group. JupyterHub enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone's individual computers.
 
 ## Compute platforms available during the Hackathon
 
@@ -75,7 +77,7 @@ Once things are spun up, you will be dropped into your very own cloud instance o
 
 ## How do I get the tutorial repositories?
 
-For the tutorials, there are two primary ways of getting the notebooks. You can use the traditional git management route ([described below](#how-do-i-get-my-code-in-and-out-of-jupyterhub)), or you can use the magical nbgitpuller links below:
+For the tutorials, there are two primary ways of getting the notebooks. You can use the magical nbgitpuller links below, or you can use the traditional git management route ([described below](#how-do-i-get-my-code-in-and-out-of-jupyterhub)).
 
 - [Placeholder for Tutorial 1](nbgitpuller-link-for-tutorial-1)
 - [Placeholder for Tutorial 2](nbgitpuller-link-for-tutorial-2)
