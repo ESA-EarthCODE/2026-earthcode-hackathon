@@ -56,6 +56,8 @@ The shuttle will have an ESA-ESRIN sign. If the bus is full, a second trip will 
 | Thursday, 3 December | Evening | ESRIN → Piazza Guglielmo Marconi (Frascati) | 17:15 |
 | Friday, 4 December | Morning | Piazza Guglielmo Marconi (Frascati) → ESRIN | 08:00 |
 
+: {tbl-colwidths="[26,18,43,13]"}
+
 ### Taxi
 
 If you need a taxi, please book well in advance with Professional Car Service s.n.c. at <info@professionalcarservice.com>.
@@ -75,6 +77,8 @@ We recommend staying in the town of Frascati. The following is a list of hotels 
 | [**Grand Hotel Villa Tuscolana**](https://www.villatuscolana.com/) | info@villatuscolana.com | \+39 06 942 900 | 23 minutes (we suggest to book a taxi) |
 | [**Park Hotel Villa Grazioli**](https://www.villa-grazioli.it/en/) | info@villa-grazioli.it; congressi@villa-grazioli.it | \+39 06 945400 | 26 minutes (we suggest to book a taxi) |
 | [**Domus Park Hotel**](https://www.domusparkhotel.it/) | info@domusparkhotel.it | \+39 06 200 0100 | 29 minutes (we suggest to book a taxi) |
+
+: {tbl-colwidths="[22,24,18,36]"}
 
 ## Food
 
