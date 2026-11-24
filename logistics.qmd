@@ -16,11 +16,26 @@ If you have non-European power plugs, please bring an appropriate adapter.
 Please bring your own laptop to work on at the hackathon.
 You will have access to [JupyterHub compute platforms](resources/jupyterhubs.qmd) on [EarthCODE](https://earthcode.esa.int/ecosystem#accessible-computation-esa-and-partner-cloud-computing-platforms), which is a cloud-based environment for running Jupyter notebooks and other tools.
 
+## Arrival & Registration
+
+ESRIN will be open to hackathon participants from 11:00 on Monday, 30 November.
+**Please bring a valid ID or passport**, as you will need to show it at the entrance.
+You will receive a red visitor badge at the entrance.
+
+Registration is at the Registration Desk in the Big Hall (Building 14), from 11:00 on Monday until the hackathon starts at 13:00, and during all coffee breaks.
+You will receive your workshop badge at the Registration Desk.
+You must wear your workshop badge at all times while on site.
+
 ## Transportation
 
 Travel to and from Frascati is the responsibility of the participants.
 The closest international airport is Rome Fiumicino (FCO), which is approximately 50km from Frascati.
 See [Getting to ESRIN](https://www.esa.int/articles/about-us/getting-to-esrin) for more information on how to get to Frascati from Rome.
+
+The best way to get to ESRIN from Rome is the regional train from Roma Termini to **Tor Vergata** station, which is 50 meters from ESRIN.
+Take a train heading to Frosinone, Cassino, Roccasecca, or Colleferro that stops at Tor Vergata (shown on the platform display).
+The trip takes about 18 minutes, and tickets cost €1.50 from the station ticket machines or [online from Trenitalia](https://www.trenitalia.com/en/purchase.html).
+Do not take the train to Frascati station, as it is not convenient for reaching ESRIN.
 Some travel support is available, and will be provided on a case-by-case basis.
 See the [registration](registration.qmd) page for more information.
 
@@ -67,3 +82,8 @@ Coffee, tea, and water will be available during breaks in the Big Hall.
 Lunch will be available in the ESRIN canteen from 12:15 to 13:00, Monday to Friday. Participants are responsible for the cost of their own meals.
 On Monday, 30 November, there will be a hosted Icebreaker Aperitif in the Big Hall from 18:00 to 20:00.
 Breakfast and dinner are not provided.
+
+## Useful Phone Numbers
+
+- **Emergency** (when not on site): +39 06 941 80 220
+- **Security** (from any phone on site): 80 333
