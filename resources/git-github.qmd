@@ -6,7 +6,7 @@ title: "Git and GitHub"
 
 We will use Git and GitHub for collaborative work. Be sure to arrive at the Hackathon with your own [GitHub](https://github.com) account.
 
-You will be added to the [ESA EarthCODE Hackathon](https://github.com/esa-earthcode-hackathon) GitHub organization with your GitHub user name. This will give you access to the repositories relevant to the hackathon, and allow you to create a repository for your project in which you can collaborate with your team.
+You will be added to the [ESA EarthCODE Hackathon](https://github.com/esa-earthcode-hackathon) GitHub organization with your GitHub username. This will give you access to the repositories relevant to the hackathon, and allow you to create a repository for your project in which you can collaborate with your team.
 
 ## Git
 
