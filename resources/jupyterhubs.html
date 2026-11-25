@@ -26,6 +26,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -155,10 +190,6 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
-    <a class="dropdown-item" href="../resources/resources.html">
- <span class="dropdown-text">Resources</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="../resources/git-github.html">
  <span class="dropdown-text">Git and GitHub</span></a>
   </li>  
@@ -228,9 +259,25 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#why-are-we-using-a-shared-cloud-computing-environment" id="toc-why-are-we-using-a-shared-cloud-computing-environment" class="nav-link active" data-scroll-target="#why-are-we-using-a-shared-cloud-computing-environment">Why are we using a shared cloud computing environment?</a></li>
-  <li><a href="#accessing-the-jupyterhub" id="toc-accessing-the-jupyterhub" class="nav-link" data-scroll-target="#accessing-the-jupyterhub">Accessing the JupyterHub</a></li>
+  <li><a href="#compute-platforms-available-during-the-hackathon" id="toc-compute-platforms-available-during-the-hackathon" class="nav-link" data-scroll-target="#compute-platforms-available-during-the-hackathon">Compute platforms available during the Hackathon</a>
+  <ul class="collapse">
+  <li><a href="#pangeo-tools" id="toc-pangeo-tools" class="nav-link" data-scroll-target="#pangeo-tools">Pangeo Tools</a></li>
+  </ul></li>
+  <li><a href="#accessing-the-jupyterhubs" id="toc-accessing-the-jupyterhubs" class="nav-link" data-scroll-target="#accessing-the-jupyterhubs">Accessing the JupyterHubs</a></li>
   <li><a href="#starting-up" id="toc-starting-up" class="nav-link" data-scroll-target="#starting-up">Starting up</a></li>
-  <li><a href="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub" id="toc-how-do-i-get-my-code-in-and-out-of-the-jupyterhub" class="nav-link" data-scroll-target="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub">How do I get my code in and out of the JupyterHub?</a></li>
+  <li><a href="#how-do-i-get-the-tutorial-repositories" id="toc-how-do-i-get-the-tutorial-repositories" class="nav-link" data-scroll-target="#how-do-i-get-the-tutorial-repositories">How do I get the tutorial repositories?</a></li>
+  <li><a href="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub" id="toc-how-do-i-get-my-code-in-and-out-of-the-jupyterhub" class="nav-link" data-scroll-target="#how-do-i-get-my-code-in-and-out-of-the-jupyterhub">How do I get my code in and out of the JupyterHub?</a>
+  <ul class="collapse">
+  <li><a href="#using-git-to-clone-a-repository-from-github" id="toc-using-git-to-clone-a-repository-from-github" class="nav-link" data-scroll-target="#using-git-to-clone-a-repository-from-github">Using Git to clone a repository from GitHub</a></li>
+  <li><a href="#using-the-git-graphical-interface" id="toc-using-the-git-graphical-interface" class="nav-link" data-scroll-target="#using-the-git-graphical-interface">Using the Git graphical interface</a></li>
+  <li><a href="#manually-uploading-files-from-your-local-machine" id="toc-manually-uploading-files-from-your-local-machine" class="nav-link" data-scroll-target="#manually-uploading-files-from-your-local-machine">Manually uploading files from your local machine</a></li>
+  <li><a href="#downloading-files-from-jupyterhub-to-your-local-machine" id="toc-downloading-files-from-jupyterhub-to-your-local-machine" class="nav-link" data-scroll-target="#downloading-files-from-jupyterhub-to-your-local-machine">Downloading files from JupyterHub to your local machine</a></li>
+  </ul></li>
+  <li><a href="#tips-for-managing-server-resources" id="toc-tips-for-managing-server-resources" class="nav-link" data-scroll-target="#tips-for-managing-server-resources">Tips for managing server resources</a>
+  <ul class="collapse">
+  <li><a href="#choosing-the-compute-resources-you-need" id="toc-choosing-the-compute-resources-you-need" class="nav-link" data-scroll-target="#choosing-the-compute-resources-you-need">Choosing the compute resources you need:</a></li>
+  <li><a href="#end-your-hub-session-every-day." id="toc-end-your-hub-session-every-day." class="nav-link" data-scroll-target="#end-your-hub-session-every-day.">End your Hub session every day.</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/esa-earthcode/2026-earthcode-hackathon/edit/main/resources/jupyterhubs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/esa-earthcode/2026-earthcode-hackathon/blob/main/resources/jupyterhubs.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/esa-earthcode/2026-earthcode-hackathon/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -259,161 +306,148 @@ ul.task-list li input[type="checkbox"] {
 <p>During the Hackathon, all participants will have access to a JupyterHub-based shared cloud computing environment through the EarthCODE platform.</p>
 <section id="why-are-we-using-a-shared-cloud-computing-environment" class="level2">
 <h2 class="anchored" data-anchor-id="why-are-we-using-a-shared-cloud-computing-environment">Why are we using a shared cloud computing environment?</h2>
-<p>Teaching software to a diverse group of participants, each with different computers and operating systems, can be challenging. There are specific ways to configure our software for the tutorials to be successful, so it takes time to get everyone set up consistently. Our solution to this is to give everyone access to a cloud computing environment that is pre-configured for the specific software we will deploy. This cloud computing instance can be accessed from any web browser, which eliminates the need for configuring each person’s individual computer. We use JupyterHub as a way to give a Jupyter Notebook server (<a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a>) to each person in a group. JupyterHub enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone’s individual computers.</p>
-<p>We will be providing access to two different JupyterHubs available through EarthCODE. These are very similar in functionality, but each one is optimized for cloud data access for different data sources.</p>
-<p>We encourage you to use these platforms for running the tutorials and for your projects. We also hope you will practice installing Python libraries locally on your laptop so that you can continue working after leaving the event.</p>
+<p>We use JupyterHub to give everyone access to a cloud computing environment that is pre-configured for the specific software we will deploy. This cloud computing instance can be accessed from any web browser, which eliminates the need for configuring each person’s individual computer. Teaching software to a diverse group of participants, each with different computers and operating systems, can be challenging. There are specific ways to configure our software for the tutorials to be successful, so it takes time to get everyone set up consistently.</p>
+<p>We use JupyterHub as a way to give a Jupyter Notebook server (<a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a>) to each person in a group. JupyterHub enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone’s individual computers.</p>
 </section>
-<section id="accessing-the-jupyterhub" class="level2">
-<h2 class="anchored" data-anchor-id="accessing-the-jupyterhub">Accessing the JupyterHub</h2>
+<section id="compute-platforms-available-during-the-hackathon" class="level2">
+<h2 class="anchored" data-anchor-id="compute-platforms-available-during-the-hackathon">Compute platforms available during the Hackathon</h2>
+<p>We will be providing access to two different JupyterHubs available through EarthCODE. These are very similar in functionality, but each one is optimized for cloud data access for different data sources.</p>
+<ol type="1">
+<li><strong><a href="https://workspace.earthcode-hackathon.hub-cf.eox.at/">EOx Hub</a></strong> This JupyterHub is ideal for working with ocean and polar data. It is hosted on the same cloud infrastructure as the EarthCODE data (CloudFerro object storage), providing fast streaming access to these datasets.</li>
+<li><strong>Earth Systems Data Lab (<a href="https://workspace.deepesdl-earthcode-hackathon-2026.deepesdl-v2.eox.at/hub">DeepESDL</a>)</strong> This Hub is optimized for accessing carbon-related datasets using <a href="https://www.eo-lincs.org/">EO-LINCS</a>.</li>
+</ol>
+<p>We encourage you to use these platforms for running the tutorials and for your projects. You can use either of the hubs available, but we recommend choosing the one that best matches the data you will be working with. We also hope you will practice installing Python libraries locally on your laptop so that you can continue working after leaving the event.</p>
+<section id="pangeo-tools" class="level3">
+<h3 class="anchored" data-anchor-id="pangeo-tools">Pangeo Tools</h3>
+<p><a href="https://pangeo.io/">Pangeo</a> is a community-driven ecosystem for scalable analysis of Earth and environmental data. The JupyterHubs provide an environment where you can use several tools commonly found in Pangeo environments:</p>
+<ul>
+<li><strong>Xarray</strong> for labelled multidimensional arrays.</li>
+<li><strong>STAC</strong> for consistent discovery and description of geospatial collections.</li>
+<li><strong>Dask</strong> for lazy, parallel, and distributed computation.</li>
+<li><strong>Zarr</strong> for chunked, cloud-optimised array storage.</li>
+<li><strong>Jupyter</strong> for interactive and shareable workflows.</li>
+</ul>
+<p>Together, these tools support workflows that begin with collection discovery, read only the required data, scale when necessary, and remain reproducible.</p>
+</section>
+</section>
+<section id="accessing-the-jupyterhubs" class="level2">
+<h2 class="anchored" data-anchor-id="accessing-the-jupyterhubs">Accessing the JupyterHubs</h2>
+<p>You will log in to the JupyterHubs using your GitHub account. Click the “GitHub” login button.</p>
+<p><img src="img/eox-github-login.png" class="img-fluid"></p>
+<p>If you’re not currently logged in to GitHub, you will be prompted to do so. You will then need to authorize the JupyterHub application to access your GitHub account.</p>
+<p><img src="img/eox-auth-github.png" class="img-fluid"></p>
+<p>Accept the EOx Terms and Conditions.</p>
+<p><img src="img/eox-t-and-c.png" class="img-fluid"> You will see a screen telling you your access is awaiting approval.</p>
+<p><img src="img/eox-awaiting-approval.png" class="img-fluid"></p>
+<p>An admin will then approve your GitHub user account to allow access to the JupyterHub.</p>
+<p>Once you are approved, you can log in to the platform and you will see various links and options. Click on the “JupyterHub” link, and then “Start My Server”.</p>
+<p><img src="img/EOx-loggedin.png" class="img-fluid"></p>
 </section>
 <section id="starting-up" class="level2">
 <h2 class="anchored" data-anchor-id="starting-up">Starting up</h2>
+<ul>
+<li><strong>Environment</strong> — choose the appropriate environment for the tutorials and project work. There will typically be multiple environments available, each pre-configured with different sets of tools and libraries.</li>
+<li><strong>Resource Allocation</strong> — Pick the smallest allocation that does the job; the compute is shared and donated (see below for more <a href="#tips-for-managing-server-resources">tips on resource management</a>).</li>
+</ul>
+<p>You make this choice on every startup, so you can come back and pick something different later.</p>
+<p><img src="img/EOx-choose-image-resources.png" class="img-fluid"></p>
+<p>Then click <strong>Start</strong>. You will see a progress bar and an event log while your server spins up.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Startup can take several minutes
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Starting a new node and pulling our environment takes a while — especially if everyone is logging in at once, such as at the beginning of a tutorial. Be patient, and don’t reload repeatedly.</p>
+</div>
+</div>
+<p>Once things are spun up, you will be dropped into your very own cloud instance of the <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> interface. Here you will see the “Launcher” tab, which provides quick access to opening notebooks, a terminal, and other file types. You can always return to the Launcher tab by clicking on the “+” icon in the top left corner of the interface.</p>
+<p>On the left side is a file browser panel, which allows you to navigate your virtual drive space, open files, and manage directories. The <code>shared</code> directory is a space to share files with other participants and instructors who are using the same JupyterHub. The <code>bucket</code> directory is mapped to a shared cloud object storage location, which is good for storing large datasets. Everything else in your virtual drive space is private to you.</p>
+<p><img src="img/EOx-JupyterLab.png" class="img-fluid"></p>
+</section>
+<section id="how-do-i-get-the-tutorial-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-i-get-the-tutorial-repositories">How do I get the tutorial repositories?</h2>
+<p>This will be a common task during the hackathon: at the start of most tutorials we’ll ask you to make a copy of the GitHub repository corresponding to the specific tutorial being taught into your JupyterHub drive space. There are two primary ways of getting the tutorial notebooks. You can use the magical nbgitpuller links provided in the tutorials, or you can use the traditional git management route (“clone a repository”; <a href="#how-do-i-get-my-code-in-and-out-of-jupyterhub">described below</a>).</p>
+<p>Nbgitpuller is a tool for automatically pulling updates from a Git repository into your JupyterHub environment, without using Git directly. It is nice, because it will automatically merge any changes you make with the changes from the upstream repo on subsequent pulls (i.e., when you click the links above again) via a <a href="https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html#topic-automatic-merging">series of sane rules</a>.</p>
 </section>
 <section id="how-do-i-get-my-code-in-and-out-of-the-jupyterhub" class="level2">
 <h2 class="anchored" data-anchor-id="how-do-i-get-my-code-in-and-out-of-the-jupyterhub">How do I get my code in and out of the JupyterHub?</h2>
-<!-- 
-## TODO: The below is from OHW, needs to be adapted for EarthCODE (or discarded)
-
-## Before you can log in: your GitHub membership
-
-CryoCloud decides what you can access from your GitHub organization and team membership, so two things need to be true before your first login:
-
-1. You have **accepted the invitation** to the [OceanHackWeek GitHub organization](https://github.com/oceanhackweek).
-2. Your organization membership is **public**, so that you show up in the participants team for the current event (for OHW26, [`ohw26-participants`](https://github.com/orgs/oceanhackweek/teams/ohw26-participants)).
-
-To check the second one, find yourself on the team page above and open your own profile within the organization (a URL like `https://github.com/orgs/oceanhackweek/people/YOUR-USERNAME`). **Membership** should read `public`. 
-If it reads `private`, use the dropdown next to it to switch it to public.
-
-## How do I access the shared cloud environment?
-
-Go to [https://hub.cryointhecloud.com](https://hub.cryointhecloud.com) and sign in with GitHub.
-
-The first time you log in, GitHub will ask you to authorize `nasa-cryo-prod` (the CryoCloud deployment, run by 2i2c) to read your organization and team membership:
-
-![Authorize nasa-cryo-prod by 2i2c](../img/ohw26-cryocloud-authorize-2i2c.png)
-
-::: {.callout-important}
-## Grant access to the oceanhackweek organization
-
-On this screen, make sure **`oceanhackweek`** is granted — if it shows an `✕` with a **Grant** button next to it, click **Grant** before authorizing. CryoCloud cannot see your OceanHackWeek team membership otherwise, and your server won't have the OceanHackWeek environment available.
-:::
-
-Next you will land on the **Server Options** page, where you choose an **Environment** (the image, i.e. the set of installed software) and a **Resource Allocation** (how much RAM and CPU):
-
-![CryoCloud Server Options: Environment and Resource Allocation](../img/ohw26-cryocloud-server-options.png)
-
-- **Environment** — choose the **OceanHackWeek Python Image** for the tutorials and for most project work. If you are working in R, choose the **Py-Rocket** R image instead.
-- **Resource Allocation** — **8 GB of RAM** should be plenty for the tutorials. Pick the smallest allocation that does the job; the compute is shared and donated.
-
-You make this choice on every startup, so you can come back and pick something different later.
-
-Then click **Start**. You will see a progress bar and an event log while your server spins up:
-
-![Server starting up, pulling the OceanHackWeek image](../img/ohw26-cryocloud-server-starting.png)
-
-::: {.callout-note}
-## Startup can take several minutes
-
-Starting a new node and pulling our environment takes a while — especially if everyone is logging in at once, such as at the beginning of a tutorial. Be patient, and don't reload repeatedly.
-:::
-
-Once things are spun up, you will be dropped into your very own cloud instance of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface (or [RStudio](https://posit.co/products/open-source/rstudio/), if you started the Py-Rocket R image).
-
-## How do I get the tutorial repository?
-
-For the tutorials, there are two primary ways of getting the notebooks. You can use the traditional git management route ([described below](#how-do-i-get-my-code-in-and-out-of-jupyterhub)), or you can use the magical nbgitpuller link below.
-
-:::: {.callout-note}
-## Pull tutorial repo via the magic of nbgitpuller
-
-The nbgitpuller link is magical, but it can't detect which profile you are currently running. Either should update the (same) tutorial repo, but it may error if you use the Python link if you are actively using the R profile, or the other way around.
-
-::: {.panel-tabset}
-
-## Python
-
-[Pull tutorial repo for the Python profile](https://hub.cryointhecloud.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Foceanhackweek%2Fohw-tutorials&urlpath=lab%2Ftree%2Fohw-tutorials%2F&branch=OHW26)
-
-## R
-
-[Pull tutorial repo for the R profile](https://hub.cryointhecloud.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Foceanhackweek%2Fohw-tutorials&urlpath=rstudio%2F&branch=OHW26)
-
-:::
-
-::::
-
-Nbgitpuller is nice, because it will automatically merge any changes you make with the changes from the upstream repo on subsequent pulls (i.e., when you click the links above again) via a [series of sane rules](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html#topic-automatic-merging).
-
-You can accomplish the same results as nbgitpuller when using `git` directly, but it can take a complicated dance of `git add`, `git stash`, `git pull`, and `git stash apply` to keep your changes and get the changes from upstream.
-
-::: {.callout-warning}
-If you start by using the `nbgitpuller` link and then switch to using git directly, or if you already have a copy of the repository in your account from a previous OHW, using the `nbgitpuller` link again will most likely lead to [unpredictable results](https://jupyterhub.github.io/nbgitpuller/#when-to-use-nbgitpuller).
-
-This can be fixed by [removing, renaming, or moving the `ohw-tutorials` directory](https://imgs.xkcd.com/comics/git.png) and using nbgitpuller again.
-:::
+<section id="using-git-to-clone-a-repository-from-github" class="level3">
+<h3 class="anchored" data-anchor-id="using-git-to-clone-a-repository-from-github">Using Git to clone a repository from GitHub</h3>
+<p>First we’ll show you how to pull some files from GitHub into your virtual drive space.</p>
+<p>To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we can use a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the “File” menu, choose “New” and then “Terminal” or (2) click on the “terminal” button in the JupyterLab Launcher:</p>
+<p><img src="img/terminal-button.png" class="img-fluid"></p>
+<p>This will open a new terminal tab in your JupyterLab interface:</p>
+<p><img src="img/terminal-tab.png" class="img-fluid"></p>
+<p>Here you can issue any Linux commands to manage your local file system.</p>
+<p>Now let’s clone a repository. We’ll illustrate this with a <a href="https://github.com/esa-earthcode-hackathon/eh26_sample-project">sample project repository</a>, created from the template for the hackathon. First, navigate in a browser on your own computer to the repository. Next, click on the green “Code” button and then copy the url into your clipboard by clicking the copy button (clipboard icon):</p>
+<p><img src="img/github-clone.png" class="img-fluid"></p>
+<p>Now navigate back to your terminal in JupyterLab. Type <code>git clone</code> and then paste in the url:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/esa-earthcode-hackathon/eh26_sample-project.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This will create a new directory in your current working directory with the same name as the repository (in this case, <code>eh26_sample-project</code>), and download all the files from the repository into it. You can navigate into this directory using the <code>cd</code> command:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> eh26_sample-project</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The new directory will also show up in the file browser panel on the left side of the JupyterLab interface.</p>
+<p><img src="img/repo-cloned.png" class="img-fluid"></p>
+</section>
+<section id="using-the-git-graphical-interface" class="level3">
+<h3 class="anchored" data-anchor-id="using-the-git-graphical-interface">Using the Git graphical interface</h3>
+<p>You can also clone a repository using the Git graphical interface in JupyterLab. Click the “clone” button in the top of the file browser, and enter the repository url.</p>
+<p><img src="img/git-clone-gui.png" class="img-fluid"></p>
+<p>To be able to push changes back to the repository, you will need to configure your Git credentials and have the necessary permissions for the repository. See the <a href="../resources/git-github.html">Git Setup and Basics</a> page for instructions on setting up your Git credentials.</p>
+</section>
+<section id="manually-uploading-files-from-your-local-machine" class="level3">
+<h3 class="anchored" data-anchor-id="manually-uploading-files-from-your-local-machine">Manually uploading files from your local machine</h3>
+<p>You can manually upload files to your JupyterHub environment using the file browser panel on the left side of JupyterLab. Click the upload button and select the files you want to upload from your local machine. The uploaded files will be placed in your current working directory in the virtual drive space.</p>
+<p><img src="img/upload-files.png" class="img-fluid"></p>
+</section>
+<section id="downloading-files-from-jupyterhub-to-your-local-machine" class="level3">
+<h3 class="anchored" data-anchor-id="downloading-files-from-jupyterhub-to-your-local-machine">Downloading files from JupyterHub to your local machine</h3>
+<p>You can download files from your JupyterHub environment to your local machine using the file browser panel in JupyterLab. Right-click on the file you want to download and select “Download”. The file will be saved to your local machine.</p>
+</section>
+</section>
+<section id="tips-for-managing-server-resources" class="level2">
+<h2 class="anchored" data-anchor-id="tips-for-managing-server-resources">Tips for managing server resources</h2>
+<section id="choosing-the-compute-resources-you-need" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-the-compute-resources-you-need">Choosing the compute resources you need:</h3>
+<p>When you start your server, you choose a server size (for example, “~4 GB RAM, ~0.5 CPUs”). Choosing a server that is larger than you need wastes compute resources and reduces availability for others.</p>
+<ul>
+<li><strong>Start small.</strong> The smallest server is enough for a lot of work, including writing code, and exploring data. If you run out of memory, choose a larger instance - you will need to shut down your server (File &gt; Hub Control Panel &gt; Stop My Server) and launch a new one by choosing an option with more resources in the dropdown menu.</li>
+<li><strong>Watch your memory use.</strong> The memory indicator at the bottom of JupyterLab shows how much memory you are using. If you are consistently using under half of your server’s memory, try choosing a smaller size. <img src="img/jupyterlab-memory.png" class="img-fluid" alt="JupyterLab memory usage indicator showing 287 MB of 2 GB used."></li>
+<li>If your session restarts or crashes unexpectedly while loading or processing data, you have probably run out of memory. Try the next size up.</li>
+<li><strong>Use large servers only when you need them.</strong> If you have a short, memory intensive task, start a large server for that task, then shut it down and go back to a smaller one for the rest of your work.</li>
+<li><strong>Shut down your server when you are done.</strong> Use <strong>File &gt; Hub Control Panel &gt; Stop My Server</strong> rather than just closing your browser tab. Servers are shut down automatically after a period of inactivity, but stopping them yourself is a good idea.</li>
+<li><strong>Work in chunks.</strong> Processing data in smaller pieces (for example, by time step or region) or loading data lazily (e.g., with <code>xarray</code> and <code>dask</code>) often lets you use a much smaller server.</li>
+</ul>
+</section>
+<section id="end-your-hub-session-every-day." class="level3">
+<h3 class="anchored" data-anchor-id="end-your-hub-session-every-day.">End your Hub session every day.</h3>
+<p><strong>When you are finished working for the day or for an extended period of time, please shutdown your JupyterHub session</strong>, to reduce the load on our cloud infrastructure and overall costs.</p>
+<p><strong>To shutdown your server:</strong></p>
+<p>If you are <strong>using JupyterLab</strong>, you access the control via <code>File &gt; Hub Control Panel</code> menu item:</p>
+<p><img src="img/eox-hub-control-panel.png" class="img-fluid"></p>
+<p>Then click <strong>Stop My Server</strong> in your hub control panel (which you can also reach directly at <a href="https://hub.eoxhub.com/hub/home">https://hub.eoxhub.com/hub/home</a>):</p>
+<p><img src="img/eox-stop-server.png" class="img-fluid"></p>
+<p>Note that the menu item <code>File &gt; Log Out</code> doesn’t actually shut down the server, so please follow these steps instead.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>You will not lose your work when shutting down the server.</strong> Shutting down (<code>Stop My Server</code>) will <strong>NOT</strong> cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day.</p>
+</div>
+</div>
 
 
-## How do I get my code in and out of JupyterHub?
-
-When you start your own instance of JupyterHub you will have access to your own virtual drive space. No other JupyterHub users will be able to see or access your data files. Next we will explain how you can upload files to your virtual drive space and how to save files from JupyterHub back to another location, such as GitHub or your own local laptop drive.
-
-First we'll show you how to pull some files from GitHub into your virtual drive space.  This will be a common task during the hackweek: at the start of most tutorials we'll ask you to "clone" (make a copy of) the GitHub repository corresponding to the specific tutorial being taught into your JupyterHub drive space.
-
-To do this, we will need to interface with the JupyterHub file system. JupyterHub is deployed in a Linux operating system and we will need to open a terminal within the JupyterHub JupyterLab interface to manage our files. There are two ways to do this: (1) Navigate to the "File" menu, choose "New" and then "Terminal" or (2) click on the "terminal" button in JupyterLab:
-
-![terminal-button](../img/terminal-button.png)
-This will open a new terminal tab in your JupyterLab interface:
-
-![terminal-tab](../img/terminal.png)
-
-You can issue any Linux commands to manage your local file system.
-
-Now let's clone a repository (see the [Git Setup and Basics](../prep/git.md) page). We'll illustrate this with the `ohw-tutorials` repository. First, navigate in a browser on your own computer to the repository link [https://github.com/oceanhackweek/ohw-tutorials](https://github.com/oceanhackweek/ohw-tutorials). Next, click on the green "Code" button and then copy the url into your clipboard by clicking the copy button (clipboard icon):
-
-![clone](../img/ohw21-clone.png)
-
-Now navigate back to your command line in JupyterLab. Type `git clone` and then paste in the url:
-
-```bash
-git clone https://github.com/oceanhackweek/ohw-tutorials.git
-```
-
-After issuing the `git clone` command you should see something like this (again, the screenshot below is for a different repo, but the concept is identical):
-
-![clone-result](../img/clone-result.png
-
-## End your Hub session every day. Will I lose all of my work?
-
-**When you are finished working for the day or for an extended period of time, it is important to explicitly shutdown your JupyterHub session,**
-to reduce the load on our cloud infrastructure and overall costs.
-
-**To shutdown your server:**
-
-If you are **using JupyterLab**, you access the control via `File > Hub Control Panel` menu item:
-
-![File menu with Hub Control Panel highlighted](../img/ohw26-cryocloud-hub-control-panel.png
-
-Then click **Stop My Server** in your hub control panel (which you can also reach directly at [https://hub.cryointhecloud.com/hub/home](https://hub.cryointhecloud.com/hub/home)):
-
-![Hub control panel with Stop My Server button](../img/ohw26-cryocloud-stop-server.png
-
-Note that the menu item `File > Log Out` doesn't actually shut down the server, so please follow these steps instead.
-
-::: {.callout-note}
-**You will not lose your work when shutting down the server.** Shutting down (`Stop My Server`) will **NOT**
-cause any of your work to be lost or deleted. It simply shuts down some resources.
-It would be equivalent to turning off your desktop computer at the end of the day.
-:::
-
-## References and Resources
-
-- [Why Jupyter is data scientists’ computational notebook of choice. An improved architecture and enthusiastic user base are driving uptake of the open-source web tool (Nature, 2018-10)](https://www.nature.com/articles/d41586-018-07196-1)
-- [Teaching and Learning with Jupyter](https://jupyter4edu.github.io/jupyter-edu-book/), an online open book.
-- [Getting Started with JupyterLab](https://www.blog.pythonlibrary.org/2019/02/05/getting-started-with-jupyterlab/)
-- [Jupyter Lab: Evolution of the Jupyter Notebook. An overview of JupyterLab, the next generation of the Jupyter Notebook.](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
--->
-
-
+</section>
 </section>
 
 </main> <!-- /main -->
