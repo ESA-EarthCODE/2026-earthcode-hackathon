@@ -35,6 +35,8 @@ See the [Project Guide](projects-overview.qmd) for more information on projects,
 
 Helpers have knowledge of data or domain science tools and methods that they wish to share with their peers, or they may have facilitation skills to help keep project teams well-scoped, organized, and inclusive. See the [Helper Guide](helper-guide.qmd) for more details. 
 
+All a helper really needs is the willingness to lend a hand. If you are unsure about how you might contribute, please read this [short post on the Carpentries website about being a helper](https://carpentries.org/blog/2017/07/helper/).
+
 ### Goals
 
 - Helping hackathon participants move past stuck points and complete learning objectives.
