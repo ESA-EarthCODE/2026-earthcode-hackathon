@@ -15,6 +15,8 @@ This guide is adapted from [Ocean Hackweek](https://oceanhackweek.org/resources/
 - When you can't help directly, help them seek help elsewhere in the ESA EarthCODE community. Link to other helpers or participants who may have relevant expertise.
 - Maintain regular communication with project team via a Slack channel, in person, and through GitHub issues and PR discussions.
 - Be a resource for the preparation of project presentations. Make suggestions if the team is stuck because the different strands of a project are not coming together semi cleanly.
+
+All a helper really needs is the willingness to lend a hand. If you are unsure about how you might contribute, please read this [short post on the Carpentries website about being a helper](https://carpentries.org/blog/2017/07/helper/).
  
 ## Powerful Questions
 

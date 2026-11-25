@@ -42,8 +42,6 @@ website:
 
       - text: Resources
         menu:
-          - href: resources/resources.qmd
-            text: Resources
           - href: resources/git-github.qmd
             text: Git and GitHub
           - href: resources/jupyterhubs.qmd
