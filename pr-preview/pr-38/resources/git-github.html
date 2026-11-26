@@ -267,9 +267,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#step-5.3.-track-the-changes-to-the-new-file-git-add" id="toc-step-5.3.-track-the-changes-to-the-new-file-git-add" class="nav-link" data-scroll-target="#step-5.3.-track-the-changes-to-the-new-file-git-add">Step 5.3. Track the changes to the new file (<code>git add</code>)</a></li>
   <li><a href="#step-5.4.-commit-the-changes-to-the-new-file-git-commit" id="toc-step-5.4.-commit-the-changes-to-the-new-file-git-commit" class="nav-link" data-scroll-target="#step-5.4.-commit-the-changes-to-the-new-file-git-commit">Step 5.4. Commit the changes to the new file (<code>git commit</code>)</a></li>
   <li><a href="#step-5.5.-transmit-committed-changes-to-your-github-git-push" id="toc-step-5.5.-transmit-committed-changes-to-your-github-git-push" class="nav-link" data-scroll-target="#step-5.5.-transmit-committed-changes-to-your-github-git-push">Step 5.5. Transmit committed changes to your github (<code>git push</code>)</a></li>
-  <li><a href="#step-5.6.-setup-pat" id="toc-step-5.6.-setup-pat" class="nav-link" data-scroll-target="#step-5.6.-setup-pat">Step 5.6. Setup your Personal Access Token (PAT)</a></li>
+  <li><a href="#step-5.6.-setup-your-personal-access-token-pat" id="toc-step-5.6.-setup-your-personal-access-token-pat" class="nav-link" data-scroll-target="#step-5.6.-setup-your-personal-access-token-pat">Step 5.6. Setup your Personal Access Token (PAT)</a></li>
   </ul></li>
-  <li><a href="#collaborating-on-projects" id="toc-collaborating-on-projects" class="nav-link" data-scroll-target="#collaborating-on-projects">Collaborating on Projects</a></li>
+  <li><a href="#collaborating-on-projects" id="toc-collaborating-on-projects" class="nav-link" data-scroll-target="#collaborating-on-projects">Collaborating on Projects</a>
+  <ul class="collapse">
+  <li><a href="#using-the-template" id="toc-using-the-template" class="nav-link" data-scroll-target="#using-the-template">Using the template</a></li>
+  <li><a href="#folder-structure" id="toc-folder-structure" class="nav-link" data-scroll-target="#folder-structure">Folder Structure</a></li>
+  <li><a href="#collaboration-patterns" id="toc-collaboration-patterns" class="nav-link" data-scroll-target="#collaboration-patterns">Collaboration patterns</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/esa-earthcode/2026-earthcode-hackathon/edit/main/resources/git-github.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/esa-earthcode/2026-earthcode-hackathon/blob/main/resources/git-github.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/esa-earthcode/2026-earthcode-hackathon/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -322,7 +327,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>In the terminal type:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/YOUR_USERNAME/eh26-tutorials.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Once the repository is cloned, you will see a new directory in the “File Browser” panel on the left named “eh26-tutorials”. In this directory, you have all hackathon material including the tutorials and this book to follow along during other Tutorials. You are all set.</p>
-<p><img src="img/JupyterHub-Cloned-Repo-FileBrowser.png" class="img-fluid"></p>
 </section>
 <section id="step-5.-tracking-changes" class="level2">
 <h2 class="anchored" data-anchor-id="step-5.-tracking-changes">Step 5. Tracking changes</h2>
@@ -334,7 +338,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="step-5.1.-configure-git-git-config" class="level3">
 <h3 class="anchored" data-anchor-id="step-5.1.-configure-git-git-config">Step 5.1. Configure Git (<code>git config</code>)</h3>
-<p>In the Terminal, configure git with your name and email address as shown here.</p>
+<p>In the Terminal, configure git with your name and email address as shown here. This information will be associated with all of your changes as you track them using git.</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Andy Teucher"</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"andy.tuecher@gmail.com"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
@@ -347,45 +351,112 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="step-5.4.-commit-the-changes-to-the-new-file-git-commit">Step 5.4. Commit the changes to the new file (<code>git commit</code>)</h3>
 <p>Now, you will see that the file is <strong>Staged</strong>, which means that <code>git</code> is ready to take a snapshot of this file (and the repository) with the changes that you made. This snapshot is called a <code>commit</code>. To commit the changes, add a note (called a <em>commit message</em>) by typing in the text box that say “Summary”.</p>
 <p>Now, click the blue “COMMIT” button to commit this change.</p>
-<blockquote class="blockquote">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Note: A short message indicating the type of change to this file is a good practice. Optionally, a longer description may be added to the “Description” field.</p>
-</blockquote>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Each commit you make is tagged with your email address and stored in the project’s git history. This means that the history of changes to your files is recorded, and you can look back to see who made what changes, and when.</p>
+</div>
+</div>
 <p><img src="img/JupyterHub-Tracking-GitCommit.png" class="img-fluid"></p>
 </section>
 <section id="step-5.5.-transmit-committed-changes-to-your-github-git-push" class="level3">
 <h3 class="anchored" data-anchor-id="step-5.5.-transmit-committed-changes-to-your-github-git-push">Step 5.5. Transmit committed changes to your github (<code>git push</code>)</h3>
-<p>At this stage, you have committed the changes to your git repository on your Hub. However, these changes are still on your Hub and needs to be transmitted to your repository on github (so that both the <code>local</code> copy on the JupyterHub and the <code>remote</code> copy on github are in sync).</p>
+<p>At this stage, you have committed the changes to your git repository on your Hub. However, these changes are still on your Hub and need to be transmitted to your repository on github (so that both the <code>local</code> copy on the JupyterHub and the <code>remote</code> copy on github are in sync).</p>
 <p>As seen in the picture below, the git extension indicates (with an orange dot on the cloud icon) that it is ready to <code>push</code> your changes to the <code>remote</code> (remote = your repository on github.com).</p>
-<p>We need to give Git some information so that we can authenticate with GitHub to allow us to push our changes to our GitHub repository. We will do this using a “Personal Access Token” from GitHub.</p>
-<p>First, configure <code>git</code> to store your github credentials to avoid having to enter your github username and token each time you push changes to your repository.</p>
+<p>We need to give Git some information so that we can authenticate with GitHub to allow us to push our changes to our GitHub repository. We will do this using a “Personal Access Token” (PAT) from GitHub.</p>
+<p>First, configure <code>git</code> to store your github credentials to avoid having to enter your github username and PAT each time you push changes to your repository.</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> credential.helper store</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>To push to github, click the cloud button with an up arrow (circled in red in the picture).</p>
 <p><img src="img/git-push-ready.png" class="img-fluid"></p>
 <p>When you push for the first time, it will ask that you input your credentials. You will need to set this up with your Personal Access Token (PAT), explained next.</p>
 </section>
-<section id="step-5.6.-setup-pat" class="level3">
-<h3 class="anchored" data-anchor-id="step-5.6.-setup-pat">Step 5.6. Setup your Personal Access Token (PAT)</h3>
-<p>When you see the following screenshot, GitHub is asking for you to input your credentials. (Note: you see this screenshot when you have committed work to push to GitHub.com, as detailed above).</p>
+<section id="step-5.6.-setup-your-personal-access-token-pat" class="level3">
+<h3 class="anchored" data-anchor-id="step-5.6.-setup-your-personal-access-token-pat">Step 5.6. Setup your Personal Access Token (PAT)</h3>
+<p>When you see the following screenshot, Git is asking for you to input your credentials. (Note: you see this screenshot when you have committed work to push to GitHub.com, as detailed above).</p>
 <p><img src="img/JupyterHub-Tracking-Credentials-Prompt.png" class="img-fluid"></p>
 <p>The git extension in the Hub is prompting you to enter your github.com credentials. Enter you github.com username and a Personal Access Token (PAT); <strong>DO NOT</strong> use your password.</p>
-<p>To create a PAT, visit <strong><a href="https://github.com/settings/tokens/new" class="uri">https://github.com/settings/tokens/new</a></strong> and create a new token with the permission as per the image below and specify its validity for 90 days.</p>
-<p><img src="../clinic/img/github-token.png" class="img-fluid"></p>
-<p><strong>IMPORTANT:</strong> You will see this token only once, so be sure to copy this. If you do not copy your token at this stage, you will need to generate a new token.</p>
-<p><img src="../clinic/img/github-token-generated.png" class="img-fluid"></p>
+<p>To create a PAT, visit <strong><a href="https://github.com/settings/tokens/new" class="uri">https://github.com/settings/tokens/new</a></strong> (click your profile picture &gt; Settings &gt; Developer Settings &gt; Personal Access Tokens &gt; Generate New Token &gt; Generate New Token (Classic)). Create a new token and specify its validity. For the hackathon, a token to use inside the JupyterHub is probably best set to expire after 30 days.</p>
+<p>Choose “repo” under <strong>Select scopes</strong> - this will give permission for this token to allow pushing content to your repos.</p>
+<p><img src="img/github-token-scopes.png" class="img-fluid"> Click “Generate Token” and copy the token to your clipboard. If you use a password manager it’s a good idea to save it there.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you do not copy your token at this stage, you will need to generate a new token.</p>
+</div>
+</div>
 <p>Once you generate the token, copy it and paste in the Hub window that prompted you to enter the “Personal Access Token”.</p>
-<p><img src="img/JupyterHub-Tracking-GitPush-With-Credentials.png" class="img-fluid"></p>
+<p><img src="img/paste-token-hub.png" class="img-fluid"></p>
 <p>Git will show a message at the bottom right telling that the changes were “Successfully pushed”. Also, you will see that the “cloud icon with an up arrow” no longer has an orange dot, indicating that there are no more committed changes to push to the remote (github.com).</p>
 <blockquote class="blockquote">
 <p>Note: You have configured git extension to store your credentials. You will not be prompted for your login/token again!</p>
 </blockquote>
-<p><img src="img/JupyterHub-Tracking-GitPush-Success.png" class="img-fluid"></p>
 <p>That’s all. You can use the same workflow (<code>add &gt; commit &gt; push</code>) for any other new or modified files!</p>
 </section>
 </section>
 <section id="collaborating-on-projects" class="level2">
 <h2 class="anchored" data-anchor-id="collaborating-on-projects">Collaborating on Projects</h2>
+<p>We encourage all teams to create a project repository in the <a href="https://github.com/esa-earthcode-hackathon">esa-earthcode-hackathon</a> GitHub organization, and use it as a space to collaborate on your work.</p>
+<p>We have created a <a href="https://github.com/esa-earthcode-hackathon/earthcode_hackathon_proj_template">template repository</a> that you may use. This repo is an example of how teams can structure their project repositories and format their project README.md file, but feel free to adapt as suits your needs.</p>
+<section id="using-the-template" class="level3">
+<h3 class="anchored" data-anchor-id="using-the-template">Using the template</h3>
+<ol type="1">
+<li>Click on the <img height="35" alt="Use This Template" src="https://github.com/user-attachments/assets/ad4780eb-91f7-40f7-9ed8-8146972bad97"> button in the top right of the page and choose “Create a New Repository”.</li>
+<li>On the next page, choose <code>esa-earthcode-hackathon</code> in the “Owner” dropdown menu.</li>
+<li>Give the repository a name using the pattern <code>eh26_proj_[project-name]</code> (e.g., <code>eh26_proj_beautiful-ocean-data-cube</code>).</li>
+<li>Keep visibility as Public, and click “Create repository”</li>
+</ol>
+</section>
+<section id="folder-structure" class="level3">
+<h3 class="anchored" data-anchor-id="folder-structure">Folder Structure</h3>
+<ul>
+<li><code>contributor_folders</code> (optional) Each contributor can make a folder here and push their work here during the week. This will allow everyone to see each others work but prevent any merge conflicts. It is good if participants are new to collaborative coding.</li>
+<li><code>final_notebooks</code> When the team develops shared final notebooks, they can be shared here. Make sure to communicate so that you limit merge conflicts.</li>
+<li><code>scripts</code> Shared scripts or functions can be added here.</li>
+<li><code>data</code> Shared small datasets can be shared here. Note, do not put large datasets on GitHub. Speak to the organizers if you need to share large datasets - the <code>bucket</code> folder in your JupyterHub home directory is good for this.</li>
+</ul>
+</section>
+<section id="collaboration-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="collaboration-patterns">Collaboration patterns</h3>
+<section id="branches-and-pull-requests" class="level4">
+<h4 class="anchored" data-anchor-id="branches-and-pull-requests">Branches and Pull Requests</h4>
+<p>If your team is comfortable with branches and pull requests, it is a great way to collaborate on GitHub. If that’s something you’d like to learn how to do, this is a great week to practice!</p>
+</section>
+<section id="using-the-contributor_folders" class="level4">
+<h4 class="anchored" data-anchor-id="using-the-contributor_folders">Using the <code>contributor_folders</code></h4>
+<p>If you’re not comfortable with git branches, we suggest using the <code>contributor_folders</code> and have one folder per team member to avoid merge conflicts. Each person works in their own folder and pushes directly to the main repo. If you are working outside of your folder, make sure you communicate with your team to ensure you’re not working on the same files at the same time.</p>
+<p>One important thing to remember is to use <code>git pull</code> (or click the little cloud button with a downward-facing arrow) often. You should do this each time you sit down to work, and definitely before each time you push. This ensures that you have pulled locally any work that the rest of your team has pushed.</p>
+<p><img src="img/git-push-jupyterhub-button.png" class="img-fluid"></p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
