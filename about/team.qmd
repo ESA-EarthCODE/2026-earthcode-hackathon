@@ -11,7 +11,9 @@ Our organizing team is made up of people from ESA, Openscapes, Lampata, and Tele
 **Amanda Hall** (Telespazio): Lead communications\
 **Dean Summers** (Lampata): Lead developer and teacher\
 **Krasen Samardzhiev** (Lampata): Lead developer and teacher\
-**Julie Lowndes** (Openscapes): Co-lead designer and co-facilitator\
+**Julie Lowndes** (Openscapes): Co-lead designer and lead facilitator\
+**Andy Teucher** (Openscapes): Lead designer and co-facilitator\
+**Stefanie Butland** (Openscapes): Supporting designer and co-facilitator\
 **Francesca Romana Cupellini** (ESA Conference Bureau): Lead logistics coordinator\
 **Ezgi Güler** (ESA Conference Bureau)
 **Dana Avrielle Borelli** (ESA Conference Bureau)
