@@ -6,8 +6,173 @@ title: "Git and GitHub"
 
 We will use Git and GitHub for collaborative work. Be sure to arrive at the Hackathon with your own [GitHub](https://github.com) account.
 
-You will be added to the [ESA EarthCODE Hackathon](https://github.com/esa-earthcode-hackathon) GitHub organization with your GitHub user name. This will give you access to the repositories relevant to the hackathon, and allow you to create a repository for your project in which you can collaborate with your team.
+You will be added to the [ESA EarthCODE Hackathon](https://github.com/esa-earthcode-hackathon) GitHub organization with your GitHub username. This will give you access to the repositories relevant to the hackathon, and allow you to create a repository for your project in which you can collaborate with your team.
 
-## Git
+Your GitHub username is also what you will use to [log in to the JupyterHubs](jupyterhubs.qmd#accessing-the-jupyterhubs) during the hackathon.
 
-## GitHub
+## Step 1. Fork the Hackathon Tutorials GitHub repository
+
+"How do I get the tutorial repository into the Hub?". There are 2 steps. The first is from GitHub.com to *fork* the tutorial repository so that there is a connected copy in *your user account* that you can edit and push changes that won't affect the esa-earthcode-hackathon copy.
+
+Go to <https://github.com/esa-earthcode-hackathon/eh26-tutorials> and fork the repository.
+
+![](img/git-fork-1.png)
+
+![](img/git-fork-2.png)
+
+## Step 2. Clone the Hackathon Tutorials GitHub repository
+
+Now we'll *clone* the GitHub repository into our home directory in the JupyterHub, using a git extension. Go to your github account, and navigate to the repository that you just created by forking from the esa-earthcode-hackathon repository.
+
+Click to copy the url for cloning the repository.
+
+![](img/github-clone.png)
+
+Now, go to JupyterHub and click on the git extension in the left panel and then click the blue button "Clone a Repository".
+
+
+Then, paste the repository link of the forked repository that you copied from your github account into the "Clone a repo" pop up window. Then click the blue "CLONE" button. It will take a few moments to clone the repository into your Hub.
+
+Your link should look like `https://github.com/YOUR-USERNAME/eh26-tutorials`. For example, the link is https://github.com/**ateucher**/eh26-tutorials. Note that it includes your github username in the repo link.
+
+![](img/git-clone-gui.png)
+
+Alternatively, you can use the terminal (command line). Navigate to the "File" menu, choose "New" and then "Terminal" or click on the "terminal" button in the JupyterLab Launcher:
+
+![](img/terminal-button.png)
+
+This will open a new terminal tab in your JupyterLab interface:
+
+![](img/terminal-tab.png)
+
+In the terminal type:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/eh26-tutorials.git
+```
+
+Once the repository is cloned, you will see a new directory in the "File Browser" panel on the left named "eh26-tutorials". In this directory, you have all hackathon material including the tutorials and this book to follow along during other Tutorials. You are all set.
+
+## Step 5. Tracking changes
+
+Now that you have forked and cloned the repository in your Hub, you can make changes (edit, add, and/or delete content) and track these files using git. In this step, we will provide an overview of how to use git using the graphical interface (the JupyterLab git extension).
+
+### Step 5.1. Create a new file
+
+Let's create a new file: In the left panel on your Hub, click on the "directory" icon and then double click on "2021-Cloud-Hackathon" directory. Then, create a new file using the text editor in your 2i2c JupyterHub (`File >> New >> Text File`). Add some text to this file, for example: `A test file`. Save this file and rename it to `test.txt`.
+
+![](img/JupyterHub-Tracking-NewFile.png)
+
+### Step 5.1. Configure Git (`git config`)
+
+In the Terminal, configure git with your name and email address as shown here. This information will be associated with all of your changes as you track them using git.
+
+``` bash
+git config --global user.name "Andy Teucher"
+git config --global user.email "andy.tuecher@gmail.com"
+```
+### Step 5.3. Track the changes to the new file (`git add`)
+
+Click the git icon in the left panel. You can see that the newly added file is in the "Untracked" section. You can click the `+` icon next to the file name to let `git` track this file for changes.
+
+![](img/JupyterHub-Tracking-GitAdd.png)
+
+### Step 5.4. Commit the changes to the new file (`git commit`)
+
+Now, you will see that the file is **Staged**, which means that `git` is ready to take a snapshot of this file (and the repository) with the changes that you made. This snapshot is called a `commit`. To commit the changes, add a note (called a *commit message*) by typing in the text box that say "Summary".
+
+Now, click the blue "COMMIT" button to commit this change.
+
+::: {.callout-note}
+Note: A short message indicating the type of change to this file is a good practice. Optionally, a longer description may be added to the "Description" field.
+:::
+
+::: {.callout-note}
+Each commit you make is tagged with your email address and stored in the project's git history. This means that the history of changes to your files is recorded, and you can look back to see who made what changes, and when.
+:::
+
+![](img/JupyterHub-Tracking-GitCommit.png)
+
+### Step 5.5. Transmit committed changes to your github (`git push`)
+
+At this stage, you have committed the changes to your git repository on your Hub. However, these changes are still on your Hub and need to be transmitted to your repository on github (so that both the `local` copy on the JupyterHub and the `remote` copy on github are in sync).
+
+As seen in the picture below, the git extension indicates (with an orange dot on the cloud icon) that it is ready to `push` your changes to the `remote` (remote = your repository on github.com).
+
+We need to give Git some information so that we can authenticate with GitHub to allow us to push our changes to our GitHub repository. We will do this using a "Personal Access Token" (PAT) from GitHub.
+
+First, configure `git` to store your github credentials to avoid having to enter your github username and PAT each time you push changes to your repository.
+
+``` bash
+git config --global credential.helper store
+```
+
+To push to github, click the cloud button with an up arrow (circled in red in the picture).
+
+![](img/git-push-ready.png)
+
+When you push for the first time, it will ask that you input your credentials. You will need to set this up with your Personal Access Token (PAT), explained next. 
+
+### Step 5.6. Setup your Personal Access Token (PAT)
+
+When you see the following screenshot, Git is asking for you to input your credentials. (Note: you see this screenshot when you have committed work to push to GitHub.com, as detailed above).
+
+![](img/JupyterHub-Tracking-Credentials-Prompt.png)
+
+The git extension in the Hub is prompting you to enter your github.com credentials. Enter you github.com username and a Personal Access Token (PAT);  **DO NOT** use your password. 
+
+To create a PAT, visit **<https://github.com/settings/tokens/new>** (click your profile picture > Settings > Developer Settings > Personal Access Tokens > Generate New Token > Generate New Token (Classic)). Create a new token and specify its validity. For the hackathon, a token to use inside the JupyterHub is probably best set to expire after 30 days.
+
+Choose "repo" under **Select scopes** - this will give permission for this token to allow pushing content to your repos.
+
+![](img/github-token-scopes.png)
+Click "Generate Token" and copy the token to your clipboard. If you use a password manager it's a good idea to save it there.
+
+::: {.callout-important}
+If you do not copy your token at this stage, you will need to generate a new token.
+:::
+
+Once you generate the token, copy it and paste in the Hub window that prompted you to enter the "Personal Access Token".
+
+![](img/paste-token-hub.png)
+
+Git will show a message at the bottom right telling that the changes were "Successfully pushed". Also, you will see that the "cloud icon with an up arrow" no longer has an orange dot, indicating that there are no more committed changes to push to the remote (github.com).
+
+> Note: You have configured git extension to store your credentials. You will not be prompted for your login/token again!
+
+That's all. You can use the same workflow (`add > commit > push`) for any other new or modified files!
+
+## Collaborating on Projects
+
+We encourage all teams to create a project repository in the [esa-earthcode-hackathon](https://github.com/esa-earthcode-hackathon) GitHub organization, and use it as a space to collaborate on your work.
+
+We have created a [template repository](https://github.com/esa-earthcode-hackathon/earthcode_hackathon_proj_template) that you may use. This repo is an example of how teams can structure their project repositories and format their project README.md file, but feel free to adapt as suits your needs.
+
+### Using the template
+
+1. Click on the <img height="35" alt="Use This Template" src="https://github.com/user-attachments/assets/ad4780eb-91f7-40f7-9ed8-8146972bad97" /> button in the top right of the page and choose "Create a New Repository".
+2. On the next page, choose `esa-earthcode-hackathon` in the "Owner" dropdown menu.
+3. Give the repository a name using the pattern `eh26_proj_[project-name]` (e.g., `eh26_proj_beautiful-ocean-data-cube`).
+4. Keep visibility as Public, and click "Create repository"
+
+### Folder Structure
+
+* `contributor_folders` (optional) Each contributor can make a folder here and push their work here during the week. This will allow everyone to see each others work but prevent any merge conflicts. It is good if participants are new to collaborative coding.
+* `final_notebooks` When the team develops shared final notebooks, they 
+can be shared here. Make sure to communicate so that you limit merge conflicts.
+* `scripts` Shared scripts or functions can be added here.
+* `data` Shared small datasets can be shared here. Note, do not put large datasets on GitHub. Speak to the organizers if you need to share large datasets - the `bucket` folder in your JupyterHub home directory is good for this.
+
+### Collaboration patterns
+
+#### Branches and Pull Requests
+
+If your team is comfortable with branches and pull requests, it is a great way to collaborate on GitHub. If that's something you'd like to learn how to do, this is a great week to practice! 
+
+#### Using the `contributor_folders`
+
+If you're not comfortable with git branches, we suggest using the `contributor_folders` and have one folder per team member to avoid merge conflicts. Each person works in their own folder and pushes directly to the main repo. If you are working outside of your folder, make sure you communicate with your team to ensure you're not working on the same files at the same time.
+
+One important thing to remember is to use `git pull` (or click the little cloud button with a downward-facing arrow) often. You should do this each time you sit down to work, and definitely before each time you push. This ensures that you have pulled locally any work that the rest of your team has pushed.
+
+![](img/git-push-jupyterhub-button.png)
